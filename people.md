@@ -23,6 +23,11 @@ title: People
 <p>Department of Meteorology, University of Reading</p>
 <p><em>Current research interests: global high-resolution model evaluation,&nbsp;cyclones, feature-tracking methods</em></p>
 
+<h3><a href="https://research.reading.ac.uk/meteorology/people/xiangbo-feng/" target="_blank">Dr&nbsp;Xiangbo Feng</a></h3>
+<p><strong>Principal Research Scientist</strong></p>
+<p>NCAS-Climate &amp;Department of Meteorology, University of Reading</p>
+<p><em>Current research interests: global high-resolution model evaluation, tropical cyclones, tropical wave activity</em></p>
+
 <h3><a href="https://www.researchgate.net/profile/Alexander_Baker3" target="_blank">Dr Alexander Baker</a></h3>
 <p><strong>Senior Research Scientist</strong></p>
 <p>NCAS-Climate &amp;&nbsp;Department of Meteorology, University of Reading</p>
@@ -37,11 +42,6 @@ title: People
 <p><strong>Research Scientist</strong></p>
 <p>Department of Meteorology, University of Reading</p>
 <p><em>Current research interests: global high-resolution model evaluation,&nbsp;mescoscale convective systems, feature-tracking methods</em></p>
-
-<h3><a href="https://research.reading.ac.uk/meteorology/people/xiangbo-feng/" target="_blank">Dr&nbsp;Xiangbo Feng</a></h3>
-<p><strong>Principal Research Scientist</strong></p>
-<p>NCAS-Climate &amp;Department of Meteorology, University of Reading</p>
-<p><em>Current research interests: global high-resolution model evaluation, tropical cyclones, tropical wave activity</em></p>
 
 <h3><a href="https://knreddy.online" target="_blank">Dr&nbsp;Narender Reddy Kangari</a></h3>
 <p><strong>Research Scientist</strong></p>
