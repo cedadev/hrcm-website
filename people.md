@@ -10,7 +10,6 @@ title: People
 
 <h3><a href="http://www.met.reading.ac.uk/~vidale/" target="_blank">Prof. Pier Luigi Vidale</a></h3>
 <p><strong>Professor of Climate System Science</strong></p>
-<p><strong>Senior Scientist</strong></p>
 <p>NCAS-Climate &amp; Department of Meteorology, University of Reading</p>
 <p><em>Current research interests: global high-resolution climate model development, tropical and extratropical cyclones, land-surface processes, heat waves</em></p>
 
