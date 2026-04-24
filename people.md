@@ -10,7 +10,7 @@ title: People
 
 <h3><a href="http://www.met.reading.ac.uk/~vidale/" target="_blank">Prof. Pier Luigi Vidale</a></h3>
 <p><strong>Professor of Climate System Science</strong></p>
-<p>NCAS-Climate &amp; Department of Meteorology, University of Reading</p>
+<p>Department of Meteorology, University of Reading</p>
 <p><em>Current research interests: global high-resolution climate model development, tropical and extratropical cyclones, land-surface processes, heat waves</em></p>
 
 <h3><a href="https://scholar.google.co.uk/citations?hl=en&amp;user=4HqmT-kAAAAJ&amp;sortby=pubdate&amp;view_op=list_works&amp;is_public_preview=1" target="_blank">Dr Malcolm Roberts</a></h3>
@@ -25,12 +25,12 @@ title: People
 
 <h3><a href="https://research.reading.ac.uk/meteorology/people/xiangbo-feng/" target="_blank">Dr&nbsp;Xiangbo Feng</a></h3>
 <p><strong>Principal Research Scientist</strong></p>
-<p>NCAS-Climate &amp;Department of Meteorology, University of Reading</p>
+<p>Department of Meteorology, University of Reading</p>
 <p><em>Current research interests: global high-resolution model evaluation, tropical cyclones, tropical wave activity</em></p>
 
 <h3><a href="https://www.researchgate.net/profile/Alexander_Baker3" target="_blank">Dr Alexander Baker</a></h3>
 <p><strong>Senior Research Scientist</strong></p>
-<p>NCAS-Climate &amp;&nbsp;Department of Meteorology, University of Reading</p>
+<p>&nbsp;Department of Meteorology, University of Reading</p>
 <p><em>Current research interests: tropical and extratropical cyclones,&nbsp;<em>global high-resolution model evaluation, industry collaboration</em></em></p>
 
 <h3><a href="https://research.reading.ac.uk/meteorology/people/anna-sommer-denvil-sommer/">Dr Anna Sommer</a></h3>
@@ -50,7 +50,7 @@ title: People
 
 <h3><a href="https://knreddy.online" target="_blank">Dr&nbsp;Narender Reddy Kangari</a></h3>
 <p><strong>Research Scientist</strong></p>
-<p>NCAS-Climate &amp;Department of Meteorology, University of Reading</p>
+<p>Department of Meteorology, University of Reading</p>
 <p><em>Current research interests: global high-resolution land modelling and terrestrial carbon, energy, and water fluxes</em></p>
 
 <p><em></em></p>
@@ -64,12 +64,12 @@ title: People
 
 <h3><a href="http://www.met.reading.ac.uk/userpages/nr912752.php" target="_blank">Dr Beno&icirc;t Vanni&egrave;re</a></h3>
 <p><strong>Research Scientist</strong></p>
-<p>NCAS-Climate &amp;&nbsp;Department of Meteorology, University of Reading</p>
+<p>&nbsp;Department of Meteorology, University of Reading</p>
 <p><em>Current research interests:&nbsp;<em>global hydrological cycle, tropical and extratropical cyclones, global high-resolution model evaluation</em></em></p>
 
 <h3><a href="http://www.met.reading.ac.uk/~reinhard/home/" target="_blank">Dr Reinhard Schiemann</a></h3>
 <p><strong>Senior Research Scientist</strong></p>
-<p>NCAS-Climate &amp;&nbsp;Department of Meteorology, University of Reading</p>
+<p>&nbsp;Department of Meteorology, University of Reading</p>
 <p><em>Current research interests: global high-resolution model evaluation, cyclonic systems, atmospheric blocking, precipitation variability</em></p>
 
 <h3><a href="http://www.lmd.jussieu.fr/Members/sberthou" target="_blank">Dr S&eacute;gol&egrave;ne Berthou</a></h3>
@@ -79,7 +79,7 @@ title: People
 
 <h3><a href="http://www.met.reading.ac.uk/~swrshaff/">Prof. Len Shaffrey</a></h3>
 <p><strong>Professor of Climate Science</strong></p>
-<p>NCAS-Climate &amp;&nbsp;Department of Meteorology, University of Reading</p>
+<p>&nbsp;Department of Meteorology, University of Reading</p>
 
 <h3><a href="https://usys.ethz.ch/en/people/profile.MjQ0NDUy.TGlzdC82MzcsMzIwMTk3MjIy.html" target="_blank">Dr Marie-Estelle Demory</a></h3>
 <p><strong>Postdoctoral Scientist</strong></p>
@@ -88,7 +88,7 @@ title: People
 
 <h3><a href="https://research.reading.ac.uk/meteorology/people/omar-mueller/" target="_blank">Dr Omar M&uuml;ller</a></h3>
 <p><strong>Research Scientist in Land-surface Processes</strong></p>
-<p>NCAS-Climate &amp;&nbsp;Department of Meteorology, University of Reading</p>
+<p>&nbsp;Department of Meteorology, University of Reading</p>
 <p><em>Current research interests:&nbsp;land surface processes, global&nbsp;high-resolution model evaluation</em></p>
 
 <h3><a href="http://www.metoffice.gov.uk/research/people/matthew-mizielinski" target="_blank">Dr Matthew Mizielinski</a></h3>
