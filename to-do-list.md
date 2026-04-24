@@ -22,7 +22,7 @@
 > Move 'CMIP6' to past projects  
 > Add sections: CMIP7-HighResMIP2, nextGEMs, EERIE, DYAMOND1-3, CONCERTO, RAZOREDGE, etc (***please contribute a paragraph and graphic (e.g., taken from proposal) for the projects you're in***)  
 > Not sure the 'research themes' pages are needed (this is legacy stuff)  
-> Publications: there are scripts to generate bib files from ORCIDs and to generate a webpage from a bibfile  
+> Publications: there are scripts to generate bib files from ORCIDs and to generate a webpage from a bibfile (see [https://github.com/academicpages/academicpages.github.io](https://github.com/academicpages/academicpages.github.io))  
 
 ### Data
 > Need a discussion on how to organise (e.g., by project, year?)  
