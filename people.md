@@ -38,6 +38,11 @@ title: People
 <p>Department of Meteorology, University of Reading</p>
 <p><em>Current research interests: global high-resolution ocean modelling,&nbsp;machine-learning methods</em></p>
 
+<h3><a href="https://research.reading.ac.uk/meteorology/people/ipshita-dey/">Dr Ipshita Dey</a></h3>
+<p><strong>Research Scientist</strong></p>
+<p>Department of Meteorology, University of Reading</p>
+<p><em>Current research interests: ocean mesoscale-resolving models,&nbsp;extratropical cyclones, feature-tracking methods</em></p>
+
 <h3><a href="https://research.reading.ac.uk/meteorology/people/torsten-auerswald/">Dr Torsten Auerswald</a></h3>
 <p><strong>Research Scientist</strong></p>
 <p>Department of Meteorology, University of Reading</p>
