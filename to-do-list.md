@@ -31,4 +31,4 @@
 - This is all old stuff and not sure we really need it (nice data visualisations should be with the projects, research highlights, etc)  
 
 ### Sections to add?
-- A software section would be good, to include tracking, analysis (e.g., huracanpy) etc
+- A software section would be good, to include tracking, analysis (e.g., huracanpy), links to githubs (e.g., individual, project, hackathon), etc
