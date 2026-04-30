@@ -15,15 +15,15 @@
 - Omit 'affiliates' section  
 
 ### Research
-- Organise a current projects and past projects  
+- Organise as 'current projects' and 'past projects'  
 - Short page and one or two graphics for each project  
 - Remove old material (e.g., 'PRIMAVERA updates')  
 - Move 'CMIP6' to past projects  
 - Add sections: (***please contribute a paragraph and graphic (e.g., taken from proposal) for the projects you're in -- initials below***)  
-  - CMIP7-HighResMIP2  (PLV / MR)
+  - CMIP7-HighResMIP2  (MR)
   - nextGEMs  (AJB)
-  - EERIE  (ID)
-  - DYAMOND1-3  (PLV / AJB / TA)
+  - EERIE  (PLV / ID)
+  - DYAMOND1-3  (PLV TA)
   - CONCERTO  (NR)
   - RAZOREDGE  (PLV / AS / TA)
   - etc  
@@ -39,3 +39,4 @@
 
 ### Sections to add?
 - A software section would be good, to include tracking, analysis (e.g., huracanpy), links to githubs (e.g., individual, project, hackathon), etc
+- An 'activities' section (e.g., WCRP and Met Office hackathons, ocean modelling and AI workshops, etc)
