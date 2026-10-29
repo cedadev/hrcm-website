@@ -1,6 +1,6 @@
 # hrcm-website
 
-![HRCM](assets/media/uploads/hrcm_logo.jpg)
+![HRCM](assets/media/uploads/Logos/hrcm_logo.jpg)
 
 This repo contains the Jekyll codebase for the HRCM website ([**hrcm.ceda.ac.uk**](https://hrcm/ceda.ac.uk)).
 
