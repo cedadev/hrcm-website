@@ -19,7 +19,11 @@
     - Quantify TC-related ISET using LoSSETT and DYAMOND3 UM simulations  
     - TA, PLV + Dan Shipley, Elliot Mckinnon-Gray, John Methven (Reading) + potentially Ben Maybee (Leeds) and MO collaborators  
     - Long  
-    - Complete LoSSETT analysis on 4 UM DYAMOND3 runs for NH and Aug 2020 (Dec), apply Dan's framework relating ISET to flow features, roll out analysis to longer dataset, ideally NH and Jun–Nov 2020 for all simulations (Mar '27)
+    - Complete LoSSETT analysis on 4 UM DYAMOND3 runs for NH and Aug 2020 (Dec), apply Dan's framework relating ISET to flow features, roll out analysis to longer dataset, ideally NH and Jun–Nov 2020 for all simulations (Mar '27)  
+  *Away Day actions:*  
+    - Make links with hackathon groups to do multi-model TC work  
+    - share LoSSETT analysis load  
+    - let Claude loose on the HRCM website  
 
 **Name**
   1. Topic #1  
