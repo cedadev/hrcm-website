@@ -1865,9 +1865,9 @@ article img.pull-right, article .align-right{
 	}
 
 	/* Darker dropdown arrows in the main navigation */
-	header .navbar-nav > li.dropdown > a .caret {
-	    border-top-color: currentColor;
-    	border-bottom-color: currentColor;
+	header .navbar-nav > li.dropdown > a:after {
+	    border-top-color: inherit;
+	    color: inherit;
 	}
 
 	header .nav li .dropdown-menu  {
