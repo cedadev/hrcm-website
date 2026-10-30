@@ -6,7 +6,7 @@ permalink: /publications/
 title: Publications
 ---
 
-<h2>Peer-reviewed publications</h2>
+<!-- <h2>Peer-reviewed publications</h2> -->
 
 <p id="publication-count" aria-live="polite">Loading publications…</p>
 
