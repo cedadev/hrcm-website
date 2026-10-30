@@ -159,6 +159,13 @@ header .nav li.active ul.dropdown-menu li.active a{
     transition: all .3s ease;
 }
 
+/* Highlight the active main menu item */
+header .nav > li.active > a,
+header .nav > li.active > a:hover,
+header .nav > li.active > a:focus {
+    background-color: #dceaf5;
+    color: #111;
+}
 
 header .navbar-default .navbar-nav > .open > a,
 header .navbar-default .navbar-nav > .open > a:hover,
