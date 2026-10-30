@@ -159,22 +159,20 @@ header .nav li.active ul.dropdown-menu li.active a{
     transition: all .3s ease;
 }
 
-/* Highlight the active main menu item */
-header .nav > li.active > a,
-header .nav > li.active > a:hover,
-header .nav > li.active > a:focus {
+/* Highlight all main menu items */
+header .nav > li > a {
     background-color: #dceaf5;
     color: #111;
+    transition: none !important;
+    -webkit-transition: none !important;
 }
 
-header .navbar-default .navbar-nav > .open > a,
-header .navbar-default .navbar-nav > .open > a:hover,
-header .navbar-default .navbar-nav > .open > a:focus {
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    -ms-transition: all .3s ease;
-    -o-transition: all .3s ease;
-    transition: all .3s ease;
+header .nav > li > a:hover,
+header .nav > li > a:focus,
+header .nav > li.active > a {
+    background-color: #dceaf5;
+    color: #111;
+    transition: none !important;
 }
 
 header .navbar {
