@@ -2080,3 +2080,11 @@ article img.pull-right, article .align-right{
 .recent-papers-more a {
     font-weight: 700;
 }
+
+/* Publications search box focus styling */
+#publication-search:focus,
+#publication-project:focus {
+    outline: none;
+    border-color: #dceaf5;
+    box-shadow: 0 0 0 2px #dceaf5;
+}
