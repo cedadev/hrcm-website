@@ -363,9 +363,11 @@ ul.nav li.dropdown a {
 /* ===================================
 7. Section: call action
 ==================================== */
+
 section.callaction {
-    background: #f9f9f9;
-    padding: 12px 0;
+    background:#f9f9f9;
+    padding:12px 0;
+    margin-bottom:25px;
 }
 
 
