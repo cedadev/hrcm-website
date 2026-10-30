@@ -12,7 +12,7 @@
   image_alt: "On the left, tropical rainbelt in ICON-C4 (a) and IFS_F-C4 (b) averaged over 2021 to 2025. The tropical rainbelt from IMERG (Huffman et al., 2019) averaged over 2001 to 2020 is outlined by black contour lines. On the right, zonal mean precipitation corresponding to the rainbelts on the left averaged over the western Pacific (c)."
   url: "https://doi.org/10.5194/gmd-18-7735-2025"
 
-  date: "2024-09-16"
+- date: "2024-09-16"
   headline: "Tropical Cyclone Intensification in Global Storm-Resolving Climate Models"
   summary: "In storm-resolving models, peak tropical storm intensity and the rate at which storms intensify are both more realistic. These models also simulate the rapid intensification of tropical storms and capture the small eye diameters often seen in the most intense storms."
   image: "/assets/media/uploads/recent-papers/baker_2024_tc.jpg"
