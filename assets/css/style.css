@@ -171,7 +171,7 @@ header .navbar-default .navbar-nav > li.open > a:focus {
 }
 
 header .navbar-nav > li {
-    padding-bottom: 30px;
+    padding-bottom: 0;
     padding-top: 30px;
 }
 
