@@ -122,6 +122,15 @@ header .navbar {
     padding: 0 0 0 15px;
 }
 
+.navbar-brand {
+    padding: 5px 15px;
+}
+
+.navbar-brand .site-logo {
+    height: 40px;
+    width: auto;
+    display: block;
+}
 
 header .navbar-collapse  ul.navbar-nav {
     float: right;
