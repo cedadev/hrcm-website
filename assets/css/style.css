@@ -254,6 +254,13 @@ header ul.nav li ul li a {
     z-index: 2000;
 }
 
+/* Align dropdown left edge with its parent menu item */
+header .navbar-nav > li.dropdown > .dropdown-menu {
+    left: 0;
+    right: auto;
+    margin-top: 0;
+}
+
 /* Align each nested dropdown with its parent menu item */
 header ul.nav li.dropdown-submenu {
     position: relative;
