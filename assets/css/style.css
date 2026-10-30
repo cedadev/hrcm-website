@@ -243,15 +243,14 @@ header .navigation {
     z-index: 2000;
 }
 
-/* Desktop: align first-level dropdown with its parent item */
+/* Desktop: align first-level dropdown with its parent menu item */
 @media (min-width: 768px) {
     header .navbar-collapse ul.navbar-nav > li.dropdown {
         position: relative;
     }
 
     header .navbar-collapse ul.navbar-nav > li.dropdown > ul.dropdown-menu {
-        /* Align with the left edge of the highlighted parent link. */
-        left: 2px !important;
+        left: 0 !important;
         right: auto !important;
         margin-top: 0;
     }
