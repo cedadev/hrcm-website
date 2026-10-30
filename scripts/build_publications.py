@@ -62,13 +62,18 @@ def parse_bibtex(source: str, filename: str) -> list[dict]:
     try:
         import bibtexparser
         from bibtexparser.bparser import BibTexParser
-        from bibtexparser.customization import convert_to_unicode
+        from pylatexenc.latex2text import LatexNodes2Text
     except ImportError as exc:
         raise RuntimeError("Install requirements with: python -m pip install -r requirements.txt") from exc
-
+    
     parser = BibTexParser(common_strings=True)
-    parser.customization = convert_to_unicode
     database = bibtexparser.loads(source, parser=parser)
+    latex_converter = LatexNodes2Text()
+    
+    for entry in database.entries:
+        for field_name, value in entry.items():
+            if isinstance(value, str):
+                entry[field_name] = latex_converter.latex_to_text(value)
     publications = []
     for entry in database.entries:
         title = clean(entry.get("title"))
