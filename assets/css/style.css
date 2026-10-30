@@ -250,7 +250,8 @@ header .navigation {
     }
 
     header .navbar-collapse ul.navbar-nav > li.dropdown > ul.dropdown-menu {
-        left: 0 !important;
+        /* Align with the visible link text, not the outer <li> edge. */
+        left: 17px !important;
         right: auto !important;
         margin-top: 0;
     }
