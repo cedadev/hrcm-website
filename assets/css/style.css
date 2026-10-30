@@ -1863,7 +1863,13 @@ article img.pull-right, article .align-right{
 		padding-bottom: 0;
 		padding-top: 0;
 	}
-	
+
+	/* Darker dropdown arrows in the main navigation */
+	header .navbar-nav > li.dropdown > a .caret {
+	    border-top-color: currentColor;
+    	border-bottom-color: currentColor;
+	}
+
 	header .nav li .dropdown-menu  {
 		margin-top: 0;
 	}
