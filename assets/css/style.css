@@ -125,13 +125,14 @@ header .navbar {
 }
 
 .navbar-brand .site-logo {
-    height: 100px;
+    height: 120px;
     width: auto;
     display: block;
 }
 
 header .navbar {
-    min-height: 100px;
+    min-height: 140px;
+    margin-bottom: 0;
 }
 
 header .navbar-collapse ul.navbar-nav {
@@ -171,8 +172,8 @@ header .navbar-default .navbar-nav > li.open > a:focus {
 }
 
 header .navbar-nav > li {
-    padding-bottom: 0;
     padding-top: 30px;
+    padding-bottom: 0;
 }
 
 header .navbar-nav > li > a {
@@ -445,6 +446,12 @@ section.callaction {
 #inner-headline .inner-heading h2 {
     color:#fff;
     margin:10px 0 0 0;
+}
+
+/* Position breadcrumb below the enlarged header */
+#inner-headline {
+    margin-top: 0;
+    padding-top: 15px;
 }
 
 /* --- breadcrumbs --- */
@@ -1830,8 +1837,16 @@ article img.pull-right, article .align-right{
 	header .navbar-nav > li.dropdown > a:after {
 	    border-top-color: inherit;
 	    color: inherit;
+		}
+	
+	/* Remove gap between main menu and dropdowns */
+	header .navbar-nav > li.dropdown {
+	    position: relative;
 	}
-
+	
+	header .navbar-nav > li.dropdown > .dropdown-menu {
+	    margin-top: 0;
+	}
 	header .nav li .dropdown-menu  {
 		margin-top: 0;
 	}
