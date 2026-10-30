@@ -10,6 +10,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
+import unicodedata
 
 OWNER = os.environ.get("BIB_REPO_OWNER", "ncas-metoffice-hrcm")
 REPO = os.environ.get("BIB_REPO_NAME", "publications")
@@ -53,10 +54,8 @@ def clean(value) -> str:
     if isinstance(value, list):
         value = " ".join(str(part) for part in value)
     text = str(value).strip()
-    # Remove common BibTeX braces while preserving the text inside them.
-    text = text.replace("{", "").replace("}", "")
     text = re.sub(r"\s+", " ", text)
-    return text
+    return unicodedata.normalize("NFC", text)
 
 
 def parse_bibtex(source: str, filename: str) -> list[dict]:
