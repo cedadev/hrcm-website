@@ -287,7 +287,7 @@ header ul.nav li.dropdown-submenu {
 header ul.nav li.dropdown-submenu > ul.dropdown-menu {
     top: 0;
     left: 100%;
-    margin: 0 0 0 1px;
+    margin: 0;
 }
 
 .dropdown-menu .dropdown i {
