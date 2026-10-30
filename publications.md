@@ -1,5 +1,5 @@
 ---
-date: 2016-03-24 13:45:19
+date: 2026-10-24 13:45:19
 layout: base_hrcm
 order: 3
 permalink: /publications/
@@ -11,11 +11,12 @@ title: Publications
 <p id="publication-count" aria-live="polite">Loading publications…</p>
 
 <div class="publication-controls">
-  <label for="publication-search">Search publications</label>
-  <input id="publication-search" type="search" placeholder="Search title, author, journal or year" autocomplete="off">
+  <input id="publication-search" type="search"
+         placeholder="Search publications by title, author, journal or year"
+         aria-label="Search publications"
+         autocomplete="off">
 
-  <label for="publication-project">Project / bibliography</label>
-  <select id="publication-project">
+  <select id="publication-project" aria-label="Filter by project">
     <option value="">All projects</option>
     {% assign project_names = site.data.publications | map: "project" | uniq | sort %}
     {% for project in project_names %}
@@ -62,23 +63,15 @@ title: Publications
 
 <style>
     /* Publication search controls */
-    .publication-controls {
-        display: grid;
-        grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
-        gap: 18px;
-        margin: 25px 0 30px;
-        max-width: 850px;
-        align-items: end;
-    }
-
-    .publication-controls label {
-        display: block;
-        font-size: 13px;
-        font-weight: 600;
-        color: #444;
-        margin-bottom: 7px;
-    }
-
+  .publication-controls {
+      display: grid;
+      grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+      gap: 12px;
+      margin: 25px 0 30px;
+      max-width: 850px;
+      align-items: center;
+  }
+  
     .publication-controls input,
     .publication-controls select {
         box-sizing: border-box;
