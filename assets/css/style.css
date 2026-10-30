@@ -221,10 +221,13 @@ header .nav li .dropdown-menu li a {
 
 /* Projects dropdown section headings */
 header .nav li .dropdown-menu li.project-heading {
-    font-weight: 700;
-    font-size: 12px;
+    display: block;
+    box-sizing: border-box;
     line-height: 28px;
     padding: 3px 12px;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 700;
 }
 
 /* --- menu --- */
