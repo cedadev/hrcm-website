@@ -6,9 +6,6 @@ permalink: /publications/
 title: Publications
 ---
 
-<h2>Under review</h2>
-<p>Abel, R., C. W. Boening, R. J. Greatbatch, H. T. Hewitt, and M. J. Roberts: Surface momentum flux parameterization to include mechanical feedback on the atmosphere in uncoupled ocean models. Under revision at <em>Geophysical Research Letters</em>.</p>
-
 <h2>Peer-reviewed publications</h2>
 
 <p id="publication-count" aria-live="polite">Loading publications…</p>
@@ -64,12 +61,84 @@ title: Publications
 <p id="publication-no-results" hidden>No publications match your search.</p>
 
 <style>
-  .publication-controls { display: grid; grid-template-columns: 1fr; gap: .35rem; margin: 1rem 0 1.5rem; max-width: 42rem; }
-  .publication-controls input, .publication-controls select { box-sizing: border-box; width: 100%; padding: .55rem; margin-bottom: .5rem; }
-  .publication-items { padding-left: 1.25rem; }
-  .publication-item { margin: 0 0 .9rem; line-height: 1.55; }
-  .publication-project { display: inline-block; margin-left: .35rem; padding: .08rem .4rem; border: 1px solid #ccc; border-radius: .25rem; font-size: .78em; white-space: nowrap; }
-  .publication-year[hidden], .publication-item[hidden] { display: none !important; }
+    /* Publication search controls */
+    .publication-controls {
+        display: grid;
+        grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+        gap: 18px;
+        margin: 25px 0 30px;
+        max-width: 850px;
+        align-items: end;
+    }
+
+    .publication-controls label {
+        display: block;
+        font-size: 13px;
+        font-weight: 600;
+        color: #444;
+        margin-bottom: 7px;
+    }
+
+    .publication-controls input,
+    .publication-controls select {
+        box-sizing: border-box;
+        width: 100%;
+        height: 44px;
+        padding: 10px 14px;
+        margin: 0;
+        font-size: 14px;
+        color: #333;
+        background-color: #fff;
+        border: 1px solid #d5d5d5;
+        border-radius: 5px;
+        box-shadow: none;
+        transition: border-color 0.2s ease,
+                    box-shadow 0.2s ease;
+    }
+
+    .publication-controls input:focus,
+    .publication-controls select:focus {
+        outline: none;
+        border-color: #DE5E60;
+        box-shadow: 0 0 0 3px rgba(222, 94, 96, 0.12);
+    }
+
+    .publication-controls input::placeholder {
+        color: #999;
+    }
+
+    /* Publication list */
+    .publication-items {
+        padding-left: 1.25rem;
+    }
+
+    .publication-item {
+        margin: 0 0 .9rem;
+        line-height: 1.55;
+    }
+
+    .publication-project {
+        display: inline-block;
+        margin-left: .35rem;
+        padding: .08rem .4rem;
+        border: 1px solid #ccc;
+        border-radius: .25rem;
+        font-size: .78em;
+        white-space: nowrap;
+    }
+
+    .publication-year[hidden],
+    .publication-item[hidden] {
+        display: none !important;
+    }
+
+    /* Mobile layout */
+    @media (max-width: 600px) {
+        .publication-controls {
+            grid-template-columns: 1fr;
+            gap: 12px;
+        }
+    }
 </style>
 
 <script>
