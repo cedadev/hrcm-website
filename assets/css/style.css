@@ -248,7 +248,9 @@ header .navigation {
     header .navbar-collapse ul.navbar-nav > li.dropdown {
         position: relative;
     }
-
+    header .navbar-collapse ul.navbar-nav > li.dropdown > a {
+        margin-left: 0;
+    }
     header .navbar-collapse ul.navbar-nav > li.dropdown > ul.dropdown-menu {
         left: 0 !important;
         right: auto !important;
