@@ -362,7 +362,7 @@ ul.nav li.dropdown a {
 ==================================== */
 section.callaction {
     background: #f9f9f9;
-    padding: 15px 0;
+    padding: 12px 0;
 }
 
 
@@ -390,7 +390,7 @@ section.callaction {
 
 .cta-text h2 {
     margin: 0;
-    line-height: 1.2em;
+    line-height: 1.2;
 }
 
 .big-cta .cta {
