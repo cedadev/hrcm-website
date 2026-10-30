@@ -105,6 +105,13 @@ img.img-polaroid {
 
 /* --- header -- */
 
+
+/* ===================================
+4. Header
+==================================== */
+
+/* --- header -- */
+
 header .navbar {
     margin-bottom: 0;
 }
@@ -144,31 +151,45 @@ header .navbar-default {
     background-color: #fff;
 }
 
-/* Main menu: hover, focus, active and open states */
+/* Main menu: blue underline highlight */
 header .navbar-default .navbar-nav > li > a {
-    background-color: #fff;
+    position: relative;
+    background-color: transparent;
     color: #111;
     text-shadow: none;
-    transition: none !important;
-    -webkit-transition: none !important;
-    -moz-transition: none !important;
-    -ms-transition: none !important;
-    -o-transition: none !important;
 }
 
+/* Underline: hidden by default */
+header .navbar-default .navbar-nav > li > a:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 3px;
+    background-color: #6fa5c1;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.2s ease;
+}
+
+/* Show underline on hover, focus, active and open */
+header .navbar-default .navbar-nav > li > a:hover:after,
+header .navbar-default .navbar-nav > li > a:focus:after,
+header .navbar-default .navbar-nav > li.active > a:after,
+header .navbar-default .navbar-nav > li.open > a:after {
+    transform: scaleX(1);
+}
+
+/* Keep top-level menu text dark in all states */
 header .navbar-default .navbar-nav > li > a:hover,
 header .navbar-default .navbar-nav > li > a:focus,
 header .navbar-default .navbar-nav > li.active > a,
 header .navbar-default .navbar-nav > li.open > a,
 header .navbar-default .navbar-nav > li.open > a:hover,
 header .navbar-default .navbar-nav > li.open > a:focus {
-    background-color: #dceaf5;
+    background-color: transparent;
     color: #111;
-    transition: none !important;
-    -webkit-transition: none !important;
-    -moz-transition: none !important;
-    -ms-transition: none !important;
-    -o-transition: none !important;
 }
 
 header .navbar-nav > li {
