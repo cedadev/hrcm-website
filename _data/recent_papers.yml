@@ -1,0 +1,21 @@
+- date: "2026-01-14"
+  headline: "Emerging hotspots of agricultural drought under climate change"
+  summary: "much of Europe, southern Africa, northern South America and western North America are emerging hotspots of agricultural drought, with mechanisms of observed drying consistent with future projections. Drought trends are identified even where precipitation projections diverge."
+  image: "/assets/media/uploads/recent-papers/black_2026_drought.jpg"
+  image_alt: "Emerging hotspots of agricultural drought under climate change"
+  url: "https://doi.org/10.1038/s41561-025-01898-8"
+
+- date: "2025-10-23"
+  headline: "Entering the era of kilometer-scale Earth system modeling"
+  summary: "The Next Generation of Earth Modeling Systems (nextGEMS) project aimed to produce multidecadal climate simulations, for the first time, with resolved kilometer-scale (km-scale) processes in the ocean, land, and atmosphere. In only 3 years, nextGEMS achieved this milestone with the two km-scale Earth system models."
+  image: "/assets/media/uploads/recent-papers/segura_2025_nextgems.jpg"
+  image_alt: "On the left, tropical rainbelt in ICON-C4 (a) and IFS_F-C4 (b) averaged over 2021 to 2025. The tropical rainbelt from IMERG (Huffman et al., 2019) averaged over 2001 to 2020 is outlined by black contour lines. On the right, zonal mean precipitation corresponding to the rainbelts on the left averaged over the western Pacific (c)."
+  url: "https://doi.org/10.5194/gmd-18-7735-2025"
+
+  date: "2024-09-16"
+  headline: "Tropical Cyclone Intensification in Global Storm-Resolving Climate Models"
+  summary: "In storm-resolving models, peak tropical storm intensity and the rate at which storms intensify are both more realistic. These models also simulate the rapid intensification of tropical storms and capture the small eye diameters often seen in the most intense storms."
+  image: "/assets/media/uploads/recent-papers/baker_2024_tc.jpg"
+  image_alt: "Relationship (second-order polynomial fits) between per-TC vmax and pmin for IBTrACS observations (black) and nextGEMS simulations, with marginal vmax and pmin frequency distributions shown in the top and right-hand panels, respectively."
+  url: "https://doi.org/10.1029/2024GL109841"
+  
