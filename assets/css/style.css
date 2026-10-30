@@ -263,7 +263,8 @@ header ul.nav li.dropdown-submenu {
 }
 
 header ul.nav li.dropdown-submenu > ul.dropdown-menu {
-    top: 0;
+    /* Align the subdropdown with the top of its parent menu item. */
+    top: 0 !important;
     left: 100%;
     margin: 0;
 }
