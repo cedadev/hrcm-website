@@ -279,12 +279,17 @@ header ul.nav li ul li a {
 	z-index:2000;
 }
 
-header ul.nav li ul {
-	margin-top:1px;
+/* Align each nested dropdown with its parent menu item */
+header ul.nav li.dropdown-submenu {
+    position: relative;
 }
-header ul.nav li ul li ul {
-	margin:1px 0 0 1px;
+
+header ul.nav li.dropdown-submenu > ul.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin: 0 0 0 1px;
 }
+
 .dropdown-menu .dropdown i {
 	position:absolute;
 	right:0;
