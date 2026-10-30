@@ -11,6 +11,7 @@
 @import url('overwrite.css');
 @import url('animate.css');
 
+
 /* ===================================
 1. General
 ==================================== */
@@ -38,6 +39,7 @@ h1,h2, h3, h4, h5, h6 {
 	color:#333;
 	margin-bottom: 20px;
 }
+
 
 /* ===================================
 2. layout
@@ -68,7 +70,6 @@ h1,h2, h3, h4, h5, h6 {
 }
 
 
-
 /* ===================================
 3. Responsive media
 ==================================== */
@@ -93,6 +94,8 @@ img.img-polaroid {
 .img-box {
 	max-width:100%;
 }
+
+
 /* ===================================
 4. Header
 ==================================== */
@@ -155,7 +158,6 @@ header .navbar-default .navbar-nav > .open > a:focus {
     transition: all .3s ease;
 }
 
-
 header .navbar {
     min-height: 100px;
 }
@@ -178,7 +180,6 @@ header  .navbar-nav > li > a {
     transition: all .3s ease;
 }
 
-
 .dropdown-menu li a:hover {
     color: #fff !important;
 }
@@ -198,7 +199,6 @@ header .nav .caret {
   background-color:  #fff;
 }	
 	
-
 .dropdown-menu  {
     box-shadow: none;
     border-radius: 0;
@@ -255,7 +255,6 @@ header ul.nav li ul li a {
 	text-transform:uppercase;
 }
 
-
 .navbar .nav > li > a {
   color: #111;
   text-shadow: none;
@@ -302,8 +301,6 @@ header ul.nav li ul li ul {
   content:none;
 }
 
-
-
 ul.nav li.dropdown a {
 	z-index:1000;
 	display:block;
@@ -312,6 +309,7 @@ ul.nav li.dropdown a {
  select.selectmenu {
 	display:none;
 }
+
 
 /* ===================================
 5. Section: Featured
@@ -324,6 +322,7 @@ ul.nav li.dropdown a {
 	margin:0;
 	padding:0;
 }
+
 
 /* ===================================
 6. Sliders
@@ -344,7 +343,6 @@ ul.nav li.dropdown a {
 .flex-caption p {margin: 0 0 15px;}
 
 
-
 /* ===================================
 7. Section: call action
 ==================================== */
@@ -352,7 +350,6 @@ section.callaction {
 	background:#f9f9f9;
 	padding:50px 0 0 0;
 }
-
 
 
 /* ===================================
