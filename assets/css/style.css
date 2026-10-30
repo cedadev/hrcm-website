@@ -215,7 +215,8 @@ header .nav .caret {
 .dropdown-menu  {
     box-shadow: none;
     border-radius: 0;
-	border: none;
+	border: 1px solid #ccc;
+	border-radius: 3px;
 }
 
 .dropdown-menu li:last-child  {
