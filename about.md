@@ -29,13 +29,7 @@ Explore the group's [publications](https://hrcm.ceda.ac.uk/publications/) to dis
 
 <p><img alt="Met Office Hadley Centre" src="{{ site.baseurl }}/assets/media/uploads/Logos/hadley_centre_logo_small.jpg"></p>
 
-<p>The Met Office Hadley Centre is one of the world's foremost climate change research centres.</p>
-
-<p>We produce world-class guidance on the science of climate change and provide a focus in the UK for the scientific issues associated with climate science.</p>
-
-<p>Largely co-funded by <strong><a href="https://www.gov.uk/government/organisations/department-for-business-energy-and-industrial-strategy">Department for Business, Energy and Industrial Strategy</a></strong> and <strong><a href="https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs">Defra</a></strong> (the Department for Environment, Food and Rural Affairs), we provide in-depth information to, and advise, the Government on climate science issues.</p>
-
-<p>Hadley Centre scientists make significant contributions to peer-reviewed literature and to a variety of climate science reports, including the Assessment Report of the IPCC, and our climate projections were the basis for the <strong><a href="http://webarchive.nationalarchives.gov.uk/+/http:/www.hm-treasury.gov.uk/independent_reviews/stern_review_economics_climate_change/stern_review_report.cfm">Stern Review on the Economics of Climate Change</a></strong>.</p>
+<p>The Met Office Hadley Centre is one of the world's foremost climate change research centres, and the UK's primary source of climate change information. Our aim is to provide climate science and services to people and organisations, so they can make better decisions to stay safe and thrive. We do this by working with partners around the globe, carrying out world leading research to monitor changes in the climate, understand and determine the cause of these changes, develop state-of-the-art computer models for climate predictions and projections, serve the needs of UK government, and develop services with end-users. Since our foundation in 1990, the Met Office Hadley Centre has been recognised as a global partner of choice for climate science and services. Hadley Centre scientists have contributed to all Assessment Reports by the Intergovernmental Panel on Climate Change (IPCC) and produced more than 2,200 scientific peer-reviewed articles since 1990.</p>
 
 <p><strong>Click&nbsp;<a href="http://www.metoffice.gov.uk/climate-guide/science/science-behind-climate-change/hadley">here</a>&nbsp;to find out more.</strong></p>
 
@@ -43,7 +37,7 @@ Explore the group's [publications](https://hrcm.ceda.ac.uk/publications/) to dis
 
 <p><img alt="NCAS" src="{{ site.baseurl }}/assets/media/uploads/Logos/ncas_logo_small.jpg"></p>
 
-<p>The National Centre for Atmospheric Science (NCAS) is a world leader in atmospheric science. With an annual budget of &pound;9M, we carry out research programmes on:</p>
+<p>The National Centre for Atmospheric Science (NCAS) is a world leader in atmospheric science. We carry out research programmes on:</p>
 
 <ul>
 <li>The science of climate change, including modelling and predictions</li>
@@ -52,6 +46,6 @@ Explore the group's [publications](https://hrcm.ceda.ac.uk/publications/) to dis
 <li>Technologies for observing and modelling the atmosphere</li>
 </ul>
 
-<p>We provide scientific facilities for researchers across the UK to enable coordinated, national-scale&nbsp;atmospheric science. These include a world-leading research aircraft, ground-based instrumentation pool, access to computer models and facilities for storing, accessing and analysing data. In short, we provide the UK academic community and <strong><a href="http://www.nerc.ac.uk">NERC</a></strong>, our parent organisation, with national capability in atmospheric science. We communicate our findings and knowledge for the benefit of policy-makers, other scientists, and the general public.</p>
+<p>We provide scientific facilities for researchers across the UK to enable coordinated, national-scale atmospheric science. These include a world-leading research aircraft, ground-based instrumentation pool, access to computer models and facilities for storing, accessing and analysing data. In short, we provide the UK academic community and <strong><a href="http://www.nerc.ac.uk">NERC</a></strong>, our parent organisation, with national capability in atmospheric science. We communicate our findings and knowledge for the benefit of policy-makers, other scientists, and the general public.</p>
 
 <p><strong>Click&nbsp;<a href="https://www.ncas.ac.uk/">here</a>&nbsp;to find out more.</strong></p>
