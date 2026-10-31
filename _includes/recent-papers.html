@@ -21,6 +21,9 @@
                     <div class="recent-paper-content">
                         <p class="recent-paper-date">{{ paper.date | date: "%Y" }}</p>
                         <h3>{{ paper.headline }}</h3>
+                        {% if paper.journal %}
+                        <p class="recent-paper-journal"><em>{{ paper.journal }}</em></p>
+                        {% endif %}
                         <p>{{ paper.summary }}</p>
                         <a class="recent-paper-link"
                            href="{{ paper.url }}"
