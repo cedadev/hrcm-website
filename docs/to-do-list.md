@@ -4,15 +4,15 @@
 
 ### Home
 - Update scrolling images to show current projects and simulations  
-- Change recent research gallery to a short paragraph summary  
+- Change recent research gallery to a short paragraph summary or recent papers — DONE   
 
 ### About
-- Shorten this section  
+- Shorten this section — DONE  
 - Add a nice simulation graphic at top of page  
 
 ### People
-- Past people section  
-- Omit 'affiliates' section  
+- Past people section — DONE  
+- Omit 'affiliates' section?  
 
 ### Research
 - Organise as 'current projects' and 'past projects'  
@@ -23,12 +23,12 @@
   - CMIP7-HighResMIP2  (MR)
   - nextGEMs  (AJB)
   - EERIE  (PLV / ID)
-  - DYAMOND1-3  (PLV TA)
+  - DYAMOND1-3  (PLV TA AJB)
   - CONCERTO  (NR)
   - RAZOREDGE  (PLV / AS / TA)
   - etc  
 - Not sure the 'research themes' pages are needed (this is legacy stuff)  
-- Publications: there are scripts to generate bib files from ORCIDs and to generate a webpage from a bibfile (see [here](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator))  
+- Publications: there are scripts to generate bib files from ORCIDs and to generate a webpage from a bibfile (see [here](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator)) — DONE  
 
 ### Data
 - Need a discussion on how to organise (e.g., by project, year?)  
