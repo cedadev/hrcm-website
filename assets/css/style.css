@@ -331,6 +331,13 @@ select.selectmenu {
 	padding:0;
 }
 
+/* Homepage introductory tagline */
+.homepage-tagline {
+    font-size: 17px;
+    line-height: 1.5;
+    color: #555;
+    margin: 25px 0 20px;
+}
 
 /* ===================================
 6. Sliders
