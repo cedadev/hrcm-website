@@ -2109,6 +2109,12 @@ article img.pull-right, article .align-right{
     font-weight: 700;
 }
 
+.recent-paper-journal {
+    margin-top: -5px;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
 /* Publications search box focus styling */
 #publication-search:focus,
 #publication-project:focus {
