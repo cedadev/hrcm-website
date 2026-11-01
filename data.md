@@ -1,6 +1,6 @@
 ---
 date: 2026-10-26 13:46:44
-description: 'Met Office Unified Model simulation catalogue'
+description: 'HRCM Met Office Unified Model simulation catalogue'
 layout: base_hrcm
 order: 4
 permalink: /data/
@@ -20,10 +20,7 @@ title: Data
 <p><strong><a href="{{ site.baseurl }}/assets/media/uploads/HadGEM3_runs/hadgem3_runs_oct_2015.pdf" target="_blank">HadGEM3 simulations - 2015 (PDF)</a></strong></p>
 -->
 
----
-layout: base_hrcm
-title: Data
----
+
 <style>
     :root {
       --hrcm-ink: #263746;
@@ -98,10 +95,6 @@ title: Data
     }
   </style>
 <section class="hadgem3-data-page">
-    <h1>HadGEM3 simulations</h1>
-    <p class="intro">Simulation runs and associated metadata from the March 2018 HRCM table. Use the search box to find a model version, resolution, run ID, platform, date range, data owner or note. Select a column heading to sort.</p>
-    <p class="source-note">Source: <em>HadGEM3 runs master</em>, dated March 2018. The original PDF uses merged cells for model versions, resolutions and documentation; this HTML version repeats the applicable model and resolution labels on individual run rows where those groupings are clear. Fields that are blank in the source are left blank.</p>
-
     <div class="controls">
       <label for="table-search">Search table</label>
       <input id="table-search" type="search" placeholder="e.g. GC3.1, u-ai674, N512, ARCHERâ€¦" autocomplete="off">
