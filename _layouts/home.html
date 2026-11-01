@@ -27,28 +27,27 @@ full_width: true
             </div>
 
             <!-- start slider -->
-
             <style>
                 .homepage-slider-container #main-slider.flexslider {
                     margin: 0 0 1.5rem;
                     border: 0;
                     border-radius: 8px;
-                    background: #173e5b;
+                    background: #fff;
                     box-shadow: 0 4px 16px rgba(20, 45, 62, 0.12);
                     overflow: hidden;
                 }
 
                 .homepage-slider-container #main-slider .slides > li {
-                    background: #173e5b;
+                    background: #fff;
                 }
 
                 .homepage-slider-container #main-slider .slides > li > img {
                     display: block;
                     width: 100%;
                     height: auto;
-                    max-height: 40rem;
+                    max-height: none;
                     object-fit: contain;
-                    background: #102b42;
+                    background: #fff;
                 }
 
                 .homepage-slider-container #main-slider .flex-caption {
@@ -58,8 +57,8 @@ full_width: true
                     bottom: auto;
                     width: 100%;
                     padding: 1.75rem clamp(1.25rem, 3vw, 2.5rem);
-                    color: #fff;
-                    background: #173e5b;
+                    color: #263746;
+                    background: #dceaf5;
                     font-size: 1rem;
                     line-height: 1.55;
                     text-shadow: none;
@@ -67,7 +66,7 @@ full_width: true
 
                 .homepage-slider-container #main-slider .flex-caption h3 {
                     margin: 0 0 0.65rem;
-                    color: #fff;
+                    color: #174f78;
                     font-size: clamp(1.4rem, 2.5vw, 2rem);
                     font-weight: 700;
                     line-height: 1.25;
@@ -78,7 +77,7 @@ full_width: true
                 .homepage-slider-container #main-slider .flex-caption p {
                     max-width: 72ch;
                     margin: 0 0 1rem;
-                    color: #fff;
+                    color: #263746;
                     font-size: 1rem;
                     line-height: 1.6;
                 }
@@ -123,12 +122,12 @@ full_width: true
                 .homepage-slider-container #main-slider .flex-control-paging li a {
                     width: 0.7rem;
                     height: 0.7rem;
-                    background: #a9bfce;
+                    background: #9bb8ce;
                     box-shadow: none;
                 }
 
                 .homepage-slider-container #main-slider .flex-control-paging li a.flex-active {
-                    background: #fff;
+                    background: #174f78;
                 }
 
                 @media (max-width: 600px) {
@@ -160,7 +159,7 @@ full_width: true
                 }
             </style>
 
-            <div class="container homepage-slider-container">
+            <div class="container-fluid homepage-slider-container">
                 <div class="row">
                     <div class="col-lg-12">
                         <!-- Slider -->
@@ -257,11 +256,9 @@ full_width: true
                     </div>
                 </div>
             </div>
-
-            <!-- end slider -->
         </div>
     </section>
-
+    
     <!--
     ==================================================
     OLD HOMEPAGE SECTION – RETAINED FOR REFERENCE
