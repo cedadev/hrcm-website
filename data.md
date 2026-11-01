@@ -7,7 +7,7 @@ permalink: /data/
 title: Data
 ---
 
-<h3>Met Office Unified Model simulation catalogue</h3>
+<h3>HRCM simulation catalogue</h3>
 <p> Search the table below for details of HRCM's Met Office Unified Model atmosphere-only and coupled simulations. In the near future, LFRic simulations will be added.</p>
 
 <!--
@@ -74,7 +74,7 @@ title: Data
     }
     .hadgem3-data-page table {
       width: 100%;
-      min-width: 100%;
+      min-width: 1800px;
       table-layout: fixed;
       border-collapse: separate;
       border-spacing: 0;
@@ -131,10 +131,6 @@ title: Data
     }
   </style>
 <section class="hadgem3-data-page">
-    <h1>HadGEM3 simulations</h1>
-    <p class="intro">Simulation runs and associated metadata from the March 2018 HRCM table. Use the search box to find a model version, resolution, run ID, platform, date range, data owner or note. Select a column heading to sort.</p>
-    <p class="source-note">Source: <em>HadGEM3 runs master</em>, dated March 2018. The original PDF uses merged cells for model versions, resolutions and documentation; this HTML version repeats the applicable model and resolution labels on individual run rows where those groupings are clear. Fields that are blank in the source are left blank.</p>
-
     <div class="publication-controls">
       <input id="table-search" type="search"
              aria-label="Search simulation data"
@@ -148,7 +144,6 @@ title: Data
 
     <div class="table-wrap">
       <table id="runs-table">
-        <caption>HadGEM3 simulation runs and data information</caption>
         <colgroup>
           <col style="width: 7%">
           <col style="width: 12%">
