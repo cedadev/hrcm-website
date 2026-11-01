@@ -8,7 +8,7 @@ title: Data
 ---
 
 <h3>Met Office Unified Model simulation catalogue</h3>
-<p> Search the table below for details of HRCM''s Met Office Unified Model (HadGEM3) atmosphere-only and coupled simulations, both completed and planned. In the near future, LFRic simulations will be added here.</p>
+<p> Search the table below for details of HRCM's Met Office Unified Model atmosphere-only and coupled simulations. In the near future, LFRic simulations will be added.</p>
 
 <!--
 <p> </p>
