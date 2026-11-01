@@ -2,6 +2,7 @@
 date: 2016-03-24 13:44:49
 description: "About the High-Resolution Climate Modelling group"
 layout: base_hrcm
+full_width: true
 order: 0
 permalink: /about/
 title: About
