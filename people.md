@@ -1,7 +1,10 @@
 ---
+date: 2026-10-30 09:24:04
+description: 'People'
 layout: base_hrcm
-title: People
+order: 1
 permalink: /people/
+title: People
 ---
 
 <style>
