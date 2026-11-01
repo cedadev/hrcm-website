@@ -135,7 +135,7 @@ title: Data
     <div class="publication-controls">
       <input id="table-search" type="search"
              aria-label="Search simulation data"
-             placeholder="Search simulations by model, run ID, resolution or year"
+             placeholder="Search by model configuration, run identifier, resolution, etc"
              autocomplete="off">
       <select id="model-filter" aria-label="Choose model">
         <option value="">Unified Model</option>
