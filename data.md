@@ -27,7 +27,7 @@ title: Data
       --hrcm-pale: #e7f0f6;
       --hrcm-border: #c8d1d8;
       --hrcm-muted: #5c6b76;
-      --hrcm-paper: #fff;
+      --hrcm-paper: #69a4c4;
       --hrcm-page: #f5f7f8;
     }
     .hadgem3-data-page, .hadgem3-data-page * { box-sizing: border-box; }
@@ -48,7 +48,7 @@ title: Data
     .hadgem3-data-page .controls label { font-weight: 700; }
     .hadgem3-data-page .controls input, .hadgem3-data-page .controls select {
       min-height: 42px; padding: 8px 12px; border: 1px solid #9eacb7;
-      border-radius: 4px; background: #fff; color: var(--hrcm-ink); font: inherit;
+      border-radius: 4px; background: #69a4c4; color: var(--hrcm-ink); font: inherit;
     }
     .hadgem3-data-page #table-search { flex: 1 1 320px; max-width: 580px; }
     .hadgem3-data-page .result-count { color: var(--hrcm-muted); font-size: .9rem; }
@@ -62,7 +62,7 @@ title: Data
     .hadgem3-data-page caption { padding: 12px 14px; text-align: left; color: var(--hrcm-muted); font-size: 12px; }
     .hadgem3-data-page th, .hadgem3-data-page td { padding: 8px 9px; vertical-align: top; text-align: left; border-right: 1px solid #e0e5e9; border-bottom: 1px solid #e0e5e9; }
     .hadgem3-data-page thead th {
-      position: sticky; top: 0; z-index: 2; color: #fff; background: var(--hrcm-blue);
+      position: sticky; top: 0; z-index: 2; color: #69a4c4; background: var(--hrcm-blue);
       border-bottom: 2px solid #103b5a; white-space: nowrap;
     }
     .hadgem3-data-page thead th button {
@@ -89,7 +89,7 @@ title: Data
       .hadgem3-data-page .table-wrap { max-height: 72vh; }
     }
     @media print {
-      body { background: #fff; }
+      body { background: #69a4c4; }
       main { max-width: none; padding: 0; }
       .controls, .table-footer { display: none; }
       .hadgem3-data-page .table-wrap { overflow: visible; max-height: none; border: 0; box-shadow: none; }
@@ -97,8 +97,8 @@ title: Data
       th { position: static; }
     }
     .hadgem3-data-page #runs-table thead th {
-      background: #fff !important;
-      background-color: #fff !important;
+      background: #69a4c4 !important;
+      background-color: #69a4c4 !important;
       color: #174f78 !important;
     }
     .hadgem3-data-page #runs-table thead th button {
