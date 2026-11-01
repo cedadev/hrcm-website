@@ -2122,3 +2122,49 @@ article img.pull-right, article .align-right{
     border-color: #dceaf5;
     box-shadow: 0 0 0 2px #dceaf5;
 }
+
+/* HRCM logo and site title */
+header .navbar-header .navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    height: auto;
+    line-height: normal;
+    white-space: normal;
+}
+
+header .navbar-brand .site-logo {
+    flex: 0 0 auto;
+}
+
+header .navbar-brand .site-title {
+    display: block;
+    max-width: 17ch;
+    color: #174f78;
+    font-family: "Open Sans", sans-serif;
+    font-size: clamp(1.25rem, 1.7vw, 1.75rem);
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-transform: none;
+}
+
+/* Mobile layout */
+@media (max-width: 767px) {
+    header .navbar-header .navbar-brand {
+        max-width: calc(100% - 65px);
+        gap: 0.65rem;
+        padding: 5px 10px;
+        margin-top: 0;
+    }
+
+    header .navbar-brand .site-logo {
+        height: 70px;
+        width: auto;
+    }
+
+    header .navbar-brand .site-title {
+        max-width: 14ch;
+        font-size: clamp(1rem, 4vw, 1.2rem);
+    }
+}
