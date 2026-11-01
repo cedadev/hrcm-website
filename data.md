@@ -97,7 +97,7 @@ title: Data
 <section class="hadgem3-data-page">
     <div class="controls">
       <label for="table-search">Search table</label>
-      <input id="table-search" type="search" placeholder="e.g. GC3.1, u-ai674, N512, ARCHERâ€¦" autocomplete="off">
+      <input id="table-search" type="search" placeholder="e.g., GC3.1, u-ai674, N512, 10 km ..." autocomplete="off">
       <label for="model-filter">Model</label>
       <select id="model-filter"><option value="">Unified Model</option></select>
       <span class="result-count" id="result-count" aria-live="polite"></span>
