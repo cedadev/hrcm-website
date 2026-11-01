@@ -1,5 +1,6 @@
 ---
 layout: base_hrcm
+full_width: true
 ---
 
 <body>
@@ -26,64 +27,204 @@ layout: base_hrcm
             </div>
 
             <!-- start slider -->
-            <div class="container">
+
+            <style>
+                .homepage-slider-container #main-slider.flexslider {
+                    margin: 0 0 1.5rem;
+                    border: 0;
+                    border-radius: 8px;
+                    background: #173e5b;
+                    box-shadow: 0 4px 16px rgba(20, 45, 62, 0.12);
+                    overflow: hidden;
+                }
+
+                .homepage-slider-container #main-slider .slides > li {
+                    background: #173e5b;
+                }
+
+                .homepage-slider-container #main-slider .slides > li > img {
+                    display: block;
+                    width: 100%;
+                    height: auto;
+                    max-height: 40rem;
+                    object-fit: contain;
+                    background: #102b42;
+                }
+
+                .homepage-slider-container #main-slider .flex-caption {
+                    position: relative;
+                    left: auto;
+                    right: auto;
+                    bottom: auto;
+                    width: 100%;
+                    padding: 1.75rem clamp(1.25rem, 3vw, 2.5rem);
+                    color: #fff;
+                    background: #173e5b;
+                    font-size: 1rem;
+                    line-height: 1.55;
+                    text-shadow: none;
+                }
+
+                .homepage-slider-container #main-slider .flex-caption h3 {
+                    margin: 0 0 0.65rem;
+                    color: #fff;
+                    font-size: clamp(1.4rem, 2.5vw, 2rem);
+                    font-weight: 700;
+                    line-height: 1.25;
+                    text-transform: none;
+                    letter-spacing: normal;
+                }
+
+                .homepage-slider-container #main-slider .flex-caption p {
+                    max-width: 72ch;
+                    margin: 0 0 1rem;
+                    color: #fff;
+                    font-size: 1rem;
+                    line-height: 1.6;
+                }
+
+                .homepage-slider-container #main-slider .flex-caption .btn {
+                    margin-top: 0.25rem;
+                }
+
+                .homepage-slider-container #main-slider .flex-direction-nav a {
+                    top: 35%;
+                    width: 2.75rem;
+                    height: 2.75rem;
+                    margin: -1.375rem 0 0;
+                    opacity: 1 !important;
+                    background: rgba(13, 35, 52, 0.75);
+                    border-radius: 50%;
+                    text-shadow: none;
+                }
+
+                .homepage-slider-container #main-slider .flex-direction-nav .flex-prev {
+                    left: 1rem;
+                }
+
+                .homepage-slider-container #main-slider .flex-direction-nav .flex-next {
+                    right: 1rem;
+                }
+
+                .homepage-slider-container #main-slider .flex-direction-nav a:before {
+                    color: #fff;
+                    font-size: 1.5rem;
+                    text-shadow: none;
+                }
+
+                .homepage-slider-container #main-slider .flex-control-nav {
+                    position: static;
+                    width: 100%;
+                    margin: 0;
+                    padding: 0.25rem 0 1.1rem;
+                    text-align: center;
+                }
+
+                .homepage-slider-container #main-slider .flex-control-paging li a {
+                    width: 0.7rem;
+                    height: 0.7rem;
+                    background: #a9bfce;
+                    box-shadow: none;
+                }
+
+                .homepage-slider-container #main-slider .flex-control-paging li a.flex-active {
+                    background: #fff;
+                }
+
+                @media (max-width: 600px) {
+                    .homepage-slider-container #main-slider .flex-caption {
+                        padding: 1.25rem;
+                    }
+
+                    .homepage-slider-container #main-slider .flex-caption h3 {
+                        font-size: 1.4rem;
+                    }
+
+                    .homepage-slider-container #main-slider .flex-caption p {
+                        font-size: 0.95rem;
+                    }
+
+                    .homepage-slider-container #main-slider .flex-direction-nav a {
+                        width: 2.25rem;
+                        height: 2.25rem;
+                        margin-top: -1.125rem;
+                    }
+
+                    .homepage-slider-container #main-slider .flex-direction-nav .flex-prev {
+                        left: 0.5rem;
+                    }
+
+                    .homepage-slider-container #main-slider .flex-direction-nav .flex-next {
+                        right: 0.5rem;
+                    }
+                }
+            </style>
+
+            <div class="container homepage-slider-container">
                 <div class="row">
                     <div class="col-lg-12">
                         <!-- Slider -->
-                        <div id="main-slider" class="flexslider">
+                        <div id="main-slider" class="flexslider"
+                             role="region" aria-label="Featured HRCM research">
+
                             <ul class="slides">
                                 <li>
                                     <img src="{{ site.baseurl }}/assets/media/uploads/Figures/n1280_2005010101.png"
-                                        alt="" width="950" height="600" />
+                                        alt="Sea ice, clouds and precipitation simulated by a 10 km atmospheric model"
+                                        width="950" height="600" />
                                     <div class="flex-caption">
-                                        <h3>HIGH-RESOLUTION GLOBAL CLIMATE</h3>
-                                        <p>Sea ice, clouds and precipitation simulated by a 10-km atmospheric model</p>
+                                        <h3>High-resolution global climate</h3>
+                                        <p>Sea ice, clouds and precipitation simulated by a 10 km atmospheric model.</p>
                                         <a href="{{ site.baseurl }}/blog/plot-of-the-month-mar-2019-10km-global-modelling/"
-                                            class="btn btn-theme">Learn More</a>
+                                            class="btn btn-theme">Explore research</a>
                                     </div>
                                 </li>
                                 <li>
                                     <img src="{{ site.baseurl }}/assets/media/uploads/Figures/hurricane_multilev_219250-1024x591.png"
-                                        alt="" width="950" height="600" />
+                                        alt="Tropical cyclone development and extratropical transition simulated by a 25 km atmospheric model"
+                                        width="950" height="600" />
                                     <div class="flex-caption">
-                                        <h3>ATLANTIC TROPICAL CYCLONES</h3>
+                                        <h3>Atlantic tropical cyclones</h3>
                                         <p>Tropical cyclone development and extratropical transition simulated by a
-                                            25-km atmospheric model</p>
+                                            25 km atmospheric model.</p>
                                         <a href="{{ site.baseurl }}/blog/plot-of-the-month-apr-2017-atlantic-tropical-cyclones/"
-                                            class="btn btn-theme">Learn More</a>
+                                            class="btn btn-theme">Explore research</a>
                                     </div>
                                 </li>
                                 <li>
                                     <img src="{{ site.baseurl }}/assets/media/uploads/Figures/model_ensemble_hr-lr_total_precip_annual.jpg"
-                                        alt="" width="950" height="600" />
+                                        alt="Multi-model comparison of precipitation changes with increasing atmospheric model resolution"
+                                        width="950" height="600" />
                                     <div class="flex-caption">
-                                        <h3>GLOBAL HIGH-RESOLUTION RAINFALL</h3>
+                                        <h3>Global high-resolution rainfall</h3>
                                         <p>Multi-model agreement on the sign of precipitation change resulting from
-                                            increasing model atmospheric resolution</p>
+                                            increasing model atmospheric resolution.</p>
                                         <a href="/blog/plot-of-the-month-jul-2017-high-resolution-global-precipitation/"
-                                            class="btn btn-theme">Learn More</a>
+                                            class="btn btn-theme">Explore research</a>
                                     </div>
                                 </li>
                                 <li>
                                     <img src="{{ site.baseurl }}/assets/media/uploads/Figures/upscale_n512_mov_still.png"
-                                        alt="" width="950" height="600" />
+                                        alt="Sea surface temperature, clouds and precipitation simulated by a 25 km atmospheric model"
+                                        width="950" height="600" />
                                     <div class="flex-caption">
-                                        <h3>HIGH-RESOLUTION GLOBAL CLIMATE</h3>
-                                        <p>Sea surface temperature, clouds and precipitation simulated by a 25-km
-                                            atmospheric model</p>
+                                        <h3>High-resolution global climate</h3>
+                                        <p>Sea surface temperature, clouds and precipitation simulated by a 25 km
+                                            atmospheric model.</p>
                                         <a href="{{ site.baseurl }}/blog/plot-of-the-month-november-2016/"
-                                            class="btn btn-theme">Learn More</a>
+                                            class="btn btn-theme">Explore research</a>
                                     </div>
                                 </li>
                                 <li>
                                     <img src="{{ site.baseurl }}/assets/media/uploads/Figures/storm.png"
-                                        alt="" width="950" height="600" />
+                                        alt="Extratropical cyclone winds and precipitation simulated by a 25 km atmospheric model"
+                                        width="950" height="600" />
                                     <div class="flex-caption">
-                                        <h3>STORMS SIMULATED AT 25KM</h3>
-                                        <p>Extratropical cyclone winds and precipitation simulated by a 25-km
-                                            atmospheric model</p>
+                                        <h3>Storms simulated at 25 km</h3>
+                                        <p>Extratropical cyclone winds and precipitation simulated by a 25 km
+                                            atmospheric model.</p>
                                         <a href="{{ site.baseurl }}/blog/plot-of-the-month-nov-2017-extratropical-storm-in-a-25km-model/"
-                                            class="btn btn-theme">Learn More</a>
+                                            class="btn btn-theme">Explore research</a>
                                     </div>
                                 </li>
                                 <!--                               <li>
@@ -99,7 +240,7 @@ layout: base_hrcm
                                           <div class="flex-caption">
                                              <h3>SAHEL RAINFALL</h3>
                                              <p>Increasing resolution allows better coupling between large-scale atmospheric circulation and Sahel rainfall processes</p>
-                                             <a href="http://onlinelibrary.wiley.com/doi/10.1002/2015GL066690/full" class="btn btn-theme">Learn More</a>
+                                             <a href="/blog/plot-of-the-month-jan-2017-sahel-rainfall/" class="btn btn-theme">Learn More</a>
                                           </div>
                                        </li>-->
                                 <!--                               <li>
@@ -116,6 +257,8 @@ layout: base_hrcm
                     </div>
                 </div>
             </div>
+
+            <!-- end slider -->
         </div>
     </section>
 
