@@ -31,7 +31,7 @@ title: Data
     }
     .hadgem3-data-page, .hadgem3-data-page * { box-sizing: border-box; }
     .hadgem3-data-page {
-      width: 100%; max-width: 1170px; margin: 0 auto; padding: 32px 15px 56px;
+      width: 100%; max-width: none; margin: 0; padding: 32px 15px 56px;
       color: var(--hrcm-ink); font: 16px/1.5 Arial, Helvetica, sans-serif;
     }
     .hadgem3-data-page h1 { margin: 0 0 8px; color: var(--hrcm-blue); font-size: clamp(1.65rem, 3vw, 2.35rem); line-height: 1.2; }
