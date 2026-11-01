@@ -88,13 +88,20 @@ full_width: true
 
                 .homepage-slider-container #main-slider .flex-direction-nav a {
                     top: 35%;
-                    width: 2.75rem;
-                    height: 2.75rem;
-                    margin: -1.375rem 0 0;
+                    width: 3.25rem;
+                    height: 3.25rem;
+                    margin: -1.625rem 0 0;
                     opacity: 1 !important;
-                    background: rgba(13, 35, 52, 0.75);
+                    background: #174f78;
+                    border: 2px solid #fff;
                     border-radius: 50%;
                     text-shadow: none;
+                    transition: background 0.2s ease, transform 0.2s ease;
+                }
+
+                .homepage-slider-container #main-slider .flex-direction-nav a:hover {
+                    background: #103b5a;
+                    transform: scale(1.08);
                 }
 
                 .homepage-slider-container #main-slider .flex-direction-nav .flex-prev {
@@ -107,7 +114,7 @@ full_width: true
 
                 .homepage-slider-container #main-slider .flex-direction-nav a:before {
                     color: #fff;
-                    font-size: 1.5rem;
+                    font-size: 1.7rem;
                     text-shadow: none;
                 }
 
