@@ -29,12 +29,20 @@ full_width: true
             <!-- start slider -->
             <style>
                 .homepage-slider-container #main-slider.flexslider {
+                    position: relative;
                     margin: 0 0 1.5rem;
-                    border: 0;
+                    padding: 0 0 0.5rem;
+                    border: none;
                     border-radius: 8px;
                     background: #fff;
                     box-shadow: 0 4px 16px rgba(20, 45, 62, 0.12);
-                    overflow: hidden;
+                    overflow: visible !important;
+                }
+
+                /* Keep the image area clipped, without clipping the controls */
+                .homepage-slider-container #main-slider .flex-viewport {
+                    overflow: hidden !important;
+                    border-radius: 8px 8px 0 0;
                 }
 
                 .homepage-slider-container #main-slider .slides > li {
@@ -50,6 +58,7 @@ full_width: true
                     background: #fff;
                 }
 
+                /* Caption panel below each image */
                 .homepage-slider-container #main-slider .flex-caption {
                     position: relative;
                     left: auto;
@@ -86,17 +95,72 @@ full_width: true
                     margin-top: 0.25rem;
                 }
 
+                /* Keep previous/next navigation visible at all times */
+                .homepage-slider-container #main-slider .flex-direction-nav {
+                    display: block !important;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    width: 100%;
+                    height: 100%;
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+                    z-index: 20;
+                    pointer-events: none;
+                }
+
+                .homepage-slider-container #main-slider .flex-direction-nav li {
+                    margin: 0;
+                    padding: 0;
+                }
+
                 .homepage-slider-container #main-slider .flex-direction-nav a {
+                    display: flex !important;
+                    align-items: center;
+                    justify-content: center;
+                    position: absolute;
                     top: 35%;
                     width: 3.25rem;
                     height: 3.25rem;
                     margin: -1.625rem 0 0;
-                    opacity: 1 !important;
-                    background: #fff;
+                    padding: 0;
                     border: none;
                     border-radius: 50%;
+                    background: #fff;
+                    color: #174f78;
+                    opacity: 1 !important;
+                    visibility: visible !important;
+                    overflow: visible;
+                    text-indent: 0 !important;
+                    text-decoration: none;
                     text-shadow: none;
+                    pointer-events: auto;
+                    z-index: 21;
                     transition: background 0.2s ease, transform 0.2s ease;
+                }
+
+                /* Use visible characters rather than the FlexSlider icon font */
+                .homepage-slider-container #main-slider .flex-direction-nav a:before {
+                    display: block;
+                    width: auto;
+                    height: auto;
+                    margin: 0;
+                    color: #174f78 !important;
+                    font-family: Arial, sans-serif !important;
+                    font-size: 2.5rem;
+                    font-weight: 400;
+                    line-height: 1;
+                    text-shadow: none;
+                }
+
+                .homepage-slider-container #main-slider .flex-direction-nav a.flex-prev:before {
+                    content: "\2039" !important;
+                }
+
+                .homepage-slider-container #main-slider .flex-direction-nav a.flex-next:before {
+                    content: "\203A" !important;
                 }
 
                 .homepage-slider-container #main-slider .flex-direction-nav a:hover {
@@ -112,23 +176,56 @@ full_width: true
                     right: 1rem;
                 }
 
-                .homepage-slider-container #main-slider .flex-direction-nav a:before {
-                    color: #174f78;
-                    font-size: 1.7rem;
-                    text-shadow: none;
+                /* Keep pagination dots permanently visible below the slider */
+                .homepage-slider-container #main-slider .flex-control-nav {
+                    display: flex !important;
+                    position: relative !important;
+                    left: auto !important;
+                    right: auto !important;
+                    bottom: auto !important;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 0.65rem;
+                    width: 100%;
+                    margin: 0;
+                    padding: 1rem 0 0.5rem;
+                    opacity: 1 !important;
+                    visibility: visible !important;
+                    z-index: 5;
+                    list-style: none;
+                }
+
+                .homepage-slider-container #main-slider .flex-control-nav li {
+                    display: block;
+                    margin: 0;
+                    padding: 0;
                 }
 
                 .homepage-slider-container #main-slider .flex-control-paging li a {
+                    display: block;
                     width: 0.7rem;
                     height: 0.7rem;
-                    background: #9bb8ce;
+                    margin: 0;
+                    padding: 0;
+                    border: none;
+                    border-radius: 50%;
+                    background: #b8cbd8;
                     box-shadow: none;
+                    text-indent: -9999px;
+                    cursor: pointer;
                 }
 
                 .homepage-slider-container #main-slider .flex-control-paging li a.flex-active {
                     background: #174f78;
+                    cursor: default;
                 }
 
+                .homepage-slider-container #main-slider .flex-control-paging li a:focus {
+                    outline: 2px solid #174f78;
+                    outline-offset: 3px;
+                }
+
+                /* Mobile adjustments */
                 @media (max-width: 600px) {
                     .homepage-slider-container #main-slider .flex-caption {
                         padding: 1.25rem;
@@ -143,9 +240,13 @@ full_width: true
                     }
 
                     .homepage-slider-container #main-slider .flex-direction-nav a {
-                        width: 2.25rem;
-                        height: 2.25rem;
-                        margin-top: -1.125rem;
+                        width: 2.5rem;
+                        height: 2.5rem;
+                        margin-top: -1.25rem;
+                    }
+
+                    .homepage-slider-container #main-slider .flex-direction-nav a:before {
+                        font-size: 2rem;
                     }
 
                     .homepage-slider-container #main-slider .flex-direction-nav .flex-prev {
@@ -257,7 +358,28 @@ full_width: true
             </div>
         </div>
     </section>
-    
+
+    <script>
+        /* Initialise the slider only if the theme has not already done so. */
+        $(window).on("load", function () {
+            var $slider = $("#main-slider");
+
+            if ($slider.length && !$slider.data("flexslider")) {
+                $slider.flexslider({
+                    animation: "slide",
+                    directionNav: true,
+                    controlNav: true,
+                    slideshow: true,
+                    slideshowSpeed: 7000,
+                    animationSpeed: 600,
+                    pauseOnHover: true,
+                    prevText: "",
+                    nextText: ""
+                });
+            }
+        });
+    </script>
+
     <!--
     ==================================================
     OLD HOMEPAGE SECTION – RETAINED FOR REFERENCE
