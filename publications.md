@@ -1,6 +1,7 @@
 ---
 date: 2026-10-24 13:45:19
 layout: base_hrcm
+full_width: true
 order: 3
 permalink: /publications/
 title: Publications
