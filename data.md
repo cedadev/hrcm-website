@@ -2,6 +2,7 @@
 date: 2026-10-26 13:46:44
 description: 'HRCM Met Office Unified Model simulation catalogue'
 layout: base_hrcm
+full_width: true
 order: 4
 permalink: /data/
 title: Data
