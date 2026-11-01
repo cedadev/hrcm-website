@@ -31,8 +31,7 @@ title: Data
       --hrcm-page: #f5f7f8;
     }
     .hadgem3-data-page, .hadgem3-data-page * { box-sizing: border-box; }
-    .hadgem3-data-page {
-      max-width: 1500px; margin: 0 auto; padding: 32px 22px 56px;
+    .hadgem3-data-page { max-width: 1170px; margin: 0 auto; padding: 32px 22px 56px;
       color: var(--hrcm-ink); font: 16px/1.5 Arial, Helvetica, sans-serif;
     }
     .hadgem3-data-page h1 { margin: 0 0 8px; color: var(--hrcm-blue); font-size: clamp(1.65rem, 3vw, 2.35rem); line-height: 1.2; }
@@ -41,6 +40,10 @@ title: Data
     .hadgem3-data-page .controls {
       display: flex; flex-wrap: wrap; align-items: center; gap: 12px;
       margin: 18px 0 12px;
+    }
+    .hadgem3-data-page .model-filter-row {
+      flex: 0 0 100%; display: flex; flex-wrap: wrap;
+      align-items: center; gap: 12px;
     }
     .hadgem3-data-page .controls label { font-weight: 700; }
     .hadgem3-data-page .controls input, .hadgem3-data-page .controls select {
@@ -92,13 +95,22 @@ title: Data
       .hadgem3-data-page table { min-width: 0; font-size: 7pt; }
       th { position: static; }
     }
-  </style>
+    .hadgem3-data-page #runs-table thead th {
+      background: #fff !important;
+      background-color: #fff !important;
+      color: #174f78 !important;
+    }
+    .hadgem3-data-page #runs-table thead th button {
+      background: transparent !important;
+      color: #174f78 !important;
+    }
+</style>
   
 <section class="hadgem3-data-page">
     <div class="controls">
       <label for="table-search">Search table</label>
       <input id="table-search" type="search" placeholder="e.g., GC3.1, u-ai674, N512, 10 km ..." autocomplete="off">
-      <label for="model-filter">Model</label>
+      <label for="model-filter">Filter</label>
       <select id="model-filter"><option value="">Unified Model</option></select>
       <span class="result-count" id="result-count" aria-live="polite"></span>
     </div>
