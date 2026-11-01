@@ -20,10 +20,6 @@ title: Data
 <p><strong><a href="{{ site.baseurl }}/assets/media/uploads/HadGEM3_runs/hadgem3_runs_oct_2015.pdf" target="_blank">HadGEM3 simulations - 2015 (PDF)</a></strong></p>
 -->
 
----
-layout: base_hrcm
-title: Data
----
 <style>
     :root {
       --hrcm-ink: #263746;
@@ -77,7 +73,7 @@ title: Data
       border: 1px solid var(--hrcm-border); border-radius: 5px;
       box-shadow: 0 2px 8px rgba(20, 45, 62, .07);
     }
-    .hadgem3-data-page table { width: 100%; min-width: 1900px; table-layout: fixed; border-collapse: separate; border-spacing: 0; font-size: 13px; }
+    .hadgem3-data-page table { width: 100%; min-width: 0; table-layout: fixed; border-collapse: separate; border-spacing: 0; font-size: 13px; }
     .hadgem3-data-page caption { padding: 12px 14px; text-align: left; color: var(--hrcm-muted); font-size: 12px; }
     .hadgem3-data-page th, .hadgem3-data-page td { padding: 8px 9px; vertical-align: top; text-align: left; border-right: 1px solid #e0e5e9; border-bottom: 1px solid #e0e5e9; }
     .hadgem3-data-page thead th {
@@ -145,7 +141,6 @@ title: Data
 
     <div class="table-wrap">
       <table id="runs-table">
-        <caption>HadGEM3 simulation runs and data information</caption>
         <colgroup>
           <col style="width: 8%">
           <col style="width: 13%">
@@ -249,5 +244,4 @@ title: Data
     searchInput.addEventListener('input', render);
     modelFilter.addEventListener('change', render);
     render();
-  </script>
-  
+  </script> 
