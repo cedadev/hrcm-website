@@ -47,6 +47,6 @@ Explore the group's [publications](https://hrcm.ceda.ac.uk/publications/) to dis
 <li>Technologies for observing and modelling the atmosphere</li>
 </ul>
 
-<p>We provide scientific facilities for researchers across the UK to enable coordinated, national-scale atmospheric science. These include a world-leading research aircraft, ground-based instrumentation pool, access to computer models and facilities for storing, accessing and analysing data. In short, we provide the UK academic community and <strong><a href="http://www.nerc.ac.uk">NERC</a></strong>, our parent organisation, with national capability in atmospheric science. We communicate our findings and knowledge for the benefit of policy-makers, other scientists, and the general public.</p>
+<p>We provide scientific facilities for researchers across the UK to enable coordinated, national-scale atmospheric science. These include a world-leading research aircraft, ground-based instrumentation pool, access to computer models and facilities for storing, accessing and analysing data. We provide the UK academic community with national capability in atmospheric science, and communicate knowledge for the benefit of scientists, policy-makers, and the public.</p>
 
 <p><strong>Click&nbsp;<a href="https://www.ncas.ac.uk/">here</a>&nbsp;to find out more.</strong></p>
