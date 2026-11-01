@@ -2,6 +2,7 @@
 date: 2026-10-30 09:24:04
 description: 'People'
 layout: base_hrcm
+full_width: true
 order: 1
 permalink: /people/
 title: People
@@ -9,7 +10,8 @@ title: People
 
 <style>
 .people-page {
-    max-width: 1170px;
+    width: 100%;
+    max-width: none;
     margin: 0 auto;
     padding: 20px 15px 55px;
 }
@@ -21,7 +23,7 @@ title: People
 
 .people-page .people-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
     gap: 28px;
 }
 
