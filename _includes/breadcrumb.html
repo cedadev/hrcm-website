@@ -4,27 +4,17 @@
             <div class="col-lg-12">
                 {% assign crumbs = page.permalink | split: '/' %}
                 {% assign cum_crumb = "/" %}
-                {% assign pages_posts = site.pages | concat: site.posts %}
                 <ul class="breadcrumb pull-left">
                     <li id="breadcrumb-menu-home"><a href="{{ '/' | relative_url }}">Home</a></li>
                     {% for crumb in crumbs offset: 1 %}
-                        {% if crumb != "" %}
-                            {% assign cum_crumb = cum_crumb | append: crumb | append: '/' %}
-                            {% assign crumb_title = nil %}
-                            {% for p in pages_posts %}
-                                {% if p.permalink == cum_crumb %}
-                                    {% assign crumb_title = p.title %}
-                                    {% break %}
-                                {% endif %}
-                            {% endfor %}
-                            {% if crumb_title %}
-                                <li id="breadcrumb-menu-{{ crumb }}"><a href="{{ site.baseurl }}{{ cum_crumb }}">{{ crumb_title }}</a></li>
-                            {% elsif crumb == "projects" %}
-                                <li id="breadcrumb-menu-{{ crumb }}">Projects</li>
-                            {% elsif crumb == "software" %}
-                                <li id="breadcrumb-menu-{{ crumb }}">Software</li>
+                        {% assign cum_crumb = cum_crumb | append: crumb | append: '/' %}
+                        {% assign pages_posts = site.pages | concat: site.posts %}
+                        {% for p in pages_posts %}
+                            {% if p.permalink == cum_crumb %}
+                                {% assign crumb_title = p.title %}
                             {% endif %}
-                        {% endif %}
+                        {% endfor %}
+                        <li id="breadcrumb-menu-{{ crumb }}"><a href="{{ site.baseurl }}{{ cum_crumb }}">{{ crumb_title }}</a></li>
                     {% endfor %}
                 </ul>
             </div>
