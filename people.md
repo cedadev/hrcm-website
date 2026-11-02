@@ -121,6 +121,16 @@ title: People
         font-size: 24px;
     }
 }
+
+.people-page .person-name a,
+.people-page .person-name a:link,
+.people-page .person-name a:visited,
+.people-page .person-name a:hover,
+.people-page .person-name a:focus,
+.people-page .person-name a:active {
+    color: #174f78 !important;
+    text-decoration: none;
+}
 </style>
 
 <section class="people-page">
