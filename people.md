@@ -35,10 +35,13 @@ title: People
     box-shadow: 0 2px 8px rgba(30, 55, 70, 0.06);
 }
 
+.people-page .person-card:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.10);
+}
 .people-page .person-photo {
     display: block;
     width: 100%;
-    aspect-ratio: 4 / 3;
+    aspect-ratio: 1 / 1;
     object-fit: cover;
     object-position: center 35%;
     background: #edf1f3;
