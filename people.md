@@ -266,10 +266,6 @@ title: People
     <div class="people-grid">
 
         <article class="person-card">
-            <img class="person-photo"
-                 src="{{ site.baseurl }}/assets/media/uploads/people/seddon_jon.jpg"
-                 alt="Jon Seddon"
-                 loading="lazy">
             <div class="person-content">
                 <h3 class="person-name">Jon Seddon</h3>
                 <p class="person-role">Scientific Software Engineer</p>
@@ -279,10 +275,6 @@ title: People
         </article>
 
         <article class="person-card">
-            <img class="person-photo"
-                 src="{{ site.baseurl }}/assets/media/uploads/people/vanniere_benoit.jpg"
-                 alt="Dr Benoît Vannière"
-                 loading="lazy">
             <div class="person-content">
                 <h3 class="person-name"><a href="https://www.met.reading.ac.uk/userpages/nr912752.php" target="_blank" rel="noopener">Dr Benoît Vannière</a></h3>
                 <p class="person-role">Research Scientist</p>
@@ -292,10 +284,6 @@ title: People
         </article>
 
         <article class="person-card">
-            <img class="person-photo"
-                 src="{{ site.baseurl }}/assets/media/uploads/people/schiemann_reinhard.jpg"
-                 alt="Dr Reinhard Schiemann"
-                 loading="lazy">
             <div class="person-content">
                 <h3 class="person-name"><a href="https://www.met.reading.ac.uk/~reinhard/home/" target="_blank" rel="noopener">Dr Reinhard Schiemann</a></h3>
                 <p class="person-role">Senior Research Scientist</p>
@@ -305,10 +293,6 @@ title: People
         </article>
 
         <article class="person-card">
-            <img class="person-photo"
-                 src="{{ site.baseurl }}/assets/media/uploads/people/berthou_segოლene.jpg"
-                 alt="Dr Ségolène Berthou"
-                 loading="lazy">
             <div class="person-content">
                 <h3 class="person-name"><a href="https://www.lmd.jussieu.fr/Members/sberthou" target="_blank" rel="noopener">Dr Ségolène Berthou</a></h3>
                 <p class="person-role">Research Scientist</p>
@@ -318,10 +302,6 @@ title: People
         </article>
 
         <article class="person-card">
-            <img class="person-photo"
-                 src="{{ site.baseurl }}/assets/media/uploads/people/shaffrey_len.jpg"
-                 alt="Prof. Len Shaffrey"
-                 loading="lazy">
             <div class="person-content">
                 <h3 class="person-name"><a href="https://www.met.reading.ac.uk/~swrshaff/" target="_blank" rel="noopener">Prof. Len Shaffrey</a></h3>
                 <p class="person-role">Professor of Climate Science</p>
@@ -330,10 +310,6 @@ title: People
         </article>
 
         <article class="person-card">
-            <img class="person-photo"
-                 src="{{ site.baseurl }}/assets/media/uploads/people/demory_marieestelle.jpg"
-                 alt="Dr Marie-Estelle Demory"
-                 loading="lazy">
             <div class="person-content">
                 <h3 class="person-name"><a href="https://usys.ethz.ch/en/people/profile.MjQ0NDUy.TGlzdC82MzcsMzIwMTk3MjIy.html" target="_blank" rel="noopener">Dr Marie-Estelle Demory</a></h3>
                 <p class="person-role">Postdoctoral Scientist</p>
@@ -343,10 +319,6 @@ title: People
         </article>
 
         <article class="person-card">
-            <img class="person-photo"
-                 src="{{ site.baseurl }}/assets/media/uploads/people/muller_omar.jpg"
-                 alt="Dr Omar Müller"
-                 loading="lazy">
             <div class="person-content">
                 <h3 class="person-name"><a href="https://research.reading.ac.uk/meteorology/people/omar-mueller/" target="_blank" rel="noopener">Dr Omar Müller</a></h3>
                 <p class="person-role">Research Scientist in Land-surface Processes</p>
@@ -356,10 +328,6 @@ title: People
         </article>
 
         <article class="person-card">
-            <img class="person-photo"
-                 src="{{ site.baseurl }}/assets/media/uploads/people/mizielinski_matthew.jpg"
-                 alt="Dr Matthew Mizielinski"
-                 loading="lazy">
             <div class="person-content">
                 <h3 class="person-name"><a href="https://www.metoffice.gov.uk/research/people/matthew-mizielinski" target="_blank" rel="noopener">Dr Matthew Mizielinski</a></h3>
                 <p class="person-role">Climate Research Scientist</p>
@@ -369,10 +337,6 @@ title: People
         </article>
 
         <article class="person-card">
-            <img class="person-photo"
-                 src="{{ site.baseurl }}/assets/media/uploads/people/verhoef_anne.jpg"
-                 alt="Prof. Anne Verhoef"
-                 loading="lazy">
             <div class="person-content">
                 <h3 class="person-name"><a href="https://www.reading.ac.uk/ges/Aboutus/Staff/a-verhoef.aspx" target="_blank" rel="noopener">Prof. Anne Verhoef</a></h3>
                 <p class="person-role">Professor of Soil Physics and Micrometeorology</p>
@@ -381,10 +345,6 @@ title: People
         </article>
 
         <article class="person-card">
-            <img class="person-photo"
-                 src="{{ site.baseurl }}/assets/media/uploads/people/stevens_david.jpg"
-                 alt="Prof. David Stevens"
-                 loading="lazy">
             <div class="person-content">
                 <h3 class="person-name"><a href="https://www.uea.ac.uk/mathematics/people/profile/d-stevens" target="_blank" rel="noopener">Prof. David Stevens</a></h3>
                 <p class="person-role">Professor of Applied Mathematics</p>
@@ -394,4 +354,3 @@ title: People
 
     </div>
 </section>
-```
