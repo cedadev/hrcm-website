@@ -152,15 +152,24 @@ header .navbar-default {
 }
 
 /* Main menu: blue underline highlight */
-header .navbar-default .navbar-nav > li > a {
+header .navbar-default .navbar-nav > li > a,
+header .navbar-default .navbar-nav > li > span {
     position: relative;
+    display: block;
     background-color: transparent;
     color: #111;
     text-shadow: none;
+    padding-bottom: 6px;
+    padding-top: 5px;
+    margin-left: 2px;
+    line-height: 30px;
+    font-weight: 700;
+    cursor: pointer;
 }
 
 /* Underline: hidden by default */
-header .navbar-default .navbar-nav > li > a:after {
+header .navbar-default .navbar-nav > li > a:after,
+header .navbar-default .navbar-nav > li > span:after {
     content: "";
     position: absolute;
     left: 0;
@@ -176,18 +185,20 @@ header .navbar-default .navbar-nav > li > a:after {
 /* Show underline on hover, focus, active and open */
 header .navbar-default .navbar-nav > li > a:hover:after,
 header .navbar-default .navbar-nav > li > a:focus:after,
+header .navbar-default .navbar-nav > li > span:hover:after,
 header .navbar-default .navbar-nav > li.active > a:after,
-header .navbar-default .navbar-nav > li.open > a:after {
+header .navbar-default .navbar-nav > li.open > a:after,
+header .navbar-default .navbar-nav > li.open > span:after {
     transform: scaleX(1);
 }
 
 /* Keep top-level menu text dark in all states */
 header .navbar-default .navbar-nav > li > a:hover,
 header .navbar-default .navbar-nav > li > a:focus,
+header .navbar-default .navbar-nav > li > span:hover,
 header .navbar-default .navbar-nav > li.active > a,
 header .navbar-default .navbar-nav > li.open > a,
-header .navbar-default .navbar-nav > li.open > a:hover,
-header .navbar-default .navbar-nav > li.open > a:focus {
+header .navbar-default .navbar-nav > li.open > span {
     background-color: transparent;
     color: #111;
 }
