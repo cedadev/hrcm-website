@@ -15,5 +15,4 @@ The High-Resolution Climate Modelling (HRCM) group is a long-standing collaborat
 
 ### Miscellany  
 
-Site identity colour (for titles, links etc):  
-![#5685af](https://via.placeholder.com/15/5685af/000000?text=+)
+Site identity colour (for titles, links etc): **#5685af** ![#5685af](https://placehold.co/15x15/5685af/5685af.png)
