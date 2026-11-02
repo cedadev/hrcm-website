@@ -272,6 +272,23 @@
     "entry_type": "article"
   },
   {
+    "key": "RN1567",
+    "title": "HuracanPy: A Python package for reading and analysing cyclone tracks",
+    "author_text": "Bourdin, S., Saffin, L.",
+    "year": "2025",
+    "journal": "Journal of Open Source Software",
+    "booktitle": "",
+    "volume": "10",
+    "number": "111",
+    "pages": "8174",
+    "publisher": "",
+    "doi": "10.21105/joss.08174",
+    "url": "https://doi.org/10.21105/joss.08174",
+    "project": "HRCM core",
+    "source": "HRCM_core.bib",
+    "entry_type": "article"
+  },
+  {
     "key": "Roberts2025",
     "title": "High-Resolution Model Intercomparison Project phase 2 (HighResMIP2) towards CMIP7",
     "author_text": "MJ Roberts,, KA Reed,, Q Bao,, JJ Barsugli,, SJ Camargo, LP Caron ...",
