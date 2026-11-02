@@ -9,3 +9,5 @@ The High-Resolution Climate Modelling (HRCM) group is a long-standing collaborat
 ### Key files and functions  
 `_data/recent_papers.yml` — Recent papers to feature on the home page.
 
+### Miscellany  
+Site identity colour is <span style="color:#68a4c4">#68a4c4</span>
