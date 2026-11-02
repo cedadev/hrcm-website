@@ -105,6 +105,13 @@ img.img-polaroid {
 
 /* --- header -- */
 
+
+/* ===================================
+4. Header
+==================================== */
+
+/* --- header -- */
+
 header .navbar {
     margin-bottom: 0;
 }
@@ -144,31 +151,45 @@ header .navbar-default {
     background-color: #fff;
 }
 
-/* Main menu: hover, focus, active and open states */
+/* Main menu: blue underline highlight */
 header .navbar-default .navbar-nav > li > a {
-    background-color: #fff;
-    color: #111;
+    position: relative;
+    background-color: transparent;
+    color: #5685af;
     text-shadow: none;
-    transition: none !important;
-    -webkit-transition: none !important;
-    -moz-transition: none !important;
-    -ms-transition: none !important;
-    -o-transition: none !important;
 }
 
+/* Underline: hidden by default */
+header .navbar-default .navbar-nav > li > a:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 3px;
+    background-color: #5685af;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.2s ease;
+}
+
+/* Show underline on hover, focus, active and open */
+header .navbar-default .navbar-nav > li > a:hover:after,
+header .navbar-default .navbar-nav > li > a:focus:after,
+header .navbar-default .navbar-nav > li.active > a:after,
+header .navbar-default .navbar-nav > li.open > a:after {
+    transform: scaleX(1);
+}
+
+/* Keep top-level menu text dark in all states */
 header .navbar-default .navbar-nav > li > a:hover,
 header .navbar-default .navbar-nav > li > a:focus,
 header .navbar-default .navbar-nav > li.active > a,
 header .navbar-default .navbar-nav > li.open > a,
 header .navbar-default .navbar-nav > li.open > a:hover,
 header .navbar-default .navbar-nav > li.open > a:focus {
-    background-color: #dceaf5;
+    background-color: transparent;
     color: #111;
-    transition: none !important;
-    -webkit-transition: none !important;
-    -moz-transition: none !important;
-    -ms-transition: none !important;
-    -o-transition: none !important;
 }
 
 header .navbar-nav > li {
@@ -184,13 +205,29 @@ header .navbar-nav > li > a {
     font-weight: 700;
 }
 
-.dropdown-menu li a:hover {
+/* Keep dropdown text white during hover, focus and selection */
+.dropdown-menu li a:hover,
+.dropdown-menu li a:focus,
+.dropdown-menu li a:active,
+.dropdown-menu li.active > a,
+.dropdown-menu li.active > a:hover,
+.dropdown-menu li.active > a:focus,
+
+/* Keep parent submenu text white while navigating its child menu */
+.dropdown-menu li.dropdown-submenu:hover > a,
+.dropdown-menu li.dropdown-submenu:focus-within > a,
+.dropdown-menu li.dropdown-submenu.open > a,
+.dropdown-menu li.dropdown-submenu.active > a,
+header ul.nav li.dropdown-submenu:hover > a,
+header ul.nav li.dropdown-submenu:focus-within > a,
+header ul.nav li.dropdown-submenu.open > a,
+header ul.nav li.dropdown-submenu.active > a {
     color: #fff !important;
 }
 
 header .nav .caret {
-    border-bottom-color: #111;
-    border-top-color: #111;
+    border-bottom-color: #5685af;
+    border-top-color: #5685af;
 }
 
 /* Drop-down menu */
@@ -212,6 +249,7 @@ header .nav li .dropdown-menu {
 header .nav li .dropdown-menu li a {
     line-height: 28px;
     padding: 3px 12px;
+	color: #5685af;
 }
 
 /* Projects dropdown section headings */
@@ -247,7 +285,7 @@ header ul.nav li ul li a {
     font-size: 12px;
     border: none;
     font-weight: 300;
-    text-transform: uppercase;
+    text-transform: none;
 }
 
 .navbar .nav li .dropdown-menu {
@@ -310,6 +348,13 @@ select.selectmenu {
 	padding:0;
 }
 
+/* Homepage introductory tagline */
+.homepage-tagline {
+    font-size: 17px;
+    line-height: 1.5;
+    color: #555;
+    margin: 25px 0 20px;
+}
 
 /* ===================================
 6. Sliders
@@ -2065,7 +2110,7 @@ article img.pull-right, article .align-right{
     margin-top: auto;
     padding-top: 10px;
     font-weight: 700;
-    color: #DE5E60;
+    color: #5685af;
 }
 
 .recent-paper-link:hover {
@@ -2081,10 +2126,62 @@ article img.pull-right, article .align-right{
     font-weight: 700;
 }
 
+.recent-paper-journal {
+    margin-top: -5px;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
 /* Publications search box focus styling */
 #publication-search:focus,
 #publication-project:focus {
     outline: none;
     border-color: #dceaf5;
     box-shadow: 0 0 0 2px #dceaf5;
+}
+
+/* HRCM logo and site title */
+header .navbar-header .navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    height: auto;
+    line-height: normal;
+    white-space: normal;
+}
+
+header .navbar-brand .site-logo {
+    flex: 0 0 auto;
+}
+
+header .navbar-brand .site-title {
+    display: block;
+    max-width: 17ch;
+    color: #5685af;
+    font-family: "Open Sans", sans-serif;
+    font-size: clamp(1.25rem, 1.7vw, 1.75rem);
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-transform: none;
+}
+
+/* Mobile layout */
+@media (max-width: 767px) {
+    header .navbar-header .navbar-brand {
+        max-width: calc(100% - 65px);
+        gap: 0.65rem;
+        padding: 5px 10px;
+        margin-top: 0;
+    }
+
+    header .navbar-brand .site-logo {
+        height: 70px;
+        width: auto;
+    }
+
+    header .navbar-brand .site-title {
+        max-width: 14ch;
+        font-size: clamp(1rem, 4vw, 1.2rem);
+    }
 }
