@@ -23,7 +23,7 @@ title: Data
 <style>
     :root {
       --hrcm-ink: #263746;
-      --hrcm-blue: #68a4c4;
+      --hrcm-blue: #5685af;
       --hrcm-pale: #e7f0f6;
       --hrcm-border: #c8d1d8;
       --hrcm-muted: #5c6b76;
@@ -92,11 +92,11 @@ title: Data
     .hadgem3-data-page #runs-table thead th {
       background: #fff !important;
       background-color: #fff !important;
-      color: #68a4c4 !important;
+      color: #5685af !important;
     }
     .hadgem3-data-page #runs-table thead th button {
       background: transparent !important;
-      color: #68a4c4 !important;
+      color: #5685af !important;
     }
     .hadgem3-data-page #runs-table th,
     .hadgem3-data-page #runs-table td {
@@ -111,7 +111,7 @@ title: Data
     }
     .hadgem3-data-page tbody tr:nth-child(even) { background: #f8fafb; }
     .hadgem3-data-page tbody tr:hover { background: #edf5fa; }
-    .hadgem3-data-page tbody td:first-child { font-weight: 700; color: #68a4c4; }
+    .hadgem3-data-page tbody td:first-child { font-weight: 700; color: #5685af; }
     .hadgem3-data-page td:nth-child(3), .hadgem3-data-page td:nth-child(4), .hadgem3-data-page td:nth-child(6), .hadgem3-data-page td:nth-child(7), .hadgem3-data-page td:nth-child(8), .hadgem3-data-page td:nth-child(10) { white-space: nowrap; }
     .hadgem3-data-page td:nth-child(5) { font-family: Consolas, Monaco, monospace; }
     .hadgem3-data-page td:nth-child(13) { overflow-wrap: anywhere; font-family: Consolas, Monaco, monospace; font-size: 12px; }
