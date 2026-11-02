@@ -10,8 +10,8 @@ The High-Resolution Climate Modelling (HRCM) group is a long-standing collaborat
 **`_data/recent_papers.yml`** — Recent papers to feature on the home page.
 
 ### Actions  
-**`Update publications`** — update [hrcm.ceda.ac.uk/publications](hrcm.ceda.ac.uk/publications) by running `scripts/build_publications.py` to populate `_data/publications.json` with bibliographical data pulled from a separate HRCM repo (`ncas-metoffice-hrcm/publications/bib/`)  
-**`pages-build-deployment`** — run automatically when you commit any change to the repo  
+**`Update publications`** — updates [hrcm.ceda.ac.uk/publications](hrcm.ceda.ac.uk/publications) by running `scripts/build_publications.py` to populate `_data/publications.json` with bibliographical data pulled from a separate HRCM repo (`ncas-metoffice-hrcm/publications/bib/`)  
+**`pages-build-deployment`** — runs automatically when any change is committed to this repo  
 
 ### Miscellany  
 
