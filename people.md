@@ -54,7 +54,7 @@ title: People
 
     .people-page .person-name {
         margin: 0 0 8px;
-        color: #68a4c4;
+        color: #5685af;
         font-size: 20px;
         line-height: 1.3;
     }
@@ -63,13 +63,13 @@ title: People
     .people-page .person-name a:link,
     .people-page .person-name a:visited,
     .people-page .person-name a:active {
-        color: #68a4c4 !important;
+        color: #5685af !important;
         text-decoration: none;
     }
 
     .people-page .person-name a:hover,
     .people-page .person-name a:focus {
-        color: #68a4c4 !important;
+        color: #5685af !important;
         text-decoration: underline;
     }
 
@@ -100,7 +100,7 @@ title: People
     .people-page .people-section-heading {
         margin: 50px 0 25px;
         padding-bottom: 12px;
-        color: #68a4c4;
+        color: #5685af;
         font-size: 27px;
         border-bottom: 2px solid #dce7ed;
     }
