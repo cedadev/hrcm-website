@@ -259,13 +259,11 @@ title: People
             </div>
         </article>
 
-    </div>
-
-    <h2 class="people-section-heading">Past members, affiliates &amp; collaborators</h2>
-
-    <div class="people-grid">
-
         <article class="person-card">
+            <img class="person-photo"
+                 src="{{ site.baseurl }}/assets/media/uploads/people/seddon_jon.jpg"
+                 alt="Jon Seddon"
+                 loading="lazy">
             <div class="person-content">
                 <h3 class="person-name">Jon Seddon</h3>
                 <p class="person-role">Scientific Software Engineer</p>
@@ -273,6 +271,11 @@ title: People
                 <p class="person-interests"><strong>Research interests:</strong> Managing peta-scale climate model output, development of analysis tools.</p>
             </div>
         </article>
+    </div>
+
+    <h2 class="people-section-heading">Past members, affiliates &amp; collaborators</h2>
+
+    <div class="people-grid">
 
         <article class="person-card">
             <div class="person-content">
