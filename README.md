@@ -10,4 +10,5 @@ The High-Resolution Climate Modelling (HRCM) group is a long-standing collaborat
 `_data/recent_papers.yml` — Recent papers to feature on the home page.
 
 ### Miscellany  
-Site identity colour is <span style="color:#68a4c4">#68a4c4</span>
+
+Site identity colour (for titles, links etc):  ![#68a4c4](https://img.shields.io/badge/%2368a4c4-68a4c4?style=flat-square)
