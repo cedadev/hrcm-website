@@ -44,7 +44,6 @@
                         {% assign cum_crumb = cum_crumb | append: crumb | append: '/' %}
                         {% assign pages_posts = site.pages | concat: site.posts %}
                         {% for p in pages_posts %}
-                            <!-- {{ cum_crumb }} -->
                             {% if p.permalink == cum_crumb %}
                                 {% assign crumb_title = p.title %}
                             {% endif %}
