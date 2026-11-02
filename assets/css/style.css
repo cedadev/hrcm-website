@@ -155,7 +155,7 @@ header .navbar-default {
 header .navbar-default .navbar-nav > li > a {
     position: relative;
     background-color: transparent;
-    color: #111;
+    color: #68a4c4;
     text-shadow: none;
 }
 
@@ -167,7 +167,7 @@ header .navbar-default .navbar-nav > li > a:after {
     right: 0;
     bottom: 0;
     height: 3px;
-    background-color: #5685af;
+    background-color: #68a4c4;
     transform: scaleX(0);
     transform-origin: center;
     transition: transform 0.2s ease;
@@ -233,6 +233,7 @@ header .nav li .dropdown-menu {
 header .nav li .dropdown-menu li a {
     line-height: 28px;
     padding: 3px 12px;
+	color: #68a4c4;
 }
 
 /* Projects dropdown section headings */
@@ -2140,7 +2141,7 @@ header .navbar-brand .site-logo {
 header .navbar-brand .site-title {
     display: block;
     max-width: 17ch;
-    color: #5685af;
+    color: #68a4c4;
     font-family: "Open Sans", sans-serif;
     font-size: clamp(1.25rem, 1.7vw, 1.75rem);
     font-weight: 600;
