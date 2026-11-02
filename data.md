@@ -37,7 +37,7 @@ title: Data
     }
     .hadgem3-data-page h1 { margin: 0 0 8px; color: var(--hrcm-blue); font-size: clamp(1.65rem, 3vw, 2.35rem); line-height: 1.2; }
     .hadgem3-data-page .intro { max-width: 900px; margin: 0 0 22px; color: #435461; }
-    .hadgem3-data-page .source-note { margin: 0 0 18px; color: var(--hrcm-muted); font-size: .9rem; }
+    .hadgem3-data-page .source-note { margin: 0 0 18px; color: var(--hrcm-muted); font-size: 1rem; }
     .hadgem3-data-page .publication-controls {
       display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
       gap: 12px; margin: 25px 0 30px; max-width: 850px; align-items: center;
@@ -61,7 +61,7 @@ title: Data
     }
     .hadgem3-data-page .publication-controls input::placeholder { color: #999; }
     .hadgem3-data-page .publication-controls .result-count {
-      grid-column: 1 / -1; color: var(--hrcm-muted); font-size: .9rem;
+      grid-column: 1 / -1; color: var(--hrcm-muted); font-size: 1rem;
     }
     @media (max-width: 700px) {
       .hadgem3-data-page .publication-controls { grid-template-columns: 1fr; }
