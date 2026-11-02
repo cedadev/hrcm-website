@@ -4,34 +4,6 @@
             <div class="col-lg-12">
                 {% assign crumbs = page.permalink | split: '/' %}
                 {% assign cum_crumb = "/" %}
-                {% assign pages_posts = site.pages | concat: site.posts %}
-                <ul class="breadcrumb pull-left">
-                    <li id="breadcrumb-menu-home"><a href="{{ '/' | relative_url }}">Home</a></li>
-                    {% for crumb in crumbs offset: 1 %}
-                        {% assign cum_crumb = cum_crumb | append: crumb | append: '/' %}
-                        {% assign crumb_title = nil %}
-                        {% for p in pages_posts %}
-                            {% if p.permalink == cum_crumb %}
-                                {% assign crumb_title = p.title %}
-                                {% break %}
-                            {% endif %}
-                        {% endfor %}
-                        {% if crumb_title %}
-                            <li id="breadcrumb-menu-{{ crumb }}"><a href="{{ site.baseurl }}{{ cum_crumb }}">{{ crumb_title }}</a></li>
-                        {% endif %}
-                    {% endfor %}
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-<!--
-<section id="inner-headline">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                {% assign crumbs = page.permalink | split: '/' %}
-                {% assign cum_crumb = "/" %}
                 <ul class="breadcrumb pull-left">
                     <li id="breadcrumb-menu-home"><a href="{{ '/' | relative_url }}">Home</a></li>
                     {% for crumb in crumbs offset: 1 %}
@@ -50,4 +22,3 @@
         </div>
     </div>
 </section>
--->
