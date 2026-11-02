@@ -58,8 +58,9 @@ title: People
     line-height: 1.3;
 }
 
-.people-page .person-name a {
-    color: inherit;
+.people-page .person-name a,
+.people-page .person-name a:visited {
+    color: #174f78;
     text-decoration: none;
 }
 
