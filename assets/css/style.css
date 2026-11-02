@@ -151,8 +151,16 @@ header .navbar-default {
     background-color: #fff;
 }
 
-/* Main menu: blue underline highlight */
-header .navbar-default .navbar-nav > li > a {
+
+/* Main menu: consistent colour and blue underline highlight */
+header .navbar-default .navbar-nav > li > a,
+header .navbar-default .navbar-nav > li > a:hover,
+header .navbar-default .navbar-nav > li > a:focus,
+header .navbar-default .navbar-nav > li > a:active,
+header .navbar-default .navbar-nav > li.active > a,
+header .navbar-default .navbar-nav > li.open > a,
+header .navbar-default .navbar-nav > li.open > a:hover,
+header .navbar-default .navbar-nav > li.open > a:focus {
     position: relative;
     background-color: transparent;
     color: #5685af;
@@ -181,37 +189,17 @@ header .navbar-default .navbar-nav > li.open > a:after {
     transform: scaleX(1);
 }
 
-/* Keep top-level menu text dark in all states */
-header .navbar-default .navbar-nav > li > a:hover,
-header .navbar-default .navbar-nav > li > a:focus,
-header .navbar-default .navbar-nav > li.active > a,
-header .navbar-default .navbar-nav > li.open > a,
-header .navbar-default .navbar-nav > li.open > a:hover,
-header .navbar-default .navbar-nav > li.open > a:focus {
-    background-color: transparent;
-    color: #111;
-}
-
-header .navbar-nav > li {
-    padding-top: 30px;
-    padding-bottom: 0;
-}
-
-header .navbar-nav > li > a {
-    padding-bottom: 6px;
-    padding-top: 5px;
-    margin-left: 2px;
-    line-height: 30px;
-    font-weight: 700;
-}
-
-.dropdown-menu li a:hover {
-    color: #fff !important;
-}
-
-header .nav .caret {
-    border-bottom-color: #5685af;
+/* Keep dropdown arrows the same colour in every state */
+header .navbar-default .navbar-nav > li > a .caret,
+header .navbar-default .navbar-nav > li > a:hover .caret,
+header .navbar-default .navbar-nav > li > a:focus .caret,
+header .navbar-default .navbar-nav > li > a:active .caret,
+header .navbar-default .navbar-nav > li.active > a .caret,
+header .navbar-default .navbar-nav > li.open > a .caret,
+header .navbar-default .navbar-nav > li.open > a:hover .caret,
+header .navbar-default .navbar-nav > li.open > a:focus .caret {
     border-top-color: #5685af;
+    border-bottom-color: #5685af;
 }
 
 /* Drop-down menu */
