@@ -9,128 +9,118 @@ title: People
 ---
 
 <style>
-.people-page {
-    width: 100%;
-    max-width: none;
-    margin: 0 auto;
-    padding: 20px 15px 55px;
-}
-
-.people-page .people-intro {
-    max-width: 850px;
-    margin-bottom: 35px;
-}
-
-.people-page .people-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
-    gap: 28px;
-}
-
-.people-page .person-card {
-    overflow: hidden;
-    background: #fff;
-    border: 1px solid #e1e6e9;
-    border-radius: 5px;
-    box-shadow: 0 2px 8px rgba(30, 55, 70, 0.06);
-}
-
-.people-page .person-card:hover {
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.10);
-}
-.people-page .person-photo {
-    display: block;
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    object-position: center 35%;
-    background: #edf1f3;
-}
-
-.people-page .person-content {
-    padding: 20px 22px 24px;
-}
-
-.people-page .person-name {
-    margin: 0 0 8px;
-    color: #174f78;
-    font-size: 20px;
-    line-height: 1.3;
-}
-
-.people-page .person-name a,
-.people-page .person-name a:visited {
-    color: #174f78;
-    text-decoration: none;
-}
-
-.people-page .person-name a:hover,
-.people-page .person-name a:focus {
-    text-decoration: underline;
-}
-
-.people-page .person-role {
-    margin: 0 0 5px;
-    font-weight: 600;
-    color: #263746;
-}
-
-.people-page .person-affiliation {
-    margin: 0 0 13px;
-    color: #5c6b76;
-    font-size: 14px;
-}
-
-.people-page .person-interests {
-    margin: 0;
-    color: #435461;
-    font-size: 14px;
-    line-height: 1.6;
-}
-
-.people-page .person-interests strong {
-    color: #263746;
-    font-weight: 600;
-}
-
-.people-page .people-section-heading {
-    margin: 50px 0 25px;
-    padding-bottom: 12px;
-    color: #174f78;
-    font-size: 27px;
-    border-bottom: 2px solid #dce7ed;
-}
-
-@media (max-width: 900px) {
-    .people-page .people-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+    .people-page {
+        width: 100%;
+        max-width: none;
+        margin: 0 auto;
+        padding: 20px 15px 55px;
     }
-}
 
-@media (max-width: 600px) {
+    .people-page .people-intro {
+        max-width: 850px;
+        margin-bottom: 35px;
+    }
+
     .people-page .people-grid {
-        grid-template-columns: 1fr;
-        gap: 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
+        gap: 28px;
+    }
+
+    .people-page .person-card {
+        overflow: hidden;
+        background: #fff;
+        border: 1px solid #e1e6e9;
+        border-radius: 5px;
+        box-shadow: 0 2px 8px rgba(30, 55, 70, 0.06);
+    }
+
+    .people-page .person-card:hover {
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.10);
     }
 
     .people-page .person-photo {
-        aspect-ratio: 16 / 9;
+        display: block;
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        object-position: center 35%;
+        background: #edf1f3;
+    }
+
+    .people-page .person-content {
+        padding: 20px 22px 24px;
+    }
+
+    .people-page .person-name {
+        margin: 0 0 8px;
+        color: #174f78;
+        font-size: 20px;
+        line-height: 1.3;
+    }
+
+    .people-page .person-name a,
+    .people-page .person-name a:link,
+    .people-page .person-name a:visited,
+    .people-page .person-name a:active {
+        color: #174f78 !important;
+        text-decoration: none;
+    }
+
+    .people-page .person-name a:hover,
+    .people-page .person-name a:focus {
+        color: #174f78 !important;
+        text-decoration: underline;
+    }
+
+    .people-page .person-role {
+        margin: 0 0 5px;
+        font-weight: 600;
+        color: #263746;
+    }
+
+    .people-page .person-affiliation {
+        margin: 0 0 13px;
+        color: #5c6b76;
+        font-size: 14px;
+    }
+
+    .people-page .person-interests {
+        margin: 0;
+        color: #435461;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .people-page .person-interests strong {
+        color: #263746;
+        font-weight: 600;
     }
 
     .people-page .people-section-heading {
-        font-size: 24px;
+        margin: 50px 0 25px;
+        padding-bottom: 12px;
+        color: #174f78;
+        font-size: 27px;
+        border-bottom: 2px solid #dce7ed;
     }
-}
 
-.people-page .person-name a,
-.people-page .person-name a:link,
-.people-page .person-name a:visited,
-.people-page .person-name a:hover,
-.people-page .person-name a:focus,
-.people-page .person-name a:active {
-    color: #174f78 !important;
-    text-decoration: none;
-}
+    @media (max-width: 900px) {
+        .people-page .people-grid {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+    }
+
+    @media (max-width: 600px) {
+        .people-page .people-grid {
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+
+        .people-page .people-section-heading {
+            font-size: 24px;
+        }
+    }
 </style>
 
 <section class="people-page">
