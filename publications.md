@@ -103,9 +103,9 @@ title: Publications
 
     /* Publication list */
     .publication-items {
-        padding-left: 1.25rem;
+        list-style: none;
+        padding-left: 0;
     }
-
     .publication-item {
         margin: 0 0 .9rem;
         line-height: 1.55;
