@@ -14,7 +14,7 @@ Over more than a decade of collaborative research, the group has helped demonstr
 
 HRCM's research has shown that finer resolution can better represent the small-scale processes that shape regional weather and climate extremes, while also revealing the importance of model biases, ocean resolution and interactions between different parts of the climate system. Through continued collaboration, shared modelling experiments and peer-reviewed publications, HRCM advances the scientific basis for understanding future climate change and developing more useful regional climate information for research, adaptation and decision-making.
 
-Explore the group's [publications](https://hrcm.ceda.ac.uk/publications/) to discover the research underpinning these developments.
+Explore the group's [**publications**](https://hrcm.ceda.ac.uk/publications/) to discover the research underpinning these developments.
 
 <p><img alt="N96" height="300" src="{{ site.baseurl }}/assets/media/uploads/Figures/n96_topo.png" title="N96"></p>
 
@@ -38,7 +38,7 @@ Explore the group's [publications](https://hrcm.ceda.ac.uk/publications/) to dis
 
 <p><img alt="NCAS" src="{{ site.baseurl }}/assets/media/uploads/Logos/ncas_logo_small.jpg"></p>
 
-<p>The National Centre for Atmospheric Science (NCAS) is a world leader in atmospheric science. We carry out research programmes on:</p>
+<p>The National Centre for Atmospheric Science is a world leader in atmospheric science. We carry out research programmes on:</p>
 
 <ul>
 <li>The science of climate change, including modelling and predictions</li>
