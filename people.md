@@ -261,7 +261,7 @@ title: People
 
     </div>
 
-    <h2 class="people-section-heading">Affiliates &amp; collaborators</h2>
+    <h2 class="people-section-heading">Past members, affiliates &amp; collaborators</h2>
 
     <div class="people-grid">
 
