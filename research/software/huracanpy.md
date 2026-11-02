@@ -7,12 +7,14 @@ permalink: /research/software/huracanpy/
 title: HuracanPy
 ---
 
-### HuracanPy is a python package for working with various forms of feature tracking data, including but not restricted to cyclone tracks.  
+### HuracanPy is a python package for working with various forms of feature-tracking data, particularly cyclone tracks.  
+  
+HuracanPy was developed as part of the [Huracán project](https://ourresearch.reading.ac.uk/huracan/) to provide a unified tool for working with output from feature-tracking algorithms. HuracanPy can read tracks from many different sources, and it provides functions to analyse tracks, including many common diagnostics. Its goal is to make track data analysis more accessible and promote good reproducibility practices.
+  
+![Example simple plot of tropical cyclone tracks using HuracanPy](/assets/media/uploads/software/huracanpy_example.png)
 
-HuracanPy was developed as part of the [Huracán project](https://ourresearch.reading.ac.uk/huracan/) to provide a unified tool for working with cyclone track data. In particular, HuracanPy can read tracks from many different sources/trackers. It also provides useful functions to analyse these tracks, including many common diagnostics. Our goal is to make track data analysis more accessible, and to promote good reproducibility practices.
-
-For more information, see:
-
-Bourdin and Safin, HuracanPy: A Python package for reading and analysing cyclone tracks. *Journal of Open Source Software* **10(111)**, 8174, [doi.org/10.21105/joss.08174](https://doi.org/10.21105/joss.08174) (2025).  
+For more information, see:  
+  
+Bourdin and Safin, [HuracanPy: A Python package for reading and analysing cyclone tracks](https://doi.org/10.21105/joss.08174). *Journal of Open Source Software* **10**(111), 8174 (2025).  
   
 [**HuracanPy GitHub**](https://github.com/Huracan-project/huracanpy)  
