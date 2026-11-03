@@ -1,0 +1,144 @@
+#!/usr/bin/env python3
+"""Build one Jekyll data file from per-simulation YAML files in a checkout of the source repo.
+
+Source repo layout (ncas-metoffice-hrcm/simulations):
+
+    UM/
+      README.md            <- ignored (only .yml/.yaml files are read)
+      akkvi.yml            <- one file per simulation, named <run_ID>.yml
+      ...
+    LFRic/
+      README.md
+      (simulation files will be added here in future)
+
+Each simulation file is a single mapping of the other table fields:
+
+    model_version: "GA3.0"
+    resolution: "N96"
+    ...
+
+run_ID is taken from the file name (without .yml). If a file also contains its own
+run_ID field, that value is used instead - handy when the run ID contains characters
+that cannot be used in a file name (e.g. "/").
+
+Rows are ordered by directory (in the order given by --dirs, e.g. UM then LFRic) and then
+by file name within each directory.
+
+Rules
+  * Only .yml/.yaml files in the listed directories are read. Names starting with "_" or "."
+    are ignored (e.g. _template.yml).
+  * A listed directory that is missing or has no simulation files yet is fine (e.g. LFRic).
+  * Fields not listed in --columns produce a warning (catches typos such as "reslution").
+  * A malformed file makes the script exit non-zero, so the previous simulations.yml is left
+    untouched and the workflow fails visibly rather than publishing broken data.
+  * If no simulation files are found at all, the script fails (guards against a bad checkout
+    wiping the table).
+"""
+import argparse
+import pathlib
+import re
+import sys
+
+import yaml
+
+ID_KEY = "run_ID"
+
+
+def natural_key(path: pathlib.Path):
+    """Case-insensitive 'natural' sort so akkv2 comes before akkv10."""
+    return [int(t) if t.isdigit() else t.lower() for t in re.split(r"(\d+)", path.name)]
+
+
+def find_files(directory: pathlib.Path):
+    files = [
+        f
+        for f in directory.rglob("*")
+        if f.is_file() and f.suffix.lower() in (".yml", ".yaml") and not f.name.startswith(("_", "."))
+    ]
+    return sorted(files, key=natural_key)
+
+
+def clean(item: dict) -> dict:
+    """Stringify keys; None -> ''; other scalars -> str so the table never shows surprises
+    (e.g. an unquoted YES becoming True)."""
+    out = {}
+    for k, v in item.items():
+        out[str(k)] = "" if v is None else (v if isinstance(v, (list, dict)) else str(v))
+    return out
+
+
+def load_file(f: pathlib.Path, label: str, known, errors, warnings):
+    try:
+        data = yaml.safe_load(f.read_text(encoding="utf-8"))
+    except yaml.YAMLError as exc:
+        errors.append(f"{label}: invalid YAML ({exc})")
+        return None
+    if not isinstance(data, dict) or not data:
+        errors.append(f"{label}: expected a mapping of field: value pairs")
+        return None
+    sim = clean(data)
+    stem = f.stem
+    if not sim.get(ID_KEY):
+        sim[ID_KEY] = stem
+    sim = {ID_KEY: sim.pop(ID_KEY), **sim}  # run_ID first
+    if known:
+        for k in sim:
+            if k not in known:
+                warnings.append(f"{label}: field '{k}' is not a column in simulation_columns.yml")
+    return sim
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--source", required=True, help="root of the checked-out source repo")
+    ap.add_argument("--dirs", nargs="+", required=True, help="directories to read, in table order (e.g. UM LFRic)")
+    ap.add_argument("--out", default="_data/simulations.yml")
+    ap.add_argument("--columns", default=None, help="_data/simulation_columns.yml (optional, for typo warnings)")
+    ap.add_argument("--source-sha", default="unknown")
+    ap.add_argument("--source-repo", default="unknown")
+    args = ap.parse_args()
+
+    root = pathlib.Path(args.source)
+    if not root.is_dir():
+        sys.exit(f"ERROR: source folder {root} does not exist")
+
+    known = None
+    if args.columns and pathlib.Path(args.columns).exists():
+        cols = yaml.safe_load(pathlib.Path(args.columns).read_text(encoding="utf-8")) or []
+        known = {c["key"] for c in cols}
+
+    sims, errors, warnings = [], [], []
+    for d in args.dirs:
+        directory = root / d
+        if not directory.is_dir():
+            warnings.append(f"directory '{d}' not found in source repo - skipped")
+            continue
+        files = find_files(directory)
+        print(f"{d}: {len(files)} simulation file(s)")
+        for f in files:
+            sim = load_file(f, str(f.relative_to(root)), known, errors, warnings)
+            if sim is not None:
+                sims.append(sim)
+
+    for w in warnings:
+        print(f"::warning::{w}")
+    if errors:
+        for e in errors:
+            print(f"::error::{e}")
+        sys.exit(f"ERROR: {len(errors)} problem(s) found; simulations.yml not updated")
+    if not sims:
+        sys.exit("ERROR: no simulation files found in any directory; simulations.yml not updated")
+
+    out = pathlib.Path(args.out)
+    out.parent.mkdir(parents=True, exist_ok=True)
+    header = (
+        "# AUTO-GENERATED by .github/workflows/update-simulations.yml - do not edit by hand.\n"
+        f"# Source: {args.source_repo} @ {args.source_sha}\n"
+    )
+    body = yaml.safe_dump(sims, sort_keys=False, allow_unicode=True, default_flow_style=False, width=10**6)
+    out.write_text(header + body, encoding="utf-8")
+    print(f"Wrote {len(sims)} simulations to {out}")
+
+
+if __name__ == "__main__":
+    main()
