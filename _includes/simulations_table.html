@@ -1,47 +1,41 @@
-{%- assign cols = site.data.simulation_columns -%}
+{%- assign columns = site.data.simulation_columns -%}
 {%- assign sims = site.data.simulations -%}
 
-<div class="table-wrap simulations-table-wrapper">
-  <table id="runs-table" class="simulations-table">
+<div class="table-wrap">
+  <table id="runs-table">
+    <colgroup>
+      {%- for c in columns %}
+        <col{% if c.width %} style="width: {{ c.width }}"{% endif %}>
+      {%- endfor %}
+    </colgroup>
+
     <thead>
-      <tr>
-        {%- for c in cols %}
-        <th>{{ c.label | default: c.key }}</th>
-        {%- endfor %}
+      <tr id="table-head">
+        {%- for c in columns -%}
+          <th scope="col">
+            <button type="button">{{ c.label | default: c.key | escape }}</button>
+          </th>
+        {%- endfor -%}
       </tr>
     </thead>
-    <tbody>
+
+    <tbody id="table-body">
       {%- for sim in sims %}
-      <tr>
-        {%- for c in cols %}
-        <td>{{ sim[c.key] | escape }}</td>
-        {%- endfor %}
-      </tr>
+        <tr>
+          {%- for c in columns -%}
+            {%- assign v = sim[c.key] | strip -%}
+            {%- if v == "" -%}
+              <td class="empty">&#8212;</td>
+            {%- else -%}
+              <td>{{ v | escape }}</td>
+            {%- endif -%}
+          {%- endfor -%}
+        </tr>
       {%- endfor %}
     </tbody>
   </table>
+
+  <div class="no-results" id="no-results" hidden>
+    No matching simulation runs found.
+  </div>
 </div>
-<!--
-{%- assign cols = site.data.simulation_columns -%}
-{%- assign sims = site.data.simulations -%}
-<div class="simulations-table-wrapper" style="overflow-x: auto;">
-<table class="table table-striped simulations-table">
-<thead>
-<tr>
-{%- for c in cols %}
-<th>{{ c.label | default: c.key }}</th>
-{%- endfor %}
-</tr>
-</thead>
-<tbody>
-{%- for sim in sims %}
-<tr>
-{%- for c in cols %}
-<td>{{ sim[c.key] | escape }}</td>
-{%- endfor %}
-</tr>
-{%- endfor %}
-</tbody>
-</table>
-</div>
--->
