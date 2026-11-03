@@ -1,0 +1,22 @@
+{%- assign cols = site.data.simulation_columns -%}
+{%- assign sims = site.data.simulations -%}
+<div class="simulations-table-wrapper" style="overflow-x: auto;">
+<table class="table table-striped simulations-table">
+<thead>
+<tr>
+{%- for c in cols %}
+<th>{{ c.label | default: c.key }}</th>
+{%- endfor %}
+</tr>
+</thead>
+<tbody>
+{%- for sim in sims %}
+<tr>
+{%- for c in cols %}
+<td>{{ sim[c.key] | escape }}</td>
+{%- endfor %}
+</tr>
+{%- endfor %}
+</tbody>
+</table>
+</div>
