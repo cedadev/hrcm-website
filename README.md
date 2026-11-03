@@ -2,7 +2,7 @@
 
 <img src="assets/media/uploads/Logos/hrcm_logo.jpeg" alt="drawing" width="200"/>
 
-This repo contains the Jekyll codebase for the public HRCM website ([**hrcm.ceda.ac.uk**](https://hrcm/ceda.ac.uk)).
+This repo contains the codebase for the public HRCM website ([**hrcm.ceda.ac.uk**](https://hrcm/ceda.ac.uk)).
 
 The High-Resolution Climate Modelling (HRCM) group is a long-standing collaboration between scientists from UK institutions at the frontier of exploiting weather-resolving models to simulate the building blocks of Earth's climate—the [National Centre for Atmospheric Science](https://ncas.ac.uk), [University of Reading](https://www.reading.ac.uk/meteorology/), and [Met Office Hadley Centre for Climate Science and Services](https://weather.metoffice.gov.uk/climate/met-office-hadley-centre).  
 
@@ -113,7 +113,7 @@ These paths are referenced directly in the relevant page or include files. For e
 
 #### 7. Quick reference: where to make common changes
 
-| What needs changing? | File to edit |
+| What needs changing? | File(s) to edit |
 |---|---|
 | Site-wide layout, page wrapper or footer | `_layouts/base_hrcm.html` |
 | Homepage structure and featured sections | `_layouts/home.html` |
