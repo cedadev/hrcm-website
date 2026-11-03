@@ -22,12 +22,15 @@ Explore HRCM's [**publications**](https://hrcm.ceda.ac.uk/publications/), [**dat
 
 *Climate model development: low-resolution (N96/130km; above) and high-resolution (N512/25km; below) topography in a global climate model. By pushing models to finer resolution, we aim to better represent small-scale processes in the atmosphere and ocean, and, in turn, understand their role in large-scale the climate system.*
 
+  
 ___
-
+  
+  
 <p><img alt="Met Office Hadley Centre" src="{{ site.baseurl }}/assets/media/uploads/Logos/hadley_centre_logo_small.jpg"></p>
 
 The Met Office Hadley Centre is one of the world's foremost climate change research centres, and the UK's primary source of climate change information. Our aim is to provide climate science and services to people and organisations, so they can make better decisions to stay safe and thrive. We do this by working with partners around the globe, carrying out world leading research to monitor changes in the climate, understand and determine the cause of these changes, develop state-of-the-art computer models for climate predictions and projections, serve the needs of UK government, and develop services with end-users. Since our foundation in 1990, the Met Office Hadley Centre has been recognised as a global partner of choice for climate science and services. Hadley Centre scientists have contributed to all Assessment Reports by the Intergovernmental Panel on Climate Change (IPCC) and produced more than 2,200 scientific peer-reviewed articles since 1990. <strong><a href="http://www.metoffice.gov.uk/climate-guide/science/science-behind-climate-change/hadley">Find out more &rarr;</a></strong>
-
+  
 <p><img alt="NCAS" src="{{ site.baseurl }}/assets/media/uploads/Logos/ncas_logo_small.jpg"></p>
+  
 
 The National Centre for Atmospheric Science is a world leader in atmospheric science. We carry out research programmes on climate change, atmospheric composition, air quality, high-impact weather, and technologies for observing and modelling the atmosphere. We provide scientific facilities for researchers across the UK to enable coordinated, national-scale atmospheric science. These include a world-leading research aircraft, ground-based instrumentation pool, access to computer models and facilities for storing, accessing and analysing data. We provide the UK academic community with national capability in atmospheric science, and communicate knowledge for the benefit of scientists, policy-makers, and the public. <strong><a href="https://www.ncas.ac.uk/">Find out more &rarr;</a></strong>
