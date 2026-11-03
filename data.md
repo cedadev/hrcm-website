@@ -142,7 +142,10 @@ title: Data
       </select>
       <span class="result-count" id="result-count" aria-live="polite"></span>
     </div>
+    
+    {% raw %}{% include simulations_table.html %}{% endraw %}
 
+    <!--
     <div class="table-wrap">
       <table id="runs-table">
         <colgroup>
@@ -168,6 +171,7 @@ title: Data
       </table>
       <div class="no-results" id="no-results" hidden>No matching simulation runs found.</div>
     </div>
+    -->
     <p class="table-footer">Tip: on a narrow screen, scroll horizontally to see all columns. Column headings can be selected to change the sort order.</p>
 </section>
 
