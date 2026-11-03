@@ -4,15 +4,144 @@
 
 This repo contains the Jekyll codebase for the public HRCM website ([**hrcm.ceda.ac.uk**](https://hrcm/ceda.ac.uk)).
 
-The High-Resolution Climate Modelling (HRCM) group is a long-standing collaboration between scientists from UK institutions at the frontier of exploiting weather-resolving models to simulate the building blocks of Earth's climate—the [National Centre for Atmospheric Science](https://ncas.ac.uk), [University of Reading](https://www.reading.ac.uk/meteorology/), and [Met Office Hadley Centre for Climate Science and Services](https://weather.metoffice.gov.uk/climate/met-office-hadley-centre).
+The High-Resolution Climate Modelling (HRCM) group is a long-standing collaboration between scientists from UK institutions at the frontier of exploiting weather-resolving models to simulate the building blocks of Earth's climate—the [National Centre for Atmospheric Science](https://ncas.ac.uk), [University of Reading](https://www.reading.ac.uk/meteorology/), and [Met Office Hadley Centre for Climate Science and Services](https://weather.metoffice.gov.uk/climate/met-office-hadley-centre).  
+
+The HRCM website is built with **Jekyll**. Markdown (`.md`) files provide the main pages, Liquid templates provide the shared layouts and reusable components, and `.yaml` or `.json` files contain data used to build pages.
 
 ### Key files and functions  
+
+#### 1. Overall website structure and appearance
+
+**`_config.yml`** — Main Jekyll configuration file. Defines the site title and description, base URL, pagination settings and Jekyll plugins.
+
+**`Gemfile`** — Lists the Ruby dependencies used to build the website, including Jekyll and its plugins. `Gemfile.lock` records the resolved dependency versions.
+
+**`index.md`** — Homepage entry point. Its front matter selects the `home` layout; most of the homepage structure is defined in `_layouts/home.html`, rather than in this file.
+
+**`_layouts/base_hrcm.html`** — The main site-wide layout. Defines the HTML document structure, loads the common CSS and JavaScript files, includes the navigation bar, controls the page-title banner and places the page content and footer. Most of the main content pages use this layout.
+
+**`_layouts/home.html`** — Homepage layout. Controls the homepage introduction, featured image slider and other homepage sections. It also includes the recent-papers section.
+
+**`_includes/navbar.html`** — Defines the main navigation bar and its dropdown menus. This is where the top-level navigation links and research and media menus are maintained.
+
+**`_includes/banner.html`** — Provides the page-title banner used by pages that do not suppress it. The displayed heading comes from the page's `title` in its front matter.
+
+**`_includes/breadcrumb.html`** — Generates the breadcrumb navigation showing where a page sits within the website hierarchy.
+
+**`assets/css/`** — Contains the website stylesheets. The base layout loads files including `bootstrap.min.css`, `flexslider.css`, `mezzanine.css`, `style.css` and `skins/default.css`. These control the general appearance and layout of the site.
+
+**`assets/js/`** — Contains JavaScript used by the site, including Bootstrap-related scripts, the homepage slider and other page interactions. The files are loaded by the base layout.
+
+#### 2. Main website pages
+
+These are the main top-level content pages, rather than their individual subpages.
+
+**`about.md`** — Content for the About page, including the introduction to HRCM, its institutional collaboration and its research background.
+
+**`people.md`** — Content and styling for the People page. Contains the team profiles, names, roles, affiliations, research interests and profile photographs.
+
+**`research.md`** — Landing page for the Research section. Introduces HRCM's research and links to the research projects and research themes sections.
+
+**`publications.md`** — Main publications page. Displays the publication records grouped by year and provides search and project-filter controls. The publication records are drawn from `_data/publications.json`.
+
+**`data.md`** — Main simulation catalogue page. Provides the search and model-filter controls and includes the reusable simulation table from `_includes/simulations_table.html`.
+
+**`blog.md`** — Landing page for the Media section. Provides links to the data visualisation gallery, NCAS Science Highlights, press releases, research blog and web links.
+
+**`contact.md`** — Contact page. Contains the contact information and email link.
+
+#### 3. Recent papers on the homepage
+
+The homepage's recent-papers section uses two important files.
+
+**`_data/recent_papers.yml`** — Recent papers to feature on the home page. Each entry contains the paper date, headline, journal, summary, image path, image description and paper URL. This is the file to edit when adding or changing a featured paper.
+
+**`_includes/recent-papers.html`** — Controls how the recent papers are displayed on the homepage. It sorts the records by date, displays up to four papers, and uses the image, headline, journal, summary and URL from the YAML file. It also provides a link to the full publications page.
+
+The relationship between these files is:
+
+- `index.md` selects `_layouts/home.html`.
+- `_layouts/home.html` includes `_includes/recent-papers.html`.
+- `_includes/recent-papers.html` reads the entries from `_data/recent_papers.yml`.
+
+Therefore, **to update the papers shown on the homepage, edit `_data/recent_papers.yml` rather than the HTML include or homepage layout**, unless you want to change how the papers are displayed.
+
+#### 4. Full publications database
+
+There are separate files for the full publications list.
+
+**`_data/publications.json`** — Generated publication data used by the Publications page. Contains the bibliographic information used to construct the publication entries, including title, authors, year, journal, DOI and project.
+
+**`scripts/build_publications.py`** — Python script that retrieves the BibTeX files from the separate `ncas-metoffice-hrcm/publications` repository, processes the entries and generates `_data/publications.json`.
+
+**`.github/workflows/update-publications.yml`** — GitHub Action that runs the publication-building script. It can be run manually from the Actions tab and is also scheduled to run weekly. It commits changes to `_data/publications.json` when the generated data has changed.
+
+For ordinary publication updates, the BibTeX source files are maintained in the separate publications repository; `_data/publications.json` is generated by the workflow.
+
+#### 5. Simulation catalogue
+
+The simulation catalogue also uses a separate data-generation process.
+
+**`_data/simulations.yml`** — Generated list of simulation records used by the Data page. The file identifies itself as automatically generated from the separate `ncas-metoffice-hrcm/simulations` repository. It should not normally be edited manually.
+
+**`_data/simulation_columns.yml`** — Defines which simulation fields appear in the Data table, their order and their displayed column headings. This is where the table headings are maintained.
+
+**`_includes/simulations_table.html`** — Liquid include that generates the HTML table from `_data/simulations.yml`, using the column definitions in `_data/simulation_columns.yml`.
+
+**`scripts/build_simulations.py`** — Python script that reads the individual simulation YAML files from the source simulations repository and combines them into `_data/simulations.yml`.
+
+**`.github/workflows/update-simulations.yml`** — GitHub Action that retrieves the simulation records from the `UM/` and `LFRic/` directories of `ncas-metoffice-hrcm/simulations`, runs the build script and commits an updated `_data/simulations.yml`. It runs automatically every six hours and can also be triggered manually.
+
+#### 6. Where media and images are stored
+
+**`assets/media/uploads/`** — Main location for uploaded media used throughout the website. The page and template files reference images and documents in this directory.
+
+Some of the subdirectories include:
+
+| Directory | Purpose / examples |
+|---|---|
+| `assets/media/uploads/Logos/` | HRCM logo used in the main navigation bar. |
+| `assets/media/uploads/people/` | Photographs used on the People page. |
+| `assets/media/uploads/recent-papers/` | Images used for the featured homepage papers. |
+| `assets/media/uploads/Figures/` | Scientific figures used in homepage and other content. |
+| `assets/media/uploads/Homepage_images/` | Images used in the homepage gallery and featured content. |
+| `assets/media/uploads/HadGEM3_runs/` | Historical simulation catalogue PDFs. |
+
+These paths are referenced directly in the relevant page or include files. For example, the HRCM logo is referenced by `_includes/navbar.html`, the team photographs by `people.md`, and the featured paper images by `_data/recent_papers.yml`.
+
+**`assets/img/`** — Also contains images used by the site, including the favicon referenced by the base layout.
+
+#### 7. Quick reference: where to make common changes
+
+| What needs changing? | File to edit |
+|---|---|
+| Site-wide layout, page wrapper or footer | `_layouts/base_hrcm.html` |
+| Homepage structure and featured sections | `_layouts/home.html` |
+| Main navigation links and dropdowns | `_includes/navbar.html` |
+| Homepage featured papers | `_data/recent_papers.yml` |
+| How featured papers look | `_includes/recent-papers.html` |
+| Main About page content | `about.md` |
+| Team profiles and photographs | `people.md` and `assets/media/uploads/people/` |
+| Research landing-page content | `research.md` |
+| Full publication list | BibTeX source in the separate publications repository |
+| Simulation catalogue records | Individual YAML files in the separate simulations repository |
+| Simulation table headings and column order | `_data/simulation_columns.yml` |
+| General CSS styling | `assets/css/` |
+| JavaScript and interactive behaviour | `assets/js/` |
+| Uploaded images, figures, logos and PDFs | `assets/media/uploads/` |
+
+---
+
+**A useful rule of thumb:** edit the Markdown files for main page content, YAML files for structured content such as homepage papers, and the shared layouts/includes or CSS/JavaScript only when changing how the website looks or behaves.
+
 **`_data/recent_papers.yml`** — Recent papers to feature on the home page.
 
-### Actions  
-**`Update publications`** — updates [hrcm.ceda.ac.uk/publications](hrcm.ceda.ac.uk/publications) by running `scripts/build_publications.py` to populate `_data/publications.json` with bibliographical data pulled from a separate HRCM repo (`ncas-metoffice-hrcm/publications/bib/`)  
-  
-**`pages-build-deployment`** — runs automatically when any change is committed to this repo  
+### Actions summary  
+**`Update publications`** — updates [hrcm.ceda.ac.uk/publications](hrcm.ceda.ac.uk/publications) by running `scripts/build_simulations.py` to populate `_data/publications.json` with bibliographical data pulled from a separate HRCM repo (`ncas-metoffice-hrcm/publications/bib/`).  
+
+**`Update simulations`** — updates [hrcm.ceda.ac.uk/data](hrcm.ceda.ac.uk/data) by running `scripts/build_publications.py` to populate `_data/simulations.yml` with data pulled from a separate HRCM repo (`ncas-metoffice-hrcm/simulations`).  
+
+**`pages-build-deployment`** — runs automatically when any change is committed to this repo.  
 
 ### Miscellany  
 
