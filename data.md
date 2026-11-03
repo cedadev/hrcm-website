@@ -163,9 +163,13 @@ document.addEventListener('DOMContentLoaded', function () {
     if (!headerRow || !body) return;
 
     const headers = Array.from(headerRow.cells);
-    const originalRows = Array.from(body.rows);
+    const originalRows = Array.from(body.rows).filter(function (row) {
+        return row.cells.length === headers.length;
+    });
     const originalOrder = new Map(
-        originalRows.map((row, index) => [row, index])
+        originalRows.map(function (row, index) {
+            return [row, index];
+        })
     );
 
     let sortColumn = -1;
@@ -185,7 +189,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const query = searchInput.value.trim().toLocaleLowerCase();
         const selectedModel = modelFilter.value;
 
-        let visibleRows = originalRows.filter(function (row) {
+        const visibleRows = originalRows.filter(function (row) {
             const rowText = row.textContent.toLocaleLowerCase();
             const model = getCellText(row, 0);
 
@@ -228,20 +232,15 @@ document.addEventListener('DOMContentLoaded', function () {
             const label = button.dataset.label;
 
             if (sortColumn === index) {
-                const directionLabel =
-                    sortDirection === 1 ? 'ascending' : 'descending';
-
-                button.textContent =
-                    label + (sortDirection === 1 ? ' ▲' : ' ▼');
-
+                const ascending = sortDirection === 1;
+                button.textContent = label + (ascending ? ' ▲' : ' ▼');
                 button.setAttribute(
                     'aria-label',
-                    label + ', sorted ' + directionLabel
+                    label + (ascending ? ', sorted ascending' : ', sorted descending')
                 );
-
                 header.setAttribute(
                     'aria-sort',
-                    sortDirection === 1 ? 'ascending' : 'descending'
+                    ascending ? 'ascending' : 'descending'
                 );
             } else {
                 button.textContent = label;
@@ -253,7 +252,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function render() {
         const visibleRows = getFilteredRows();
-
         body.replaceChildren();
 
         visibleRows.forEach(function (row) {
@@ -263,29 +261,24 @@ document.addEventListener('DOMContentLoaded', function () {
         if (visibleRows.length === 0) {
             const row = document.createElement('tr');
             const cell = document.createElement('td');
-
             cell.colSpan = headers.length;
             cell.className = 'no-results';
             cell.textContent = 'No matching simulation runs found.';
-
             row.appendChild(cell);
             body.appendChild(row);
         }
 
         count.textContent =
-            visibleRows.length + ' of ' + originalRows.length +
-            ' entries shown';
+            visibleRows.length + ' of ' + originalRows.length + ' entries shown';
     }
 
     headers.forEach(function (header, index) {
         const label = header.textContent.trim();
         const button = document.createElement('button');
-
         button.type = 'button';
         button.dataset.label = label;
         button.textContent = label;
         button.setAttribute('aria-label', label + ', sort');
-
         header.replaceChildren(button);
 
         button.addEventListener('click', function () {
@@ -303,11 +296,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const models = Array.from(
         new Set(
-            originalRows
-                .map(function (row) {
-                    return getCellText(row, 0);
-                })
-                .filter(Boolean)
+            originalRows.map(function (row) {
+                return getCellText(row, 0);
+            }).filter(Boolean)
         )
     ).sort(function (a, b) {
         return a.localeCompare(b, undefined, compareOptions);
@@ -315,10 +306,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     models.forEach(function (model) {
         const option = document.createElement('option');
-
         option.value = model;
         option.textContent = model;
-
         modelFilter.appendChild(option);
     });
 
@@ -327,4 +316,4 @@ document.addEventListener('DOMContentLoaded', function () {
 
     render();
 });
-</script>  
+</script>
