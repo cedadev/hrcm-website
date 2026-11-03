@@ -142,6 +142,8 @@ title: Data
       </select>
       <span class="result-count" id="result-count" aria-live="polite"></span>
     </div>
+    {% include simulations_table.html %}
+    
     {% raw %}{% include simulations_table.html %}{% endraw %}
 
     <!--
