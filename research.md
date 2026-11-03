@@ -17,3 +17,4 @@ title: Research
 <p> </p>
 <h3><a href="{{ site.baseurl }}/research/projects/">PROJECTS</a></h3>
 <h3><a href="{{ site.baseurl }}/research/projects/"></a><a href="{{ site.baseurl }}/research/research-themes/">RESEARCH THEMES</a></h3>
+<h3><a href="{{ site.baseurl }}/research/software/">SOFTWARE</a></h3>
