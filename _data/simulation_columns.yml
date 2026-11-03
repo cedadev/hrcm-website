@@ -1,0 +1,37 @@
+# Controls which fields appear in the simulations table on /data/, in what order,
+# and what the column headings say.
+# "key" must match a field name used in the per-simulation files in the source repo.
+# Fields in the source files that are not listed here are not shown (and the
+# update workflow prints a warning, which helps catch typos in field names).
+- key: run_ID
+  label: Run ID
+- key: model_version
+  label: Model version
+- key: documentation
+  label: Documentation
+- key: resolution
+  label: Resolution
+- key: ssts
+  label: SSTs
+- key: platform
+  label: Platform
+- key: num_years
+  label: No. of years
+- key: years
+  label: Years
+- key: notes
+  label: Notes
+- key: cape_timescale_hr
+  label: CAPE timescale (hr)
+- key: simulation_author
+  label: Simulation author
+- key: data_owner
+  label: Data owner
+- key: data_location
+  label: Data location
+- key: known_data_issues
+  label: Known data issues
+- key: pis
+  label: PIs
+- key: funding_agency
+  label: Funding agency
