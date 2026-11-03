@@ -1,37 +1,61 @@
 # Controls which fields appear in the simulations table on /data/, in what order,
-# and what the column headings say.
-# "key" must match a field name used in the per-simulation files in the source repo.
+# what the column headings say, and how wide each column is.
+#
+# IMPORTANT: the ORDER of this list matters. The page's CSS styles columns by position
+# (e.g. column 1 bold/blue, column 5 monospace run IDs, column 13 monospace data location)
+# and the "Unified Model" dropdown filters on column 1. If you reorder or add columns,
+# the CSS rules in data.md that use td:nth-child(N) need updating to match.
+#
+# "key"   must match a field name used in the per-simulation files in the source repo.
+# "label" is the column heading.
+# "width" is the column width (the widths should add up to 100%).
 # Fields in the source files that are not listed here are not shown (and the
 # update workflow prints a warning, which helps catch typos in field names).
-- key: run_ID
-  label: Run ID
 - key: model_version
-  label: Model version
+  label: Model / version
+  width: 7%
 - key: documentation
   label: Documentation
+  width: 12%
 - key: resolution
   label: Resolution
+  width: 4%
 - key: ssts
   label: SSTs
+  width: 4%
+- key: run_ID
+  label: Run ID(s)
+  width: 7%
 - key: platform
   label: Platform
+  width: 5%
 - key: num_years
-  label: No. of years
+  label: "# years"
+  width: 4%
 - key: years
   label: Years
+  width: 5%
 - key: notes
   label: Notes
+  width: 11%
 - key: cape_timescale_hr
   label: CAPE timescale (hr)
+  width: 5%
 - key: simulation_author
   label: Simulation author
+  width: 6%
 - key: data_owner
   label: Data owner
+  width: 6%
 - key: data_location
   label: Data location
+  width: 8%
 - key: known_data_issues
   label: Known data issues
+  width: 8%
 - key: pis
-  label: PIs
+  label: PI(s)
+  width: 4%
 - key: funding_agency
   label: Funding agency
+  width: 4%
