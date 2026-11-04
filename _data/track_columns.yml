@@ -12,7 +12,7 @@
 # freely reorder, remove or add columns.
 - key: cyclone_type
   label: Cyclone type
-  width: 5%
+  width: 7%
 - key: dataset
   label: Dataset
   width: 8%
@@ -25,7 +25,7 @@
   class: mono
 - key: hemisphere
   label: Hemisphere
-  width: 6%
+  width: 9%
   class: nowrap
 - key: years
   label: Years
@@ -36,9 +36,9 @@
   width: 9%
 - key: path
   label: Path
-  width: 26%
+  width: 20%
   class: path
 - key: example_file
   label: Example file
-  width: 19%
+  width: 20%
   class: path
