@@ -1,0 +1,27 @@
+{%- assign columns = site.data.track_columns -%}
+{%- assign tracks = site.data.tracks -%}
+<div class="table-wrap">
+<table id="runs-table">
+<colgroup>
+{%- for c in columns %}
+<col{% if c.width %} style="width: {{ c.width }}"{% endif %}>
+{%- endfor %}
+</colgroup>
+<thead><tr id="table-head">
+{%- for c in columns -%}
+<th scope="col" data-key="{{ c.key }}"><button type="button">{{ c.label | default: c.key | escape }}</button></th>
+{%- endfor -%}
+</tr></thead>
+<tbody id="table-body">
+{%- for t in tracks %}
+<tr>
+{%- for c in columns -%}
+{%- assign v = t[c.key] | strip -%}
+{%- if v == "" -%}<td class="empty{% if c.class %} {{ c.class }}{% endif %}">&#8212;</td>{%- else -%}<td{% if c.class %} class="{{ c.class }}"{% endif %}>{{ v | escape }}</td>{%- endif -%}
+{%- endfor -%}
+</tr>
+{%- endfor %}
+</tbody>
+</table>
+<div class="no-results" id="no-results" hidden>No matching track data found.</div>
+</div>
