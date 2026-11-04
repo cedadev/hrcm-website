@@ -143,15 +143,19 @@ These paths are referenced directly in the relevant page or include files. For e
 **A useful rule of thumb:** edit the Markdown files for main page content, YAML files for structured content such as homepage papers, and the shared layouts/includes or CSS stylesheet or, rarely, JavaScript only when changing how the website appears or behaves.
 
 ### Actions summary  
-**`Update publications`** — Updates [hrcm.ceda.ac.uk/publications](hrcm.ceda.ac.uk/publications) by running `scripts/build_publications.py` to populate `_data/publications.json` with bibliographical data pulled from a separate HRCM repo (`ncas-metoffice-hrcm/publications/bib/`).  
+**`Update publications`**  
+Updates [hrcm.ceda.ac.uk/publications](hrcm.ceda.ac.uk/publications) by running `scripts/build_publications.py` to populate `_data/publications.json` with bibliographical data pulled from a separate HRCM repo (`ncas-metoffice-hrcm/publications/bib/`).  
 
-**`Update simulations`** — Updates [hrcm.ceda.ac.uk/data/simulations/](hrcm.ceda.ac.uk/data/simulations) by running `scripts/build_simulations.py` to populate `_data/simulations.yml` with data pulled from a separate HRCM repo (`ncas-metoffice-hrcm/simulations`).  
+**`Update simulations`**  
+Updates [hrcm.ceda.ac.uk/data/simulations/](hrcm.ceda.ac.uk/data/simulations) by running `scripts/build_simulations.py` to populate `_data/simulations.yml` with data pulled from a separate HRCM repo (`ncas-metoffice-hrcm/simulations`).  
 
-**`Update tracks`** — Updates [hrcm.ceda.ac.uk/data/tracks/](hrcm.ceda.ac.uk/data/tracks) by running `scripts/build_tracks.py` to populate `_data/trcaks.yml` with data pulled from a separate HRCM repo (`ncas-metoffice-hrcm/trcak_data`).  
+**`Update tracks`**  
+Updates [hrcm.ceda.ac.uk/data/tracks/](hrcm.ceda.ac.uk/data/tracks) by running `scripts/build_tracks.py` to populate `_data/trcaks.yml` with data pulled from a separate HRCM repo (`ncas-metoffice-hrcm/trcak_data`).  
 
 (*Each of these update workflows runs automatically every weekday morning.*)
 
-**`pages-build-deployment`** — Runs automatically when any change is committed to this repo.  
+**`pages-build-deployment`**  
+Runs automatically when any change is committed to this repo.  
 
 ### Miscellany  
 
