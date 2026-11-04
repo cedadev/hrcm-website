@@ -9,13 +9,13 @@ title: Data
 ---
 
 <h3>
-    <a href="{{ site.baseurl }}/research/data/simulations/">
+    <a href="{{ site.baseurl }}/data/simulations/">
         HRCM simulation catalogue
     </a>
 </h3>
 
 <h3>
-    <a href="{{ site.baseurl }}/research/data/tracks/">
+    <a href="{{ site.baseurl }}/data/tracks/">
         HRCM track data catalogue
     </a>
 </h3>
