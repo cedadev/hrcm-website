@@ -92,7 +92,7 @@ The simulations catalogue also uses a separate data-generation process.
 
 **`.github/workflows/update-simulations.yml`** — GitHub Action that retrieves the simulation records from the `UM/` and `LFRic/` directories of `ncas-metoffice-hrcm/simulations`, runs the build script and commits an updated `_data/simulations.yml`.
 
-#### 5. Tracks catalogue
+#### 6. Tracks catalogue
 
 The tracks catalogue also uses a separate data-generation process.
 
