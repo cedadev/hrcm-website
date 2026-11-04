@@ -1,4 +1,4 @@
-name: Update track data
+name: Update tracks
 
 on:
   # Manual only: run from the Actions tab with "Run workflow"
