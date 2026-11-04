@@ -1,10 +1,7 @@
 name: Update simulations
 
 on:
-  # Rebuild a few times a day so new simulation files appear on the site automatically
-  schedule:
-    - cron: "17 */6 * * *"
-  # Manual "Run workflow" button in the Actions tab (use this for an immediate update)
+  # Manual only: run from the Actions tab with "Run workflow"
   workflow_dispatch:
 
 permissions:
