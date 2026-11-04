@@ -4,7 +4,7 @@ description: 'People'
 
 layout: base_hrcm
 order: 1
-permalink: /people_backup/
+permalink: /backup/people/
 title: People
 ---
 
