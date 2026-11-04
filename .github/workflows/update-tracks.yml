@@ -1,0 +1,71 @@
+name: Update track data
+
+on:
+  # Manual only: run from the Actions tab with "Run workflow"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-tracks
+  cancel-in-progress: false
+
+env:
+  SOURCE_REPO: ncas-metoffice-hrcm/track_data
+  SOURCE_REF: main
+  # Top-level directories in the source repo to leave out (space separated). Normally empty.
+  EXCLUDE_DIRS: ""
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out website repo
+        uses: actions/checkout@v4
+
+      - name: List the file paths in the source repo
+        env:
+          # Only needed if the source repo is private. Create a fine-grained token with
+          # read-only "Contents" access to it and save it as TRACK_DATA_REPO_TOKEN.
+          TOKEN: ${{ secrets.TRACK_DATA_REPO_TOKEN }}
+        run: |
+          if [ -n "$TOKEN" ]; then
+            URL="https://x-access-token:${TOKEN}@github.com/${SOURCE_REPO}.git"
+          else
+            URL="https://github.com/${SOURCE_REPO}.git"
+          fi
+          # Blobless clone: downloads the directory tree only, never the track files themselves.
+          git clone --quiet --depth 1 --filter=blob:none --no-checkout --branch "${SOURCE_REF}" "$URL" source
+          git -C source ls-tree -r -z --name-only HEAD > paths.txt
+          git -C source rev-parse HEAD > source_sha.txt
+          echo "$(tr -cd '\0' < paths.txt | wc -c) paths listed"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Build _data/tracks.yml
+        run: |
+          python scripts/build_tracks.py \
+            --paths paths.txt \
+            --out _data/tracks.yml \
+            --exclude-dirs ${EXCLUDE_DIRS} \
+            --source-sha "$(cat source_sha.txt)" \
+            --source-repo "${SOURCE_REPO}"
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data/tracks.yml
+          if git diff --cached --quiet; then
+            echo "No changes to tracks.yml"
+          else
+            git commit -m "Update track data from ${SOURCE_REPO}"
+            git push
+          fi
