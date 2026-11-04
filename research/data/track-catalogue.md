@@ -4,7 +4,7 @@ description: 'HRCM cyclone track data catalogue'
 layout: base_hrcm
 full_width: true
 permalink: /data/tracks/
-title: Track data
+title: Track catalogue
 ---
 
 <h3>HRCM cyclone track data</h3>
