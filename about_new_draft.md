@@ -1,3 +1,13 @@
+---
+date: 2026-11-04 17:44:49
+description: "About the High-Resolution Climate Modelling group"
+layout: base_hrcm
+full_width: true
+order: 0
+permalink: ""
+title: About
+---
+
 ### About HRCM
 
 The **High-Resolution Climate Modelling (HRCM) programme** brings together climate scientists from the National Centre for Atmospheric Science (NCAS), the University of Reading and the Met Office to advance the understanding and prediction of the climate system using high-resolution global climate models.
