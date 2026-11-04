@@ -1,0 +1,44 @@
+# Controls which fields appear in the track data table, in what order, what the column
+# headings say, how wide each column is, and how its cells are styled.
+#
+# key    must match a field in _data/tracks.yml (cyclone_type, dataset, model, run_ID,
+#        hemisphere, years, algorithm, path, example_file).
+# label  is the column heading.
+# width  is the column width (the widths should add up to 100%).
+# class  (optional) a CSS class for the column's cells: "mono" = monospace,
+#        "nowrap" = never wrap, "path" = small monospace that wraps anywhere.
+#
+# Unlike the simulations table, columns here are styled by class, not by position, so you can
+# freely reorder, remove or add columns.
+- key: cyclone_type
+  label: Cyclone type
+  width: 5%
+- key: dataset
+  label: Dataset
+  width: 8%
+- key: model
+  label: Model
+  width: 11%
+- key: run_ID
+  label: Run ID
+  width: 9%
+  class: mono
+- key: hemisphere
+  label: Hemisphere
+  width: 6%
+  class: nowrap
+- key: years
+  label: Years
+  width: 7%
+  class: nowrap
+- key: algorithm
+  label: Tracking method
+  width: 9%
+- key: path
+  label: Path
+  width: 26%
+  class: path
+- key: example_file
+  label: Example file
+  width: 19%
+  class: path
