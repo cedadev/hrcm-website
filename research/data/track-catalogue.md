@@ -3,7 +3,7 @@ date: 2026-11-04 12:00:00
 description: 'HRCM cyclone track data catalogue'
 layout: base_hrcm
 full_width: true
-permalink: /data/tracks/
+permalink: /research/data/tracks/
 title: Track catalogue
 ---
 
