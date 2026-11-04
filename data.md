@@ -4,8 +4,7 @@ description: 'HRCM Met Office Unified Model simulation catalogue'
 layout: base_hrcm
 full_width: true
 order: 4
-published: false
-permalink: /data/
+permalink: /research/data/
 title: Data
 ---
 
