@@ -1,13 +1,3 @@
----
-date: 2026-11-04 17:44:49
-description: "About the High-Resolution Climate Modelling group"
-layout: base_hrcm
-full_width: true
-order: 0
-published: false
-permalink: ""
-title: About
----
 
 ### About HRCM
 
