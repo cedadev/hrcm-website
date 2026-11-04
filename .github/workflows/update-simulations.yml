@@ -1,7 +1,10 @@
 name: Update simulations
 
 on:
-  # Manual only: run from the Actions tab with "Run workflow"
+  # Rebuild each weekday (05:17 UTC) so new simulation files appear on the site automatically
+  schedule:
+    - cron: "17 5 * * 1-5"
+  # Manual "Run workflow" button in the Actions tab (use this for an immediate update)
   workflow_dispatch:
 
 permissions:
