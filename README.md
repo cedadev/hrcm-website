@@ -157,6 +157,8 @@ These paths are referenced directly in the relevant page or include files. For e
 
 **`Update tracks`** — updates [hrcm.ceda.ac.uk/research/data/tracks/](hrcm.ceda.ac.uk/research/data/tracks) by running `scripts/build_tracks.py` to populate `_data/trcaks.yml` with data pulled from a separate HRCM repo (`ncas-metoffice-hrcm/trcak_data`).  
 
+(*Each of these update workflows runs automatically once every weekday.*)
+
 **`pages-build-deployment`** — runs automatically when any change is committed to this repo.  
 
 ### Miscellany  
