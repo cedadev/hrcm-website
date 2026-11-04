@@ -7,8 +7,7 @@ permalink: /research/data/tracks/
 title: Track catalogue
 ---
 
-<h3>HRCM feature-tracking datasets</h3>
-<p>Search the table below for the feature-tracking datasets available in HRCM's <a href="https://github.com/ncas-metoffice-hrcm/track_data" target="_blank">ncas-metoffice-hrcm/track_data repository</a>. Currently, this catalogue contains tropical cyclone (TC) and extratropical cyclone (ETC) tracks derived from reanalyses and model simulations using different tracking algorithms.</p>
+### Search the table below for feature-tracking datasets available from HRCM. This catalogue contains tropical and extratropical cyclone tracks, derived from reanalyses and model simulations using tracking algorithms, which are archived at [ncas-metoffice-hrcm/track_data](https://github.com/ncas-metoffice-hrcm/track_data).
 
 <style>
     :root {
