@@ -7,8 +7,8 @@ permalink: /research/data/tracks/
 title: Track catalogue
 ---
 
-<h3>HRCM cyclone track data</h3>
-<p> Search the table below for the feature-tracking datasets available in HRCM's <a href="https://github.com/ncas-metoffice-hrcm/track_data" target="_blank">track_data repository</a>: tropical (TC) and extratropical (ETC) cyclone tracks from reanalyses and model simulations. Each row is one directory of track files.</p>
+<h3>HRCM feature-tracking datasets</h3>
+<p>Search the table below for the feature-tracking datasets available in HRCM's <a href="https://github.com/ncas-metoffice-hrcm/track_data" target="_blank">ncas-metoffice-hrcm/track_data repository</a>. Currently, this catalogue contains tropical cyclone (TC) and extratropical cyclone (ETC) tracks derived from reanalyses and model simulations using different tracking algorithms.</p>
 
 <style>
     :root {
@@ -125,7 +125,7 @@ title: Track catalogue
     <div class="publication-controls">
       <input id="table-search" type="search"
              aria-label="Search track data"
-             placeholder="Search by cyclone type, model, run identifier, tracking method, etc"
+             placeholder="Search by cyclone type, model, tracking method, etc"
              autocomplete="off">
       <select id="type-filter" data-filter-key="cyclone_type" data-order="appearance" aria-label="Choose cyclone type">
         <option value="">All cyclone types</option>
