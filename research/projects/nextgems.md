@@ -8,6 +8,8 @@ permalink: /research/projects/nextgems/
 title: nextGEMS
 ---
 
+<img src="{{ site.baseurl }}/assets/media/uploads/Logos/nextgems.png" title="nextGEMS">
+
 ### nextGEMS will develop two next-generation Earth-system models. Through breakthroughs in simulation realism, these models will allow us to understand how the climate will change on a global and regional scale, including the extreme weather of the future.  
 
 nextGEMS (Next-Generation Earth Modelling Systems) is a collaborative European project, funded by the EU’s Horizon-2020 programme.
