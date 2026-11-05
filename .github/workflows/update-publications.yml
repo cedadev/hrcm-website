@@ -3,7 +3,7 @@ name: Update publications
 on:
   # Rebuild once a day (05:43 UTC) so new track directories appear on the site automatically
   schedule:
-    - cron: "43 5 * * *"
+    - cron: "43 5 * * 1-5"
   # Manual "Run workflow" button in the Actions tab (use this for an immediate update)
   workflow_dispatch:
 
