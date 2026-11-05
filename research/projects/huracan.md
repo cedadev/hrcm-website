@@ -20,7 +20,7 @@ Some tropical cyclones migrating into the mid-latitudes retain the physical char
 
 The risk of CTOs is currently poorly quantified, owing to a fundamental lack of evidence; yet these events are high-impact and are expected to become more frequent in the future. Poor theoretical understanding impedes confident prediction. Huracán brings together world-leading expertise—from both sides of the Atlantic—to study, for the first time, the full life cycle of CTOs, a key requirement for scientific progress. Huracán will address fundamental knowledge gaps exploiting diverse observations, theoretical advances and hypothesis-driven analysis of a wealth of numerical simulations, to provide actionable information to decision-makers. Huracán will explore physically plausible scenarios, given the predictable components of future climate and the conditional dependence of cyclone processes on those components. Huracán will experiment with the simulation of CTO-specific impacts and investigate worst-case configurations of the physical climate system. This concerted effort will transform the assessment of CTO risks across the North Atlantic mid-latitudes.
 
-<p><img src="{{ site.baseurl }}/assets/media/uploads/projects/huracan_sat_image_23092022_annotated.png" style="height: 100px; width: auto;" title="Satellite image"></p>  
+<p><img src="{{ site.baseurl }}/assets/media/uploads/projects/huracan_sat_image_23092022_annotated.png" style="height: 500px; width: auto;" title="Satellite image"></p>  
 This satellite image, taken 23rd September 2022, shows multiple cyclones across the North Atlantic at various stages in their lifecycles. Two tropical depressions are seen: TD11 (in its precursor stage) off the west coast of Africa and TD9 further along in its development in the southern Caribbean. Two named tropical cyclones are present: Fiona, recurving along the US East Coast, and Hermine, seen migrating directly from the tropics towards southwestern Europe. Close to Western Europe, Gaston is transforming from a tropical storm into an extratropical storm, a process seen in approximately half of tropical systems. This image, a striking snapshot of North Atlantic weather, illustrates the broad range of cyclone processes, the varied physical storm risks, and the complex scientific problems that Huracán is tackling.
 
 ### Our Objectives
@@ -33,7 +33,7 @@ Research in Huracán is centred around three core objectives:
 
 **Objective 3 \|** To understand how anthropogenic climate change is affecting and will affect CTO risk to BIWE and NEUS
 
-<p><img src="{{ site.baseurl }}/assets/media/uploads/projects/huracan_proposal_map.png" style="height: 125px; width: auto;" title="Huracán proposal diagram"></p>  
+<p><img src="{{ site.baseurl }}/assets/media/uploads/projects/huracan_proposal_map.png" style="height: 500px; width: auto;" title="Huracán proposal diagram"></p>  
 This diagram illustrates selected tropical cyclone tracks that have reached mid-latitude regions and how the structure of the Huracán project follows the complete lifecycles of these systems.
 
 ### Work Packages
