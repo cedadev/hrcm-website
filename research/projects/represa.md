@@ -10,7 +10,7 @@ title: REPRESA
 
 ### REPRESA aims to enhance resilience and preparedness across Southern Africa in the face of changing tropical cyclone hazards.
 
-REsilience and PREparedness to tropical cyclones across Southern Africa (REPRESA) is multi-partner consortium focuses on the impacts of tropical cyclones (TC) in Madagascar, Malawi, and Mozambique. It is an international collaboration involving partners across southern Africa, Europe and the UK. It is co-led by the Global Change Institute at the University of the Witwatersrand (WITS), Eduardo Mondlane University (UEM), and the University of Bristol (UoB).
+*REsilience and PREparedness to tropical cyclones across Southern Africa* (REPRESA) is multi-partner consortium focuses on the impacts of tropical cyclones (TC) in Madagascar, Malawi, and Mozambique. It is an international collaboration involving partners across southern Africa, Europe and the UK. It is co-led by the Global Change Institute at the University of the Witwatersrand (WITS), Eduardo Mondlane University (UEM), and the University of Bristol (UoB).
 
 Southern Africa is highly vulnerable to the impacts of tropical cyclones, as seen in devastating events like tropical cyclone Idai in 2019 and . The existing early warning systems in the region are insufficient to prevent loss of life and economic hardship. REPRESA aims to address this gap by improving early warning systems, conducting research on changing cyclone attributes, and formulating adaptation options to enhance resilience.
 
