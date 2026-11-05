@@ -1649,23 +1649,6 @@
     "entry_type": "article"
   },
   {
-    "key": "Kendon2016",
-    "title": "Using new high resolution models to assess the reliability of regional climate projections",
-    "author_text": "Kendon, Elizabeth J., Ban, Nikolina, Fowler, H. J., Roberts, Nigel M., Roberts, Malcolm J., Chan, S. C., Fosser, G., Evans, J. P., Wilkinson, J. M.",
-    "year": "2016",
-    "journal": "Submitt. to BAMS",
-    "booktitle": "",
-    "volume": "",
-    "number": "",
-    "pages": "",
-    "publisher": "",
-    "doi": "",
-    "url": "",
-    "project": "HRCM core",
-    "source": "HRCM_core.bib",
-    "entry_type": "article"
-  },
-  {
     "key": "Johnson2016807",
     "title": "The resolution sensitivity of the South Asian monsoon and Indo-Pacific in a global 0.35^∘ AGCM",
     "author_text": "Johnson, S.J., Levine, R.C., Turner, A.G., Martin, G.M., Woolnough, S.J., Schiemann, R., Mizielinski, M.S., Roberts, M.J., Vidale, P.L., Demory, M.-E., Strachan, J.",
@@ -1780,6 +1763,23 @@
     "publisher": "",
     "doi": "10.5194/gmd-9-4185-2016",
     "url": "https://doi.org/10.5194/gmd-9-4185-2016",
+    "project": "HRCM core",
+    "source": "HRCM_core.bib",
+    "entry_type": "article"
+  },
+  {
+    "key": "RN158",
+    "title": "Do convection-permitting regional climate models improve projections of future precipitation change?",
+    "author_text": "Kendon, Elizabeth J., Ban, Nikolina, Roberts, Nigel M., Fowler, Hayley J., Roberts, Malcolm J., Chan, Steven C., Evans, Jason P., Fosser, Giorgia, Wilkinson, Jonathan M.",
+    "year": "2016",
+    "journal": "Bulletin of the American Meteorological Society",
+    "booktitle": "",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "doi": "10.1175/BAMS-D-15-0004.1",
+    "url": "http://dx.doi.org/10.1175/BAMS-D-15-0004.1",
     "project": "HRCM core",
     "source": "HRCM_core.bib",
     "entry_type": "article"
