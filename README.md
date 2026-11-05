@@ -8,6 +8,8 @@ The High-Resolution Climate Modelling (HRCM) group is a long-standing collaborat
 
 The HRCM website is built with **Jekyll**. Markdown (`.md`) files provide the main pages, Liquid templates provide the shared layouts and reusable components, and `.yaml` or `.json` files contain data used to build pages.
 
+---
+
 ### Key files and functions  
 
 #### 1. Main website pages
@@ -119,6 +121,8 @@ These paths are referenced directly in the relevant page or include files. For e
 
 **`assets/js/`** — Contains JavaScript used by the site, including Bootstrap-related scripts, the homepage slider and other page interactions. The files are loaded by the base layout.
 
+---
+
 ### Quick reference: where to make common changes
 
 | What needs changing? | File(s) to edit |
@@ -138,9 +142,9 @@ These paths are referenced directly in the relevant page or include files. For e
 | JavaScript and interactive behaviour | `assets/js/` |
 | Uploaded images, figures, logos and PDFs | `assets/media/uploads/` |
 
----
-
 **A useful rule of thumb:** edit the Markdown files for main page content, YAML files for structured content such as homepage papers, and the shared layouts/includes or CSS stylesheet or, rarely, JavaScript only when changing how the website appears or behaves.
+
+---
 
 ### Actions summary  
 **`Update publications`**  
@@ -156,6 +160,8 @@ Updates [hrcm.ceda.ac.uk/data/tracks/](hrcm.ceda.ac.uk/data/tracks) by running `
 
 **`pages-build-deployment`**  
 Runs automatically when any change is committed to this repo.  
+
+---
 
 ### Miscellany  
 
