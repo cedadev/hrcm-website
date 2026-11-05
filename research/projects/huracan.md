@@ -3,7 +3,7 @@ date: 2026-10-22 16:10:24
 description: 'Huracán project'
 layout: base_hrcm
 order: 3
-permalink: /research/projects/Huracán/
+permalink: /research/projects/huracan/
 title: Huracán
 ---
 
@@ -32,7 +32,7 @@ Research in Huracán is centred around three core objectives:
 
 **Objective 3 \|** To understand how anthropogenic climate change is affecting and will affect CTO risk to BIWE and NEUS
 
-<p><img height=150 src="{{ site.baseurl }}/assets/media/uploads/projects/Huracán_proposal_map.png" title="Hurácan proposal diagram"></p>  
+<p><img height=125 src="{{ site.baseurl }}/assets/media/uploads/projects/Huracán_proposal_map.png" title="Hurácan proposal diagram"></p>  
 This diagram illustrates selected tropical cyclone tracks that have reached mid-latitude regions and how the structure of the Huracán project follows the complete lifecycles of these systems.
 
 ### Work Packages
