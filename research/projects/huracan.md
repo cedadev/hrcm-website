@@ -45,5 +45,5 @@ Huracán will study the origins, development, landfall and impacts of North Atla
 <p><strong><span style="color: #00a1ff;">Work Package 3</span> |</strong> Developing process understanding of the life cycles of CTOs entering mid-latitudes, and the dependence of their variability on large-scale phenomena</p>
 <p><strong><span style="color: #ed220f;">Work Package 4</span> |</strong> Attribution of variability and change in large-scale drivers of CTOs to anthropogenic climate change, and implications for hazards and impacts</p>
 
-<p></p>
+---
 Explore the project at [**research.reading.ac.uk/huracan**](https://ourresearch.reading.ac.uk/huracan/)
