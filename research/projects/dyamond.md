@@ -17,7 +17,7 @@ DYAMOND addresses three main questions:
  - How sensitive are the simulations to specific model implementations?
  - What are the performance and analysis bottlenecks associated with global storm-resolving models?
 
-<img src="{{ site.baseurl }}/assets/media/uploads/projects/dyamond3.jpg" title="DYAMOND3 models">
+<img src="{{ site.baseurl }}/assets/media/uploads/projects/dyamond3.jpg" style="height: 800px; width: auto;" title="DYAMOND3 models">
 
 *Models that have participated in at least one DYAMOND phase: ARPEGE NH, GEOS, GRIST, ICON, IFS, MPAS, NICAM, SAM, SCREAM, SHiELD, Unified Model (UM).*
 
