@@ -11,8 +11,10 @@ title: HighResMIP2
 ### HighResMIP2 is a planned follow-on from CMIP6 HighResMIP.
 
 The HighResMIP2 protocol and science plan are described in:  
+
 Roberts, M. J., *et al*., [High-Resolution Model Intercomparison Project phase 2 (HighResMIP2) towards CMIP7](https://gmd.copernicus.org/articles/18/1307/2025/). *Geoscientific Model Development* **18**, 1307–1332 (2025).
 
+### Overview
 Robust projections and predictions of climate variability and change, particularly at regional scales, rely on the driving processes being represented with fidelity in model simulations. Consequently, the role of enhanced horizontal resolution in improved process representation in all components of the climate system continues to be of great interest. Recent simulations suggest the possibility of significant changes in both large-scale aspects of the ocean and atmospheric circulations and in the regional responses to climate change, as well as improvements in representations of small-scale processes and extremes, when resolution is enhanced.
 
 The first phase of the High-Resolution Model Intercomparison Project (HighResMIP1) was successful at producing a baseline multi-model assessment of global simulations with model grid spacings of 25–50 km in the atmosphere and 10–25 km in the ocean, a significant increase when compared to models with standard resolutions on the order of 1° that are typically used as part of the Coupled Model Intercomparison Project (CMIP) experiments. In addition to over 250 peer-reviewed manuscripts using the published HighResMIP1 datasets, the results were widely cited in the Intergovernmental Panel on Climate Change report and were the basis of a variety of derived datasets, including tracked cyclones (both tropical and extratropical), river discharge, storm surge, and impact studies. There were also suggestions from the few ocean eddy-rich coupled simulations that aspects of climate variability and change might be significantly influenced by improved process representation in such models.
