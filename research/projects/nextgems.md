@@ -22,4 +22,4 @@ By providing citizens with more realistic, detailed and local information on how
 
 To make this ambitious vision become reality we work with 26 partners across Europe and Senegal in a four-year program, from 2021 – 2025.  
 
-[Project website](https://nextgems-h2020.eu)
+Explore the project at [**nextgems-h2020.eu**](https://nextgems-h2020.eu)
