@@ -125,7 +125,7 @@ title: People
 
 <section class="people-page">
 
-    <h2 class="people-section-heading">Core team</h2>
+    <h2 class="people-section-heading">Core scientists</h2>
 
     <div class="people-grid">
 
