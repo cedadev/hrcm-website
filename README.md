@@ -148,18 +148,18 @@ These paths are referenced directly in the relevant page or include files. For e
 
 ### Actions summary  
 **`Update publications`**  
-Updates [hrcm.ceda.ac.uk/publications](hrcm.ceda.ac.uk/publications) by running `scripts/build_publications.py` to populate `_data/publications.json` with bibliographical data pulled from a separate HRCM repo (`ncas-metoffice-hrcm/publications/bib/`).  
+Updates [hrcm.ceda.ac.uk/publications](https://hrcm.ceda.ac.uk/publications) by running `scripts/build_publications.py` to populate `_data/publications.json` with bibliographical data pulled from a separate HRCM repo ([github.com/ncas-metoffice-hrcm/publications](https://github.com/ncas-metoffice-hrcm/publications)).  
 
 **`Update simulations`**  
-Updates [hrcm.ceda.ac.uk/data/simulations/](hrcm.ceda.ac.uk/data/simulations) by running `scripts/build_simulations.py` to populate `_data/simulations.yml` with data pulled from a separate HRCM repo (`ncas-metoffice-hrcm/simulations`).  
+Updates [hrcm.ceda.ac.uk/data/simulations](https://hrcm.ceda.ac.uk/data/simulations) by running `scripts/build_simulations.py` to populate `_data/simulations.yml` with data pulled from a separate HRCM repo ([github.com/ncas-metoffice-hrcm/simulations](https://github.com/ncas-metoffice-hrcm/simulations)).  
 
 **`Update tracks`**  
-Updates [hrcm.ceda.ac.uk/data/tracks/](hrcm.ceda.ac.uk/data/tracks) by running `scripts/build_tracks.py` to populate `_data/trcaks.yml` with data pulled from a separate HRCM repo (`ncas-metoffice-hrcm/trcak_data`).  
+Updates [hrcm.ceda.ac.uk/data/tracks](https://hrcm.ceda.ac.uk/data/tracks) by running `scripts/build_tracks.py` to populate `_data/trcaks.yml` with data pulled from a separate HRCM repo ([github.com/ncas-metoffice-hrcm/track_data](https://github.com/ncas-metoffice-hrcm/track_data)).  
 
 (*Each of these update workflows runs automatically every weekday morning.*)
 
 **`pages-build-deployment`**  
-Runs automatically when any change is committed to this repo.  
+Pushes changes to the live website at [hrcm.ceda.ac.uk](https://hrcm.ceda.ac.uk), and runs automatically when any change is committed to this repo.  
 
 ---
 
