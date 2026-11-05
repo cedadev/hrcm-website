@@ -10,7 +10,7 @@ title: Huracán
 
 ### Huracán will deliver a new, physical understanding of tropical cyclone risk across the British and Irish Isles, Western Europe, and the Northeast United States in a changing climate.
 
-Hurricane Risk Amplification and Changing North Atlantic Natural Disasters (Huracán) is a strategic UK–US collaboration with the overarching objective to deliver a new, physically based understanding of the risks posed by cyclones of tropical origin (CTOs) to the British and Irish Isles and Western Europe (BIWE) and the Northeast United States (NEUS) in a changing climate.
+*Hurricane Risk Amplification and Changing North Atlantic Natural Disasters* (Huracán) is a strategic UK–US collaboration with the overarching objective to deliver a new, physically based understanding of the risks posed by cyclones of tropical origin (CTOs) to the British and Irish Isles and Western Europe (BIWE) and the Northeast United States (NEUS) in a changing climate.
 
 ### What are CTOs—and why do we care?
 
