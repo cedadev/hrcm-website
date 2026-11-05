@@ -20,8 +20,8 @@ nextGEMS storm-resolving models will more realistically represent the climate sy
 
 The multi-decadal simulations produced in nextGEMS will be co-designed and tested with stakeholder communities, such as renewable energy producers, coastal marine ecosystems and fisheries managers. This will increase their added value for societal applications and their ability to serve as platforms for innovation in the provision of earth-system information.
 
-By providing citizens with more realistic, detailed and local information on how the climate and weather, including its severest events, will change, nextGEMS will support the operationalization of the Paris Agreement and the associated ‘Green Transition’. nextGEMS models will also serve as prototypes for Digital Twins of the Earth as envisioned by major new EU initiatives such as Destination Earth.
+By providing citizens with more realistic, detailed and local information on how the climate and weather, including its severest events, will change, nextGEMS will support the operationalisation of the Paris Agreement and the associated ‘Green Transition’. nextGEMS models will also serve as prototypes for Digital Twins of the Earth as envisioned by major new EU initiatives such as Destination Earth. To make this ambitious vision become reality we work with 26 partners across Europe and Senegal in a four-year program, from 2021–2025.  
 
-To make this ambitious vision become reality we work with 26 partners across Europe and Senegal in a four-year program, from 2021 – 2025.  
+---
 
 Explore the project at [**nextgems-h2020.eu**](https://nextgems-h2020.eu)
