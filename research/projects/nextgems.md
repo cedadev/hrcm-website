@@ -12,7 +12,7 @@ title: nextGEMS
 
 ### nextGEMS will develop two next-generation Earth-system models. Through breakthroughs in simulation realism, these models will allow us to understand how the climate will change on a global and regional scale, including the extreme weather of the future.  
 
-nextGEMS (Next-Generation Earth Modelling Systems) is a collaborative European project, funded by the EU’s Horizon-2020 programme.
+nextGEMS (*Next-Generation Earth Modelling Systems*) is a collaborative European project, funded by the EU’s Horizon-2020 programme.
 
 ### Scientific impact  
 The much finer grid of nextGEMS’ storm-resolving models allows them to explicitly represent essential climate processes –  storms, associated with precipitating deep convection, the effects of the landscape on the atmosphere, the effects of ocean eddies on the ocean heat transport, and its interaction with ice-sheets – that existing climate models now either ignore, or represent empirically. Past research has shown that the physically based approaches nextGEMS exploits are effective in reducing systematic and long-standing errors in conventional climate models, thereby creating a better – more physical – foundation for projections. Because nextGEMS’s storm-resolving models will increase simulation realism on many fronts, they are expected to open new scientific frontiers and shine new light on how the Earth system responds to human activities.  
