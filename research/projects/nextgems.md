@@ -2,6 +2,7 @@
 date: 2026-06-22 16:10:24
 description: 'nextGEMS project'
 layout: base_hrcm
+full_width: true
 order: 3
 permalink: /research/projects/nextgems/
 title: nextGEMS
