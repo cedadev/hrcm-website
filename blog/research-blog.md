@@ -11,23 +11,13 @@ title: Research blog
 ### Collated blogs, articles and white papers written by HRCM scientists for online publications.
 
 
-#### [Hurricane Melissa is a warning – why violent storms are increasingly catching the world off guard](https://blogs.reading.ac.uk/weather-and-climate-at-reading/2025/hurricane-melissa-is-a-warning-why-violent-storms-are-increasingly-catching-the-world-off-guard/)
-
-*Weather and Climate @ Reading* | 14th November, 2025 | [Alexander Baker](https://alexanderjbaker.github.io)
-
-Hurricane Melissa brought record-breaking winds and torrential rain to Jamaica, making its Category 5 landfall unprecedented for the island. The storm's rapid strengthening is as alarming as its size and intensity. [Read on &rarr;](https://blogs.reading.ac.uk/weather-and-climate-at-reading/2025/hurricane-melissa-is-a-warning-why-violent-storms-are-increasingly-catching-the-world-off-guard/)
-
 #### [Hurricane Melissa is a warning – why violent storms are increasingly catching the world off guard](https://theconversation.com/hurricane-melissa-is-a-warning-why-violent-storms-are-increasingly-catching-the-world-off-guard-268604)
 
 *The Conversation* | 30th October, 2025 | [doi.org/10.64628/AB.xkc9tvfdw](https://doi.org/10.64628/AB.xkc9tvfdw) | [Alexander Baker](https://alexanderjbaker.github.io)
 
 Hurricane Melissa brought record-breaking winds and torrential rain to Jamaica, making its Category 5 landfall unprecedented for the island. The storm's rapid strengthening is as alarming as its size and intensity. [Read on &rarr;](https://theconversation.com/hurricane-melissa-is-a-warning-why-violent-storms-are-increasingly-catching-the-world-off-guard-268604)
 
-#### [Hurricane Melissa is a warning – why violent storms are increasingly catching the world off guard](https://research.reading.ac.uk/research-blog/2025/10/30/hurricane-melissa-is-a-warning-why-violent-storms-are-increasingly-catching-the-world-off-guard/)
-
-*Connecting Research* | 30th October, 2025 | [Alexander Baker](https://alexanderjbaker.github.io)
-
-Hurricane Melissa brought record-breaking winds and torrential rain to Jamaica, making its Category 5 landfall unprecedented for the island. The storm's rapid strengthening is as alarming as its size and intensity. [Read on &rarr;](https://research.reading.ac.uk/research-blog/2025/10/30/hurricane-melissa-is-a-warning-why-violent-storms-are-increasingly-catching-the-world-off-guard/)
+(republished on *Weather and Climate @ Reading* on 14th November, 2025, and *Connecting Research* on 30th October, 2025)
 
 #### [Hurricane Milton: What are hurricanes and is climate change making them more damaging?](https://ncas.ac.uk/hurricane-milton-what-are-hurricanes-and-is-climate-change-making-them-more-damaging/)
 
