@@ -4,7 +4,7 @@ description: 'Research blog'
 layout: base_hrcm
 full_width: true
 order: 2
-permalink: /blog/research-blog/
+permalink: /media/blog/
 title: Research blog
 ---
 
