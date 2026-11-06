@@ -10,7 +10,7 @@ title: DYAMOND
 
 ### The DYAMOND initiative (DYnamics of the Atmospheric general circulation Modelled On Non-hydrostatic Domains) is a framework for the intercomparison of global storm-resolving models, an emerging class of state-of-the-art atmospheric circulation models.
 
-HRCM has played a key role in developing the simulations protocols across each phase of DYAMOND and in the organisation of recent global and national hackathons to develop the technologies and research communities required by km-scale global modelling.
+HRCM has played a key role in developing the simulation protocols across each phase of DYAMOND and in the organisation of recent global and national hackathons to develop the technologies and research communities required by km-scale global modelling.
 
 DYAMOND addresses three main questions:  
  - Where do storm-resolving simulations agree, and where do they provide deeper insights into the climate system?
@@ -39,5 +39,7 @@ Experiment: global atmosphere-only and coupled atmosphere-ocean models with a st
 
 ### DYAMOND Year (phase 3)
 DYAMOND Year, or DYAMOND3, simulations are part of the [2025 WCRP Digital Earths km-scale hackathon](https://www.wcrp-esmo.org/activities/wcrp-global-km-scale-hackathon-2025).
+
+Experimental protocol: Takasuka, D., ... Vidale, P. L., *et al*. [A protocol and analysis of year-long simulations of global storm-resolving models and beyond](https://link.springer.com/article/10.1186/s40645-024-00668-1). *Progress in Earth and Planetary Science* **11**, 66 (2024).
 
 Science highlights: Gettelman, A., Vidale, P. L., *et al*. [Hacking Kilometer-Scale Models: A Participative Model for Climate Information](https://doi.org/10.1175/BAMS-D-25-0183.1). *Bulletin of the American Meteorological Society* **107**, E1586–E1598 (2026).
