@@ -76,13 +76,6 @@ Most of Europe’s winter rainfall is brought by extratropical cyclones, steered
 A topic of ongoing research is historical variability of North Atlantic post-tropical cyclones. These are tropical storms that travel into the mid-latitudes, bringing hurricane-force winds and heavy rainfall to parts of Europe and North America that are potentially less prepared for these hazards. [Read on &rarr;](http://blogs.reading.ac.uk/weather-and-climate-at-reading/2019/north-atlantic-post-tropical-cyclones/)
 &nbsp;
 
-#### [Where do China’s monsoon rains come from?](https://alexbakey.wordpress.com/2017/01/16/where-do-chinas-monsoon-rains-come-from/)
-
-*Research blog* &#124; 16th January, 2017 &#124; [Alexander Baker](https://alexanderjbaker.github.io)
-
-The vagaries of the East Asian Summer Monsoon (EASM) impact the world’s most populous region. Understanding what drives monsoon precipitation variability is essential not only for predicting how the EASM will respond to future, anthropogenic climate change, but also for developing adaptation strategies on which agricultural communities will increasingly rely. [Read on &rarr;](https://alexbakey.wordpress.com/2017/01/16/where-do-chinas-monsoon-rains-come-from/)
-&nbsp;
-
 #### [Characterising extreme event occurrence](http://blogs.reading.ac.uk/weather-and-climate-at-reading/2016/characterising-extreme-event-occurrence/)
 
 *Weather and Climate @ Reading* &#124; 16th May, 2016 &#124; [Reinhard Schiemann](http://www.met.reading.ac.uk/userpages/reinhard.php)
