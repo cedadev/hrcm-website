@@ -28,7 +28,7 @@ These are the main top-level content pages:
 
 **`track-catalogue.md`** — Main tracking catalogue page. Provides the search and model-filter controls and includes the reusable tracks table from `_includes/tracks_table.html`.
 
-**`blog.md`** — Landing page for the Media section. This is currently not live on the website; a simpler list of published blogs and articles for other websites is instead listed with 'media/research-blog.md'.
+**`blog.md`** — Landing page for the Media section. This is currently *not* live on the website; a simpler list of published blogs and articles for other websites is instead listed with `media/research-blog.md`.
 
 #### 2. Recent papers on the homepage
 
