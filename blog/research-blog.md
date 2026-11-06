@@ -8,8 +8,8 @@ permalink: /blog/research-blog/
 title: Research blog
 ---
 
-### Collated blogs, articles and white papers written by HRCM scientists for online publications.
-
+### Collated blogs, articles and white papers by HRCM scientists for online publications and for non-specialist audiences.
+  
 
 #### [Hurricane Melissa is a warning – why violent storms are increasingly catching the world off guard](https://theconversation.com/hurricane-melissa-is-a-warning-why-violent-storms-are-increasingly-catching-the-world-off-guard-268604)
 
