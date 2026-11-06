@@ -1,10 +1,10 @@
 ---
 date: 2017-04-03 10:30:57
-description: "A gallery of climate model data visualisation highlights from HRCM.\n\
-  \_"
+description: "A gallery of climate model data visualisation highlights from HRCM."
 layout: base_hrcm
-order: 0
-permalink: /blog/data-visualisations/
+full_width: true
+order: 2
+permalink: /media/visualisations/
 title: Data visualisation gallery
 ---
 
