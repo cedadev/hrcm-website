@@ -1,12 +1,13 @@
 ---
 date: 2016-05-24 19:24:25
-description: "\nIn this section...\n\_"
+description: "Media"
 layout: base_hrcm
 order: 5
-permalink: /blog/
+permalink: /media/
 title: Media
 ---
 
+<!--
 <div>
 <h1>In this section...</h1>
 <p> </p>
@@ -18,3 +19,4 @@ title: Media
 <h1>LATEST UPDATES</h1>
 <p></p>
 <p> </p>
+-->
