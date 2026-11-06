@@ -24,7 +24,7 @@ Hurricane Melissa brought record-breaking winds and torrential rain to Jamaica, 
 
 *NCAS News* &#124; 10th October, 2024 &#124; [Alexander Baker](https://alexanderjbaker.github.io)
 
-Hurricane Milton brought tornadoes, flooding and storm-surge risks to Florida in October 2024. It made landfall as a Category 3 hurricane after weakening from Category 5. [Read on &rarr;](https://ncas.ac.uk/hurricane-milton-what-are-hurricanes-and-is-climate-change-making-them-more-damaging/)
+Hurricane Milton brought tornadoes, flooding and storm-surge risks to Florida in October 2024. It made landfall as a Category 3 hurricane after weakening from Category 5, the most dangerous type of hurricane, and comes just two weeks after Hurricane Helene devastated the US.  [Read on &rarr;](https://ncas.ac.uk/hurricane-milton-what-are-hurricanes-and-is-climate-change-making-them-more-damaging/)
 &nbsp;
 
 #### [Upward global trends in the rapid intensification of tropical cyclones](https://research.reading.ac.uk/research-blog/upward-global-trends-rapid-intensification-tropical-cyclones/)
