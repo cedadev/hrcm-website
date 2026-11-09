@@ -10,10 +10,10 @@ title: Research blog
 
 ### Collated blogs, articles and white papers for online publications and non-specialist audiences.
 <p>&nbsp;</p>
-`
+
 #### [Hurricane Melissa is a warning – why violent storms are increasingly catching the world off guard](https://theconversation.com/hurricane-melissa-is-a-warning-why-violent-storms-are-increasingly-catching-the-world-off-guard-268604)  
 
-*The Conversation* &#124; 30th October, 2025 &#124; [doi.org/10.64628/AB.xkc9tvfdw](https://doi.org/10.64628/AB.xkc9tvfdw) &#124; [Alexander Baker](https://alexanderjbaker.github.io)
+*The Conversation* &#124; 30th October, 2025 &#124; [Alexander Baker](https://alexanderjbaker.github.io) and [Liz Stephens](https://research.reading.ac.uk/meteorology/people/liz-stephens/) &#124; [doi.org/10.64628/AB.xkc9tvfdw](https://doi.org/10.64628/AB.xkc9tvfdw)
 
 Hurricane Melissa brought record-breaking winds and torrential rain to Jamaica, making its Category 5 landfall unprecedented for the island. The storm's rapid strengthening is as alarming as its size and intensity. [Read on &rarr;](https://theconversation.com/hurricane-melissa-is-a-warning-why-violent-storms-are-increasingly-catching-the-world-off-guard-268604)
 
@@ -50,7 +50,7 @@ Climate change is increasing the likelihood that tropical cyclones rapidly devel
 
 #### [Severe storms from tropics reach Europe once every five years on average – new research](https://theconversation.com/severe-storms-from-tropics-reach-europe-once-every-five-years-on-average-new-research-159669)
 
-*The Conversation* &#124; 18th May, 2021 &#124; [doi.org/10.64628/AB.t57dgn3tc](https://doi.org/10.64628/AB.t57dgn3tc) &#124; [Alexander Baker](https://alexanderjbaker.github.io)
+*The Conversation* &#124; 18th May, 2021 &#124; [Alexander Baker](https://alexanderjbaker.github.io) &#124; [doi.org/10.64628/AB.t57dgn3tc](https://doi.org/10.64628/AB.t57dgn3tc)
 
 An unusual and devastating storm struck Ireland in the early hours of 16th October, 2017. Record-breaking gusts of up to 119 mph left hundreds of thousands of homes without electricity and caused three fatalities, before the storm continued across the UK and Scandinavia. [Read on &rarr;](https://theconversation.com/severe-storms-from-tropics-reach-europe-once-every-five-years-on-average-new-research-159669)
 <p>&nbsp;</p>
