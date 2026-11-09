@@ -24,11 +24,13 @@ These are the main top-level content pages:
 
 **`publications.md`** — Main publications page. Displays the publication records grouped by year and provides search and project-filter controls. The publication records are drawn from `_data/publications.json`.
 
-**`simulation-catalogue.md`** — Main simulation catalogue page. Provides the search and model-filter controls and includes the reusable simulation table from `_includes/simulations_table.html`.
+**`data/simulation-catalogue.md`** — Main simulation catalogue page. Provides the search and model-filter controls and includes the reusable simulation table from `_includes/simulations_table.html`.
 
-**`track-catalogue.md`** — Main tracking catalogue page. Provides the search and model-filter controls and includes the reusable tracks table from `_includes/tracks_table.html`.
+**`data/track-catalogue.md`** — Main tracking catalogue page. Provides the search and model-filter controls and includes the reusable tracks table from `_includes/tracks_table.html`.
 
-**`blog.md`** — Landing page for the Media section. This is currently *not* live on the website; a simpler list of published blogs and articles for other websites is instead listed with `blog/research-blog.md`.
+**`media/research_blog.md`** — Simple list of published blogs and articles for other websites.
+
+**`media/data-visualisations.md`** — Gallery of model data visualisations, not 'typical' publication figures. *In progress*.a
 
 #### 2. Recent papers on the homepage
 
