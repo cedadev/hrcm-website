@@ -43,9 +43,9 @@ Add any actions arising from the Away Day.
    - Complete LoSSETT processing for 4 kscale simulations for August 2020 (Dec), complete compositing script (Jan), apply Dan's decomposition and complete LoSSETT processing for at least 6 months (Mar), write and submit (May)
 
 *Away Day actions:*
-    - pick up LFRic work (aquaplanet and Harriet's suite)
-    - work with Narender on link between soil moisture and MCSs
-    - work with Anna on coupled simulation
+   - pick up LFRic work (aquaplanet and Harriet's suite)
+   - work with Narender on link between soil moisture and MCSs
+   - work with Anna on coupled simulation
 
 **Name**
   1. Topic #1  
