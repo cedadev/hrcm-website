@@ -27,6 +27,26 @@ Add any actions arising from the Away Day.
     - share LoSSETT analysis load  
     - let Claude loose on the HRCM website  
 
+**TA**
+1. MCS properties in global UM DYAMOND3 simulations
+   - Global statistics of MCS properties, dependency on resolution and parameterisation, variability of MCS statistics depending on length of climatology
+   - Zhe Feng, PLV
+   - not sure yet
+   - UM DYAMOND3 data and tracks are in hackathon object store, GA7.1 data is on tape and hrcm GWS and tracking data is in hrcm GWS
+   - finish script to quantify differences in MCS statistics (Nov), write draft and review (Dec), submit (Jan)
+
+2. Interscale energy transfer (IET) in MCSs in global UM DYAMOND3 simulations
+   - quantify IET in MCSs using composits for tropics and extra-tropics
+   - Alex, Dan, Elliot, John Methven, PLV
+   - not sure yet
+   - LoSSETT data is in kscale GWS, UM DYAMOND3 data is in hackathon object store
+   - Complete LoSSETT processing for 4 kscale simulations for August 2020 (Dec), complete compositing script (Jan), apply Dan's decomposition and complete LoSSETT processing for at least 6 months (Mar), write and submit (May)
+
+*Away Day actions:*
+    - pick up LFRic work (aquaplanet and Harriet's suite)
+    - work with Narender on link between soil moisture and MCSs
+    - work with Anna on coupled simulation
+
 **Name**
   1. Topic #1  
     - ...  
