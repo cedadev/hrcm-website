@@ -810,6 +810,7 @@ blockquote cite a:visited 				{ color:#555; }
 /* --- button --- */
 .btn-theme {
 	color: #fff;
+    text-transform: none;
 }
 .btn-theme:hover {
 	color: #eee;
