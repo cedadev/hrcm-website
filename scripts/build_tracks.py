@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Summarise the directory tree of the track_data repo into one Jekyll data file.
+"""Summarise the directory tree of the ncas-metoffice-hrcm/tracks repo into one Jekyll data file.
 
 Input : a list of every file path in the repo (made with `git ls-tree -r -z --name-only HEAD`,
         so no data files are ever downloaded).
