@@ -63,7 +63,7 @@ Add any actions arising from the Away Day.
 
 **NK**
   1. Soil moisture-Precipitation coupling in high resolution models  
-    - SM - Precip coupling (ACI - Atmospheric Coupling Index and TCI - Terrestrial COupling Index); Prefernce of afternoon rain on drier soils.
+    - SM _ Precip coupling (ACI: Atmospheric Coupling Index, and TCI: Terrestrial COupling Index); Prefernce of afternoon rain on drier soils.
     - PLV
     - Short paper  
     - --
