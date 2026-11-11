@@ -61,6 +61,27 @@ Add any actions arising from the Away Day.
    - Repository: To do
    - To do: Expand analysis to near misses, not just a hard cut off of hits Europe vs not
 
+**NK**
+  1. Soil moisture-Precipitation coupling in high resolution models  
+    - SM - Precip coupling (ACI - Atmospheric Coupling Index and TCI - Terrestrial COupling Index); Prefernce of afternoon rain on drier soils.
+    - PLV
+    - Short paper  
+    - --
+    - Streamline the ongoing analysis and start writing the manuscript
+    - This work is also done using the GC6 (LFric) simulations comparing against the GC5 (UM) simulations
+        
+  3. EEO theroy for carbon fluxes and stomatal conductance in JULES   
+    - Implementing the latest developments from EEO theory in JULES to run an offline JULES.
+    - PLV, WG, SH, CP, and MB
+    - Long
+    - -- 
+    - Testing the new carbon assimilation model in JULES and using benchmarking to compare against legacy photosynthesis models
+    - End of December or January 2027
+
+*Away Day actions:*
+    - extend the SM-precip analysis to MCS's along with Torsten
+    - GC6 assessment (Land coupling)
+
 **Name**
   1. Topic #1  
     - ...  
