@@ -47,6 +47,20 @@ Add any actions arising from the Away Day.
    - work with Narender on link between soil moisture and MCSs
    - work with Anna on coupled simulation
 
+**Leo Saffin**
+1. Identifying tropical cyclones using the cyclone phase space: warm core, symmetric, and intensifying
+   - Key message: Intensification acts as an extra parameter in the cyclone phase space to separate tropical cyclones from (some) decaying extratropical cyclones
+   - Co-authors: Kevin Hodges, Stella Bourdin, Mike Fiorino, John Methven, Pier Luigi Vidale, Alex Baker
+   - Long paper
+   - Repository: https://github.com/huracan-project/wcsi
+   - To do: Finish corrections and resubmit
+2. Could a major tropical cyclone hit Europe?
+   - Key message: Big differences in return periods for tropical cyclones reaching Europe depending on source (MESACLIP, destination Earth, IFS-S2S hindcasts)
+   - Co-authors: Kevin Hodges, John Methven, Pier Luigi Vidale
+   - Hopefully a short paper, but it never works out that way
+   - Repository: To do
+   - To do: Expand analysis to near misses, not just a hard cut off of hits Europe vs not
+
 **Name**
   1. Topic #1  
     - ...  
