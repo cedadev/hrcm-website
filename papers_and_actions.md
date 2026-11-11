@@ -65,8 +65,7 @@ Add any actions arising from the Away Day.
   1. Soil moisture-Precipitation coupling in high resolution models  
     - SM _ Precip coupling (ACI: Atmospheric Coupling Index, and TCI: Terrestrial COupling Index); Prefernce of afternoon rain on drier soils.
     - PLV
-    - Short paper  
-    - --
+    - Short paper
     - Streamline the ongoing analysis and start writing the manuscript
     - This work is also done using the GC6 (LFric) simulations comparing against the GC5 (UM) simulations
         
@@ -74,7 +73,6 @@ Add any actions arising from the Away Day.
     - Implementing the latest developments from EEO theory in JULES to run an offline JULES.
     - PLV, WG, SH, CP, and MB
     - Long
-    - -- 
     - Testing the new carbon assimilation model in JULES and using benchmarking to compare against legacy photosynthesis models
     - End of December or January 2027
 
