@@ -2,6 +2,7 @@
 date: 2016-12-15 17:28:01
 description: "Tropical cyclones"
 layout: base_hrcm
+full_width: true
 order: 3
 permalink: /research/research-themes/tropical-cyclones/
 title: Tropical cyclones
@@ -17,8 +18,8 @@ title: Tropical cyclones
 
 <p>We also work on the representation of TCs in high-resolution global models, and you can see an example of this work <strong><a href="https://hrcm.ceda.ac.uk/blog/plot-of-the-month-apr-2017-atlantic-tropical-cyclones/">here</a></strong>.</p>
 
-<div class="project-tags" aria-label="Associated projects">
-    <h4>Associated projects: </h4>
+<div class="project-tags" aria-label="Related projects">
+    <span class="project-tags-title">Related projects</span>
     <a href="https://hrcm.ceda.ac.uk/research/projects/eerie/" class="btn btn-theme">EERIE</a>
     <a href="https://hrcm.ceda.ac.uk/research/projects/huracan/" class="btn btn-theme">Huracán</a>
     <a href="https://hrcm.ceda.ac.uk/research/projects/nextgems/" class="btn btn-theme">nextGEMS</a>
