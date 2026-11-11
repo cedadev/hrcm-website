@@ -15,7 +15,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  SOURCE_REPO: ncas-metoffice-hrcm/track_data
+  SOURCE_REPO: ncas-metoffice-hrcm/tracks
   SOURCE_REF: main
   # Top-level directories in the source repo to leave out (space separated). Normally empty.
   EXCLUDE_DIRS: ""
