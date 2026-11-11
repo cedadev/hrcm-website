@@ -72,7 +72,7 @@ For ordinary publication updates, the BibTeX source files are maintained in the 
 
 #### 5. Tracks catalogue
 
-**`_data/tracks.yml`** — Generated list of track data records used by the `track-catalogue.md` page. The file identifies itself as automatically generated from the separate `ncas-metoffice-hrcm/track_data` repository. It should not normally be edited manually.
+**`_data/tracks.yml`** — Generated list of track data records used by the `track-catalogue.md` page. The file identifies itself as automatically generated from the separate `ncas-metoffice-hrcm/tracks` repository. It should not normally be edited manually.
 
 **`_data/track_columns.yml`** — Defines which track datas fields appear in the table, their order and their displayed column headings. This is where the table headings are maintained.
 
@@ -80,7 +80,7 @@ For ordinary publication updates, the BibTeX source files are maintained in the 
 
 **`scripts/build_tracks.py`** — Python script that reads the source track data repository and combines them into `_data/tracks.yml`.
 
-**`.github/workflows/update-tracks.yml`** — GitHub Action that retrieves the track data records from the directory structure of `ncas-metoffice-hrcm/track_data`, runs the build script and commits an updated `_data/tracks.yml`.
+**`.github/workflows/update-tracks.yml`** — GitHub Action that retrieves the track data records from the directory structure of `ncas-metoffice-hrcm/tracks`, runs the build script and commits an updated `_data/tracks.yml`.
 
 #### 6. Media and images
 
@@ -156,7 +156,7 @@ Updates [hrcm.ceda.ac.uk/publications](https://hrcm.ceda.ac.uk/publications) by 
 Updates [hrcm.ceda.ac.uk/data/simulations](https://hrcm.ceda.ac.uk/data/simulations) by running `scripts/build_simulations.py` to populate `_data/simulations.yml` with data pulled from a separate HRCM repo ([github.com/ncas-metoffice-hrcm/simulations](https://github.com/ncas-metoffice-hrcm/simulations)).  
 
 **`Update tracks`**  
-Updates [hrcm.ceda.ac.uk/data/tracks](https://hrcm.ceda.ac.uk/data/tracks) by running `scripts/build_tracks.py` to populate `_data/trcaks.yml` with data pulled from a separate HRCM repo ([github.com/ncas-metoffice-hrcm/track_data](https://github.com/ncas-metoffice-hrcm/track_data)).  
+Updates [hrcm.ceda.ac.uk/data/tracks](https://hrcm.ceda.ac.uk/data/tracks) by running `scripts/build_tracks.py` to populate `_data/trcaks.yml` with data pulled from a separate HRCM repo ([github.com/ncas-metoffice-hrcm/tracks](https://github.com/ncas-metoffice-hrcm/tracks)).  
 
 (*Each of these update workflows runs automatically every weekday morning.*)
 
