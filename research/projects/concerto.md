@@ -21,7 +21,6 @@ title: CONCERTO
 <div class="project-tags" aria-label="Related themes">
     <span class="project-tags-title">Related themes &rarr; </span>
     <a href="https://hrcm.ceda.ac.uk/research/research-themes/land-surface-processes/" class="btn btn-theme">Land Surface Processes</a>
-    <a href="https://hrcm.ceda.ac.uk/research/research-themes/eeo-theory/" class="btn btn-theme">EEO Theory</a>
 </div>
 
 ---
