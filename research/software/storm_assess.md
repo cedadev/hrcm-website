@@ -2,6 +2,7 @@
 date: 2026-11-2 16:10:24
 description: 'storm_assess'
 layout: base_hrcm
+full_width: true
 order: 3
 permalink: /research/software/storm_assess/
 title: storm_assess
