@@ -86,20 +86,17 @@ For ordinary publication updates, the BibTeX source files are maintained in the 
 
 **`assets/media/uploads/`** — Location for uploaded media used throughout the website. The page and template files reference images and documents in this directory.
 
-Some of the subdirectories include:
+Some of the sub-directories include:
 
-| Directory | Purpose / examples |
+| Directory | Purpose |
 |---|---|
-| `assets/media/uploads/Logos/` | HRCM logo used in the main navigation bar. |
 | `assets/media/uploads/people/` | Photographs used on the People page. |
 | `assets/media/uploads/recent-papers/` | Images used for the featured homepage papers. |
-| `assets/media/uploads/Figures/` | Scientific figures used in homepage and other content. |
-| `assets/media/uploads/Homepage_images/` | Images used in the homepage gallery and featured content. |
-| `assets/media/uploads/HadGEM3_runs/` | Historical simulation catalogue PDFs. |
+| `assets/media/uploads/software/` | Images used in pages under Research > Software. |
+| `assets/media/uploads/projects/` | Images used in the pages under Research > Projects. |
+| `assets/media/uploads/documents/` | PDF files used in various sections (N.B., *not* published papers). |
 
 These paths are referenced directly in the relevant page or include files. For example, the HRCM logo is referenced by `_includes/navbar.html`, the team photographs by `people.md`, and the featured paper images by `_data/recent_papers.yml`.
-
-**`assets/img/`** — Also contains images used by the site, including the favicon referenced by the base layout.
 
 #### 7. Overall website structure and appearance
 
