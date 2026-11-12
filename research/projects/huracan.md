@@ -42,7 +42,7 @@ Research in Huracán is centred around three core objectives:
 
 Huracán will study the origins, development, landfall and impacts of North Atlantic CTOs. Research will be divided into four work packages, which are structured to naturally follow the lifecycle of a cyclone originating in the tropics, moving into the mid-latitudes, and reaching land.
 
-<p><strong><span style="color: #cb287b;">Work Package 1</span> | </strong>Determining the impact of African climate variability and change on TC precursors, genesis and frequencies</p>
+<p><strong><span style="color: #cb287b;">Work Package 1</span> |</strong> Determining the impact of African climate variability and change on TC precursors, genesis and frequencies</p>
 <p><strong><span style="color: #f8bb00;">Work Package 2</span> |</strong> Characterising TC intensification and tracks that contribute to CTO evolution</p>
 <p><strong><span style="color: #00a1ff;">Work Package 3</span> |</strong> Developing process understanding of the life cycles of CTOs entering mid-latitudes, and the dependence of their variability on large-scale phenomena</p>
 <p><strong><span style="color: #ed220f;">Work Package 4</span> |</strong> Attribution of variability and change in large-scale drivers of CTOs to anthropogenic climate change, and implications for hazards and impacts</p>
