@@ -2,6 +2,7 @@
 date: 2026-10-22 16:10:24
 description: 'TRACK'
 layout: base_hrcm
+full_width: true
 order: 3
 permalink: /research/software/track/
 title: TRACK
