@@ -48,4 +48,25 @@ Huracán will study the origins, development, landfall and impacts of North Atla
 <p><strong><span style="color: #ed220f;">Work Package 4</span> |</strong> Attribution of variability and change in large-scale drivers of CTOs to anthropogenic climate change, and implications for hazards and impacts</p>
 
 ---
+
+<div class="project-tags" aria-label="Related projects">
+    <span class="project-tags-title">Related projects</span>
+    <a href="https://hrcm.ceda.ac.uk/research/projects/eerie/" class="btn btn-theme">EERIE</a>
+    <a href="https://hrcm.ceda.ac.uk/research/projects/huracan/" class="btn btn-theme">Huracán</a>
+    <a href="https://hrcm.ceda.ac.uk/research/projects/highresmip2/" class="btn btn-theme">HighResMIP2</a>
+    <a href="https://hrcm.ceda.ac.uk/research/projects/nextgems/" class="btn btn-theme">nextGEMS</a>
+</div>
+
+<div class="people-tags" aria-label="People">
+    <span class="people-tags-title">People</span>
+    <a href="https://hrcm.ceda.ac.uk/people/" class="btn btn-theme">Alexander Baker</a>
+    <a href="https://hrcm.ceda.ac.uk/people/" class="btn btn-theme">Ipshita Dey</a>
+    <a href="https://hrcm.ceda.ac.uk/people/" class="btn btn-theme">Xiangbo Feng</a>
+    <a href="https://hrcm.ceda.ac.uk/people/" class="btn btn-theme">Kevin Hodges</a>
+    <a href="https://hrcm.ceda.ac.uk/people/" class="btn btn-theme">Malcolm Roberts</a>
+    <a href="https://hrcm.ceda.ac.uk/people/" class="btn btn-theme">Pier Luigi Vidale</a>
+</div>
+
+---
+
 Explore the project at [**research.reading.ac.uk/huracan**](https://ourresearch.reading.ac.uk/huracan/)
