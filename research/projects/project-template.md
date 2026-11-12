@@ -8,7 +8,7 @@ permalink: /research/projects/<project-name>/
 title: Project name / AcRoNYm
 ---
 
-<!-- NOTE: Images must be uploaded to assets/media/uploads/projects/ -->
+<!-- NOTE: Images must be uploaded to /assets/media/uploads/projects/ -->
 
 
 ### Short title line (e.g., "Huracán will deliver a new, physical understanding of tropical cyclone risk across the British and Irish Isles, Western Europe, and the Northeast United States in a changing climate.")
@@ -53,8 +53,8 @@ Describe work packages if needed
 
 <div class="project-tags" aria-label="Related themes">
     <span class="project-tags-title">Related themes &rarr; </span>
-    <a href="https://hrcm.ceda.ac.uk/research/research-themes/tropical-cyclones/" class="btn btn-theme">EERIE</a>
-    <a href="https://hrcm.ceda.ac.uk/research/research-themes/extratropical-cyclones/" class="btn btn-theme">Huracán</a>
+    <a href="https://hrcm.ceda.ac.uk/research/research-themes/tropical-cyclones/" class="btn btn-theme">Tropical cyclones</a>
+    <a href="https://hrcm.ceda.ac.uk/research/research-themes/extratropical-cyclones/" class="btn btn-theme">Extratropical cyclones</a>
 </div>
 
 ---
