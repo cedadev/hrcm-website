@@ -5,10 +5,13 @@ layout: base_hrcm
 full_width: true
 order: 3
 permalink: /research/projects/<project-name>/
-title: Project name / acronym
+title: Project name / AcRoNYm
 ---
 
-### Title line (e.g., "Huracán will deliver a new, physical understanding of tropical cyclone risk across the British and Irish Isles, Western Europe, and the Northeast United States in a changing climate.")
+<!-- NOTE: Images must be uploaded to assets/media/uploads/projects/ -->
+
+
+### Short title line (e.g., "Huracán will deliver a new, physical understanding of tropical cyclone risk across the British and Irish Isles, Western Europe, and the Northeast United States in a changing climate.")
 
 *Project Name In Full* (ACRONYM) is / aims to / will ... 
 
@@ -45,16 +48,19 @@ Describe work packages if needed
 <p><strong><span>Work Package 1</span> |</strong> Title</p>
 <p><strong><span>Work Package 2</span> |</strong> Title</p>
 
+<!-- FOOTER -->
 ---
 
 <div class="project-tags" aria-label="Related themes">
-    <span class="project-tags-title">Related projects</span>
+    <span class="project-tags-title">Related themes &rarr; </span>
     <a href="https://hrcm.ceda.ac.uk/research/research-themes/tropical-cyclones/" class="btn btn-theme">EERIE</a>
     <a href="https://hrcm.ceda.ac.uk/research/research-themes/extratropical-cyclones/" class="btn btn-theme">Huracán</a>
 </div>
-&nbsp;
+
+---
+
 <div class="people-tags" aria-label="People">
-    <span class="people-tags-title">People</span>
+    <span class="people-tags-title">People &rarr; </span>
     <a href="https://hrcm.ceda.ac.uk/people/" class="btn btn-theme">Name #1</a>
     <a href="https://hrcm.ceda.ac.uk/people/" class="btn btn-theme">Name #2</a>
 </div>
