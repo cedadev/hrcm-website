@@ -31,7 +31,7 @@ Together, these themes help evaluate the capabilities and limitations of high-re
 
 See the full list of [HRCM research themes](/research/research-themes/).
 
-<!-- Keep the existing N96/N512 model-resolution image and caption here, unchanged. -->
+<!-- Need to replace the existing N96/N512 model-resolution images. -->
 
 #### HRCM research and model development
 
