@@ -50,7 +50,7 @@ Huracán will study the origins, development, landfall and impacts of North Atla
 ---
 
 <div class="project-tags" aria-label="Related projects">
-    <span class="project-tags-title">Related projects</span>
+    <span class="project-tags-title">Related projects &rarr; </span>
     <a href="https://hrcm.ceda.ac.uk/research/projects/eerie/" class="btn btn-theme">EERIE</a>
     <a href="https://hrcm.ceda.ac.uk/research/projects/huracan/" class="btn btn-theme">Huracán</a>
     <a href="https://hrcm.ceda.ac.uk/research/projects/highresmip2/" class="btn btn-theme">HighResMIP2</a>
@@ -60,7 +60,7 @@ Huracán will study the origins, development, landfall and impacts of North Atla
 ---
 
 <div class="people-tags" aria-label="People">
-    <span class="people-tags-title">People</span>
+    <span class="people-tags-title">People &rarr; </span>
     <a href="https://hrcm.ceda.ac.uk/people/" class="btn btn-theme">Alexander Baker</a>
     <a href="https://hrcm.ceda.ac.uk/people/" class="btn btn-theme">Ipshita Dey</a>
     <a href="https://hrcm.ceda.ac.uk/people/" class="btn btn-theme">Xiangbo Feng</a>
