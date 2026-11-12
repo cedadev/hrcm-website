@@ -57,6 +57,8 @@ Huracán will study the origins, development, landfall and impacts of North Atla
     <a href="https://hrcm.ceda.ac.uk/research/projects/nextgems/" class="btn btn-theme">nextGEMS</a>
 </div>
 
+---
+
 <div class="people-tags" aria-label="People">
     <span class="people-tags-title">People</span>
     <a href="https://hrcm.ceda.ac.uk/people/" class="btn btn-theme">Alexander Baker</a>
