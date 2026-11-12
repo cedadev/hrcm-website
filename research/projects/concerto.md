@@ -1,5 +1,5 @@
 ---
-date: 2026-10-22 16:10:24
+date: 2026-11-12 12:10:24
 description: 'CONCERTO'
 layout: base_hrcm
 full_width: true
@@ -11,9 +11,9 @@ title: CONCERTO
 <!-- NOTE: Images must be uploaded to /assets/media/uploads/projects/ -->
 
 
-### Short title line (e.g., "Huracán will deliver a new, physical understanding of tropical cyclone risk across the British and Irish Isles, Western Europe, and the Northeast United States in a changing climate.")
+### "The CONCERTO project aims to improve the current understanding of the terrestrial ecosystem carbon cycle and its coupling with hydrological, energy and nutrient cycles to mitigate critical uncertainties in the representation of physical and land-carbon cycle dynamics in state-of-the-art Earth system models."
 
-*Project Name In Full* (ACRONYM) is / aims to / will ... 
+*CONCERTO* will create an innovative scientific framework that enhances our understanding, monitoring and modelling of the land carbon cycle. This framework will integrate multiple data sources, including Earth Observation, data assimilation systems, machine learning algorithms and modelling approaches. *CONCERTO’s* goal is to address the most important gaps and uncertainties in assessing the role of terrestrial ecosystems in the global carbon balance.
 
 ### Subheading #1
 
@@ -53,18 +53,18 @@ Describe work packages if needed
 
 <div class="project-tags" aria-label="Related themes">
     <span class="project-tags-title">Related themes &rarr; </span>
-    <a href="https://hrcm.ceda.ac.uk/research/research-themes/tropical-cyclones/" class="btn btn-theme">Tropical cyclones</a>
-    <a href="https://hrcm.ceda.ac.uk/research/research-themes/extratropical-cyclones/" class="btn btn-theme">Extratropical cyclones</a>
+    <a href="https://hrcm.ceda.ac.uk/research/research-themes/land-surface-processes/" class="btn btn-theme">Land Surface Processes</a>
+    <a href="https://hrcm.ceda.ac.uk/research/research-themes/eeo-theory/" class="btn btn-theme">EEO Theory</a>
 </div>
 
 ---
 
 <div class="people-tags" aria-label="People">
     <span class="people-tags-title">People &rarr; </span>
-    <a href="https://hrcm.ceda.ac.uk/people/" class="btn btn-theme">Name #1</a>
-    <a href="https://hrcm.ceda.ac.uk/people/" class="btn btn-theme">Name #2</a>
+    <a href="https://hrcm.ceda.ac.uk/people/" class="btn btn-theme">Pier Luigi Vidale</a>
+    <a href="https://hrcm.ceda.ac.uk/people/" class="btn btn-theme">Narender Kangari</a>
 </div>
 
 ---
 
-Explore the project at [**short_URL**](full_URL)
+Explore the project at [**short_URL**](https://www.projectconcerto.eu/)
