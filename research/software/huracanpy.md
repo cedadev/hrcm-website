@@ -2,6 +2,7 @@
 date: 2026-10-22 16:10:24
 description: 'HuracanPy'
 layout: base_hrcm
+full_width: true
 order: 3
 permalink: /research/software/huracanpy/
 title: HuracanPy
