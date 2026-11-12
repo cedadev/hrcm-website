@@ -24,7 +24,7 @@ The risk of CTOs is currently poorly quantified, owing to a fundamental lack of 
 
 *This satellite image, taken 23rd September 2022, shows multiple cyclones across the North Atlantic at various stages in their lifecycles. Two tropical depressions are seen: TD11 (in its precursor stage) off the west coast of Africa and TD9 further along in its development in the southern Caribbean. Two named tropical cyclones are present: Fiona, recurving along the US East Coast, and Hermine, seen migrating directly from the tropics towards southwestern Europe. Close to Western Europe, Gaston is transforming from a tropical storm into an extratropical storm, a process seen in approximately half of tropical systems. This image, a striking snapshot of North Atlantic weather, illustrates the broad range of cyclone processes, the varied physical storm risks, and the complex scientific problems that Huracán is tackling.*
 
-### Our Objectives
+### Objectives
 
 Research in Huracán is centred around three core objectives:
 
@@ -62,7 +62,6 @@ Huracán will study the origins, development, landfall and impacts of North Atla
 <div class="people-tags" aria-label="People">
     <span class="people-tags-title">People &rarr; </span>
     <a href="https://hrcm.ceda.ac.uk/people/" class="btn btn-theme">Alexander Baker</a>
-    <a href="https://hrcm.ceda.ac.uk/people/" class="btn btn-theme">Ipshita Dey</a>
     <a href="https://hrcm.ceda.ac.uk/people/" class="btn btn-theme">Xiangbo Feng</a>
     <a href="https://hrcm.ceda.ac.uk/people/" class="btn btn-theme">Kevin Hodges</a>
     <a href="https://hrcm.ceda.ac.uk/people/" class="btn btn-theme">Malcolm Roberts</a>
