@@ -49,12 +49,10 @@ Huracán will study the origins, development, landfall and impacts of North Atla
 
 ---
 
-<div class="project-tags" aria-label="Related projects">
-    <span class="project-tags-title">Related projects &rarr; </span>
-    <a href="https://hrcm.ceda.ac.uk/research/projects/eerie/" class="btn btn-theme">EERIE</a>
-    <a href="https://hrcm.ceda.ac.uk/research/projects/huracan/" class="btn btn-theme">Huracán</a>
-    <a href="https://hrcm.ceda.ac.uk/research/projects/highresmip2/" class="btn btn-theme">HighResMIP2</a>
-    <a href="https://hrcm.ceda.ac.uk/research/projects/nextgems/" class="btn btn-theme">nextGEMS</a>
+<div class="project-tags" aria-label="Related themes">
+    <span class="project-tags-title">Related themes &rarr; </span>
+    <a href="https://hrcm.ceda.ac.uk/research/research-themes/tropical-cyclones/" class="btn btn-theme">Tropical cyclones</a>
+    <a href="https://hrcm.ceda.ac.uk/research/research-themes/extratropical-cyclones/" class="btn btn-theme">Extratropical cyclones</a>
 </div>
 
 ---
