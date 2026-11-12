@@ -33,4 +33,4 @@ title: CONCERTO
 
 ---
 
-Explore the project at [**short_URL**](https://www.projectconcerto.eu/)
+Explore the project at [**CONCERTO EU-Horizon project**](https://www.projectconcerto.eu/)
