@@ -12,9 +12,10 @@ title: HuracanPy
   
 #### Overview  
 
-HuracanPy was developed as part of the [Huracán project](https://ourresearch.reading.ac.uk/huracan/) to provide a unified tool for working with output from feature-tracking algorithms. HuracanPy can read tracks from many different sources, and it provides functions to analyse tracks, including many common diagnostics. Its goal is to make track data analysis more accessible and promote good reproducibility practices.
+HuracanPy was developed as part of the [Huracán project](https://ourresearch.reading.ac.uk/huracan/) to provide a unified tool for working with output from feature-tracking algorithms. HuracanPy can read tracks from many different sources, including TRACK and TempestExtremes, and it provides functions to analyse track datasets, including many common diagnostics. HuracanPy's goals are to make track data analysis more accessible and to promote good reproducibility practices.
   
-![Example simple plot of tropical cyclone tracks using HuracanPy](/assets/media/uploads/software/huracanpy_example.png)
+![Example simple plot of tropical cyclone tracks using HuracanPy](/assets/media/uploads/software/huracanpy_example.png)  
+*Example simple plot of tropical cyclone tracks using HuracanPy*
 
 #### Further information  
   
