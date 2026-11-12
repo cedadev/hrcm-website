@@ -19,5 +19,7 @@ HuracanPy was developed as part of the [Huracán project](https://ourresearch.re
 #### Further information  
   
 Bourdin and Safin, [HuracanPy: A Python package for reading and analysing cyclone tracks](https://doi.org/10.21105/joss.08174). *Journal of Open Source Software* **10**(111), 8174 (2025).  
-  
+
+---
+
 [**HuracanPy GitHub**](https://github.com/Huracan-project/huracanpy)  
