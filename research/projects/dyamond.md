@@ -28,7 +28,7 @@ Field experiment alignment: NARVAL2 tropical field study
 
 Experiment: global atmosphere models with storm-resolving grid spacing of 5 km or less. As initial and boundary data, daily sea-surface temperatures as well as a global meteorological analysis taken from the European Center for Medium-Range Weather Forecasts (ECMWF) are provided.
 
-Full experimental protocol is available [here](assets/media/uploads/documents/dyamond-summer-protocol.pdf).
+Full experimental protocol is available [here]({{ site.baseurl }}/assets/media/uploads/documents/dyamond-summer-protocol.pdf).
 
 Science highlight: Judt, F., ..., Vannière, B., ..., Vidale, P. L., *et al*. [Tropical Cyclones in Global Storm-Resolving Models](https://www.jstage.jst.go.jp/article/jmsj/99/3/99_2021-029/_article). *Journal of the Meteorological Society of Japan. Ser. II* **99**, 579–602, (2021).
 
@@ -39,7 +39,7 @@ Field experiment alignment: EUREC4a field study
 
 Experiment: global atmosphere-only and coupled atmosphere-ocean models with a storm resolving grid spacing of 5 km or less. Initial data for 20 Jan 2020 and SST and sea-ice boundary data.
 
-Full experimental protocol is available [here](assets/media/uploads/documents/dyamond-2nd-phase-the-winter-experimental-protocol.pdf).
+Full experimental protocol is available [here]({{ site.baseurl }}/assets/media/uploads/documents/dyamond-2nd-phase-the-winter-experimental-protocol.pdf).
 
 ### DYAMOND Year (phase 3)
 DYAMOND Year, or DYAMOND3, simulations are part of the [2025 WCRP Digital Earths km-scale hackathon](https://www.wcrp-esmo.org/activities/wcrp-global-km-scale-hackathon-2025).
