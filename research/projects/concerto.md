@@ -15,39 +15,6 @@ title: CONCERTO
 
 *CONCERTO* will create an innovative scientific framework that enhances our understanding, monitoring and modelling of the land carbon cycle. This framework will integrate multiple data sources, including Earth Observation, data assimilation systems, machine learning algorithms and modelling approaches. *CONCERTO’s* goal is to address the most important gaps and uncertainties in assessing the role of terrestrial ecosystems in the global carbon balance.
 
-### Subheading #1
-
-Short paragraph
-
-### Subheading #2
-
-Short paragraph
-
-<p><img src="{{ site.baseurl }}/assets/media/uploads/projects/<file_name_1.jpg / .png>" style="height: 500px; width: auto;" title="Image_title"></p>  
-
-*Figure caption (keep it brief)*
-
-### Project objectives
-
-Research in <project_name> is centred around three core objectives:
-
-**Objective 1 \|** Save world...
-
-**Objective 2 \|** Double check world has been saved...
-
-**Objective 3 \|** Write blog about saving world...
-
-<p><img src="{{ site.baseurl }}/assets/media/uploads/projects/file_name_2.jpg / .png" style="height: 500px; width: auto;" title="Image_title"></p>  
-
-*Figure caption (keep it brief)*  
-
-### Work Packages
-
-Describe work packages if needed
-
-<p><strong><span>Work Package 1</span> |</strong> Title</p>
-<p><strong><span>Work Package 2</span> |</strong> Title</p>
-
 <!-- FOOTER -->
 ---
 
