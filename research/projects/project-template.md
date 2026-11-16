@@ -67,4 +67,4 @@ Describe work packages if needed
 
 ---
 
-Explore the project at [**short_URL**](full_URL)
+Explore the project &rarr; [**short_URL**](full_URL)
