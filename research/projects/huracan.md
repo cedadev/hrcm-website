@@ -68,4 +68,4 @@ Huracán will study the origins, development, landfall and impacts of North Atla
 
 ---
 
-Explore the project at [**research.reading.ac.uk/huracan**](https://ourresearch.reading.ac.uk/huracan/)
+Explore Huracán &rarr; [**research.reading.ac.uk/huracan**](https://ourresearch.reading.ac.uk/huracan/)
