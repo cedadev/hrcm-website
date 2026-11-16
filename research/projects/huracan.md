@@ -62,7 +62,7 @@ Huracán will study the origins, development, landfall and impacts of North Atla
     <a href="https://hrcm.ceda.ac.uk/people/" class="btn btn-theme">Alexander Baker</a>
     <a href="https://hrcm.ceda.ac.uk/people/" class="btn btn-theme">Xiangbo Feng</a>
     <a href="https://hrcm.ceda.ac.uk/people/" class="btn btn-theme">Kevin Hodges</a>
-    <a href="https://hrcm.ceda.ac.uk/people/" class="btn btn-theme">Malcolm Roberts</a>
+    <a href="https://hrcm.ceda.ac.uk/people/" class="btn btn-theme">Leo Saffin</a>
     <a href="https://hrcm.ceda.ac.uk/people/" class="btn btn-theme">Pier Luigi Vidale</a>
 </div>
 
