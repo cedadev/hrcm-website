@@ -21,7 +21,7 @@ DYAMOND addresses three main questions:
   <img src="{{ site.baseurl }}/assets/media/uploads/projects/dyamond3.jpg" style="height: 800px; width: auto;" title="DYAMOND3 models">
 </a>
 
-*Models that have participated in at least one DYAMOND phase: ARPEGE NH, GEOS, GRIST, ICON, IFS, MPAS, NICAM, SAM, SCREAM, SHiELD, Unified Model (UM).*
+*Cloud snapshots in the models that have participated in at least one DYAMOND phase (ARPEGE NH, GEOS, GRIST, ICON, IFS, MPAS, NICAM, SAM, SCREAM, SHiELD, UM). Second row, middle image shows the corresponding snapshot for real world.*
 
 ### DYAMOND Summer (phase 1)
 **Simulation period:** 1 August 2016 – 10 September 2016 (10-day spin-up period and 30 days for analysis)
