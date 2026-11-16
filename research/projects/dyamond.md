@@ -8,15 +8,15 @@ permalink: /research/projects/dyamond/
 title: DYAMOND
 ---
 
-### The DYAMOND initiative (DYnamics of the Atmospheric general circulation Modelled On Non-hydrostatic Domains) is a framework for the intercomparison of global storm-resolving models, an emerging class of state-of-the-art atmospheric circulation models.
+### The DYAMOND initiative is a framework for the intercomparison of global storm-resolving models, an emerging class of state-of-the-art atmospheric circulation models.
 
-HRCM has played a key role in developing the simulation protocols across each phase of DYAMOND and in the organisation of recent global and national hackathons to develop the technologies and research communities required by km-scale global modelling.
+HRCM has played a key role in developing the simulation protocols across each phase of DYAMOND (DYnamics of the Atmospheric general circulation Modelled On Non-hydrostatic Domains) and in the organisation of recent global and national hackathons to develop the technologies and research communities required by km-scale global modelling.
 
 DYAMOND addresses three main questions:  
  - Where do storm-resolving simulations agree, and where do they provide deeper insights into the climate system?
  - How sensitive are the simulations to specific model implementations?
  - What are the performance and analysis bottlenecks associated with global storm-resolving models?
-
+  
 <a href="{{ site.baseurl }}/assets/media/uploads/projects/dyamond3.jpg">
   <img src="{{ site.baseurl }}/assets/media/uploads/projects/dyamond3.jpg" style="height: 800px; width: auto;" title="DYAMOND3 models">
 </a>
