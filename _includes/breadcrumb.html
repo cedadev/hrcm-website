@@ -1,3 +1,4 @@
+
 <section id="inner-headline">
     <div class="container">
         <div class="row">
@@ -12,9 +13,16 @@
                         {% for p in pages_posts %}
                             {% if p.permalink == cum_crumb %}
                                 {% assign crumb_title = p.title %}
+                                {% assign crumb_url = p.url %}
                             {% endif %}
                         {% endfor %}
-                        <li id="breadcrumb-menu-{{ crumb }}"><a href="{{ site.baseurl }}{{ cum_crumb }}">{{ crumb_title }}</a></li>
+                        <li id="breadcrumb-menu-{{ crumb }}">
+                            {% if crumb_url == "#" %}
+                                <span>{{ crumb_title }}</span>
+                            {% else %}
+                                <a href="{{ site.baseurl }}{{ cum_crumb }}">{{ crumb_title }}</a>
+                            {% endif %}
+                        </li>
                     {% endfor %}
                 </ul>
             </div>
