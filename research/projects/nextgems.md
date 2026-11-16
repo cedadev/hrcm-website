@@ -17,6 +17,9 @@ nextGEMS (*Next-Generation Earth Modelling Systems*) is a collaborative European
 ### Scientific impact  
 The much finer grid of nextGEMS’ storm-resolving models allows them to explicitly represent essential climate processes –  storms, associated with precipitating deep convection, the effects of the landscape on the atmosphere, the effects of ocean eddies on the ocean heat transport, and its interaction with ice-sheets – that existing climate models now either ignore, or represent empirically. Past research has shown that the physically based approaches nextGEMS exploits are effective in reducing systematic and long-standing errors in conventional climate models, thereby creating a better – more physical – foundation for projections. Because nextGEMS’s storm-resolving models will increase simulation realism on many fronts, they are expected to open new scientific frontiers and shine new light on how the Earth system responds to human activities.  
 
+<img src="{{ site.base_url }}/assets/media/uploads/projects/nextgems_cyclone_matthias_aengenheyster.png">  
+*Tropical cyclone in 2.8-km IFS-FESOM simulation, shown in shaded wind speed and overlain precipitation rate (image credit: Matthias Aengenheyster, ECMWF).*  
+
 ### Application impact  
 nextGEMS storm-resolving models will more realistically represent the climate system for the next 30 years. This includes weather extremes and other components of the Earth system, such as carbon, aerosols and marine nutrients. Importantly, at the same time they will also provide information on scales familiar and relevant to users.
 
@@ -26,4 +29,19 @@ By providing citizens with more realistic, detailed and local information on how
 
 ---
 
-Explore the project at [**nextgems-h2020.eu**](https://nextgems-h2020.eu)
+<div class="project-tags" aria-label="Related themes">
+    <span class="project-tags-title">Related themes &rarr; </span>
+    <a href="https://hrcm.ceda.ac.uk/research/research-themes/tropical-cyclones/" class="btn btn-theme">Tropical cyclones</a>
+</div>
+
+---
+
+<div class="people-tags" aria-label="People">
+    <span class="people-tags-title">People &rarr; </span>
+    <a href="https://alexanderjbaker.github.io" class="btn btn-theme">Alexander Baker</a>
+    <a href="https://hrcm.ceda.ac.uk/people/" class="btn btn-theme">Pier Luigi Vidale</a>
+</div>
+
+---
+
+Explore nextGEMS &rarr; [**nextgems-h2020.eu**](https://nextgems-h2020.eu)
