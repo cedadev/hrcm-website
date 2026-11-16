@@ -70,4 +70,4 @@ DYAMOND Year, or DYAMOND3, simulations are part of the [2025 WCRP Digital Earths
 
 ---
 
-Explore DYAMOND &rarr; [**nextgems-h2020.eu**](https://nextgems-h2020.eu)
+Explore DYAMOND &rarr; [**easy.gems.dkrz.de/DYAMOND**](https://easy.gems.dkrz.de/DYAMOND/index.html)
