@@ -4,6 +4,7 @@ description: Research projects
 layout: base_hrcm
 full_width: true
 order: 1
+breadcrumb_link: false
 permalink: /research/projects/
 title: Projects
 ---
