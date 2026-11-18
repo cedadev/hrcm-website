@@ -1,14 +1,16 @@
 ---
 date: 2026-10-22 16:10:24
-description: 'Project name'
+description: 'Project name or acronym'
 layout: base_hrcm
 full_width: true
 order: 3
-permalink: /research/projects/<project-name>/
-title: Project name / AcRoNYm
+permalink: /research/projects/<project-name-or-acronym>/
+title: Project name / AcRoNyM
 ---
 
-<!-- NOTE: Images must be uploaded to /assets/media/uploads/projects/ -->
+<!--
+NOTE: Images must be uploaded to the following directory: /assets/media/uploads/projects/
+-->
 
 
 ### Short title line (e.g., "Huracán will deliver a new, physical understanding of tropical cyclone risk across the British and Irish Isles, Western Europe, and the Northeast United States in a changing climate.")
@@ -29,7 +31,7 @@ Short paragraph
 
 ### Project objectives
 
-Research in <project_name> is centred around three core objectives:
+Research in <project_name> is centred around [three] core objectives:
 
 **Objective 1 \|** Save world...
 
@@ -67,4 +69,4 @@ Describe work packages if needed
 
 ---
 
-Explore the project &rarr; [**short_URL**](full_URL)
+Explore [PROJECT NAME] &rarr; [**short_URL**](full_URL)
