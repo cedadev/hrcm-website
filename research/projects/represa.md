@@ -27,4 +27,19 @@ REPRESA is funded under the Climate Adaptation and Resilience (CLARE) initiative
 
 ---
 
-Explore [**REPRESA**](https://represa.blogs.bristol.ac.uk/)
+<div class="project-tags" aria-label="Related themes">
+    <span class="project-tags-title">Related themes &rarr; </span>
+    <a href="https://hrcm.ceda.ac.uk/research/research-themes/tropical-cyclones/" class="btn btn-theme">Tropical cyclones</a>
+</div>
+
+---
+
+<div class="people-tags" aria-label="People">
+    <span class="people-tags-title">People &rarr; </span>
+    <a href="https://hrcm.ceda.ac.uk/people/" class="btn btn-theme">Alexander Baker</a>
+    <a href="https://hrcm.ceda.ac.uk/people/" class="btn btn-theme">Pier Luigi Vidale</a>
+</div>
+
+---
+
+Explore &rarr; [**REPRESA**](https://represa.blogs.bristol.ac.uk/)
