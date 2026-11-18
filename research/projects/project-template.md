@@ -9,7 +9,14 @@ title: Project name / AcRoNyM
 ---
 
 <!--
-NOTE: Images must be uploaded to the following directory: /assets/media/uploads/projects/
+NOTE:
+
+Images must be uploaded to the following directory: /assets/media/uploads/projects/
+
+See examples at:
+https://hrcm.ceda.ac.uk/research/projects/dyamond/
+https://hrcm.ceda.ac.uk/research/projects/huracan/
+https://hrcm.ceda.ac.uk/research/projects/nextgems/
 -->
 
 
